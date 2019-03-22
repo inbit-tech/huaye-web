@@ -1,14 +1,4 @@
-
-// Fonts
 @import url('https://fonts.loli.net/css?family=Noto+Sans+SC:400,900');
-
-// Variables
-@import 'variables';
-
-// Bootstrap
+@import 'helpers/variables';
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
