@@ -10,6 +10,8 @@
         <div class="title m-b-md">
             Homepage
         </div>
+
+        <a class="button is-success">Success</a>
     </div>
 </div>
 @endsection
