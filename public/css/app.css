@@ -11404,3 +11404,74 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
+.center,
+.center-column,
+.top,
+.right,
+.bottom,
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-column {
+  flex-direction: column;
+}
+
+.top {
+  align-items: flex-start;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.bottom {
+  align-items: flex-end;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.margin-top-05 {
+  margin-top: 0.5rem;
+}
+
+.footer {
+  padding: 0;
+}
+
+.footer-ul {
+  padding: 50px 80px;
+  display: grid;
+  grid-gap: 0.75rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 25% 25% 25% 25%;
+  text-align: center;
+}
+
+.footer-ul-item > li {
+  line-height: 40px;
+}
+
+.footer-ul-item > li p {
+  color: #707070;
+}
+
+.footer-ui-item-title {
+  color: #000000 !important;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  background-color: #3490dc;
+  color: #DDDDDD;
+  padding: 10px 0;
+  font-size: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
