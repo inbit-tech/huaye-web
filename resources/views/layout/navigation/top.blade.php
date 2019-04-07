@@ -1,5 +1,5 @@
 {{-- Top Navigation --}}
-<nav class="header-pos hero-head m-t-25">
+<nav class="header-pos hero-head">
 	<div class="columns has-text-weight-bold">
 		<div class="column is-2"></div>
 		<div class="column is-4">
@@ -10,7 +10,7 @@
 			</figure>
 		</div>
 		<div class="column is-4">
-			<div class="columns text-center">
+			<div class="columns has-text-right">
 				<a class="column navbar-item" href="/" title="">
 					<p style="color:#707070;">主页</p>
 				</a>

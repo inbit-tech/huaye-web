@@ -2,6 +2,8 @@
 @import 'helpers/variables';
 @import '~bulma/bulma';
 
+@import '../sass/helpers/reset.scss';
+
 @import '../sass/layout/header';
 @import '../sass/layout/footer';
 

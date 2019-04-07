@@ -1,3 +1,8 @@
+.homepage-title{
+    font-size: 2rem;
+    color: #707070;
+}
+
 /* 
     carousel UI
 */
@@ -7,7 +12,7 @@
 /* 
     our-product UI 
 */
-.our-product-position{
+.our-product-position {
     display: flex;
     align-items: initial;
     flex-direction: column;
@@ -15,21 +20,60 @@
     margin-bottom: 5.5rem;
 }
 
-.our-product-title{
-    font-size: 2rem;
-    color: #707070;
-    p{
-        text-align: center;
-    }
-}
-.product-thumbnail{
+.product-thumbnail {
     margin-top: 4.75rem;
 }
-.product-thumbnail-item{
-    p{
+
+.product-thumbnail-item {
+    p {
         font-size: 1.125rem;
         color: #707070;
-        text-align: center;
         margin-top: 1.25rem;
     }
+}
+
+/* 
+    product-line-video UI
+*/
+
+
+/* 
+    our-patent UI
+*/
+.our-patent-position {
+    display: flex;
+    align-items: initial;
+    flex-direction: column;
+    margin-top: 4.5rem;
+    margin-bottom: 8.2rem;
+}
+
+.our-patent-title {
+    p {
+        color: #9D9D9D;
+        font-size: 0.875rem;
+        letter-spacing:10px;
+    }
+}
+.patent-icon{
+    margin-top:2.7rem;
+}
+
+/* 
+    our-customer UI
+*/
+
+.customer-list{
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3.5rem 9rem;
+}
+
+/* 
+    know about us UI
+*/
+.staff-img{
+    margin-top: -8rem;
 }
