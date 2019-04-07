@@ -5,13 +5,37 @@
 @endsection
 
 @section('content')
-<div class="flex-center position-ref full-height">
-     <div class="content">
-        <div class="title m-b-md">
-            Homepage
-        </div>
+<section id="homepage">
+    <section id="carousel">
+        <img src="https://via.placeholder.com/1920x560" alt="">
+    </section>
 
-        <a class="button is-success">Success</a>
-    </div>
-</div>
+    <section id="our-product" class="columns">
+        <div class="column is-2"></div>
+
+        <div class="column is-two-thirds">
+            <div class="our-product-position">
+                <div class="column is-centered our-product-title has-text-weight-bold">
+                    <p>了解我们的产品</p>
+                </div>
+                <div class="columns product-thumbnail">
+                    <div class="column is-one-third product-thumbnail-item">
+                        <img src="https://via.placeholder.com/410x320" alt="">
+                        <p class="has-text-weight-bold">进一步了解 ></p>
+                    </div>
+                    <div class="column is-one-third product-thumbnail-item">
+                        <img src="https://via.placeholder.com/410x320" alt="">
+                        <p class="has-text-weight-bold">进一步了解 ></p>
+                    </div>
+                    <div class="column is-one-third product-thumbnail-item">
+                        <img src="https://via.placeholder.com/410x320" alt="">
+                        <p class="has-text-weight-bold">进一步了解 ></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column is-2"></div>
+    </section>
+</section>
 @endsection

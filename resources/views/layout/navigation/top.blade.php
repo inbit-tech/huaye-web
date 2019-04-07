@@ -1,5 +1,5 @@
 {{-- Top Navigation --}}
-<nav class="hero-head m-t-25">
+<nav class="header-pos hero-head m-t-25">
 	<div class="columns has-text-weight-bold">
 		<div class="column is-2"></div>
 		<div class="column is-4">

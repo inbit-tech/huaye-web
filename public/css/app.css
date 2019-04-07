@@ -11404,6 +11404,11 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
+.header-pos {
+  position: absolute;
+  width: 100%;
+}
+
 .m-t-25 {
   margin-top: 25px;
 }
@@ -11436,11 +11441,47 @@ label.panel-block:hover {
 
 .footer-bottom {
   background-color: #3490dc;
-  color: #DDDDDD;
+  color: #ffffff;
   padding: 10px 0;
   font-size: 1rem;
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+/* 
+    carousel UI
+*/
+
+/* 
+    our-product UI 
+*/
+
+.our-product-position {
+  display: flex;
+  align-items: initial;
+  flex-direction: column;
+  margin-top: 4.75rem;
+  margin-bottom: 5.5rem;
+}
+
+.our-product-title {
+  font-size: 2rem;
+  color: #707070;
+}
+
+.our-product-title p {
+  text-align: center;
+}
+
+.product-thumbnail {
+  margin-top: 4.75rem;
+}
+
+.product-thumbnail-item p {
+  font-size: 1.125rem;
+  color: #707070;
+  text-align: center;
+  margin-top: 1.25rem;
 }
 
