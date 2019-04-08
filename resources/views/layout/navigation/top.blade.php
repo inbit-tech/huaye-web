@@ -11,13 +11,13 @@
 		</div>
 		<div class="column is-4">
 			<div class="columns has-text-right">
-				<a class="column navbar-item" href="/" title="">
+				<a class="column" href="/" title="">
 					<p style="color:#707070;">主页</p>
 				</a>
-				<a class="column navbar-item" href="/products" title="">
+				<a class="column" href="/products" title="">
 					<p style="color:#707070;">产品</p>
 				</a>
-				<a class="column navbar-item" href="/about" title="">
+				<a class="column" href="/about" title="">
 					<p  style="color:#707070;">关于我们</p>
 				</a>
 				<a class="column navbar-item" href="/contact" title="">
