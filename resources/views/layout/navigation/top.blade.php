@@ -20,7 +20,7 @@
 				<a class="column" href="/about" title="">
 					<p  style="color:#707070;">关于我们</p>
 				</a>
-				<a class="column navbar-item" href="/contact" title="">
+				<a class="column" href="/contact" title="">
 					<p style="color:#707070;">联系我们</p>
 				</a>
 			</div>

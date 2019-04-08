@@ -5,11 +5,19 @@
 @endsection
 
 @section('content')
-<div class="flex-center position-ref full-height">
-     <div class="content">
-        <div class="title m-b-md">
-            Our Products
-        </div>
-    </div>
-</div>
+<section class="product-card">
+    <a href="/products/bec"><img src="https://via.placeholder.com/1920x680" alt=""></a>
+</section>
+
+<section class="product-card">
+    <a href="/products/uht"><img src="https://via.placeholder.com/1920x680" alt=""></a>
+</section>
+
+<section class="product-card">
+    <a href="/products/litz"><img src="https://via.placeholder.com/1920x680" alt=""></a>
+</section>
+
+<section class="product-card">
+    <a href="/products/litz"><img src="https://via.placeholder.com/1920x680" alt=""></a>
+</section>
 @endsection
