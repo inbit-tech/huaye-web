@@ -11408,9 +11408,17 @@ label.panel-block:hover {
   margin: 0;
 }
 
-.header-pos {
-  position: absolute;
-  width: 100%;
+.nav-position {
+  height: 4.5rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list > div {
+  margin-left: 4.75rem;
 }
 
 .footer {
