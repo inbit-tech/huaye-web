@@ -1,0 +1,16 @@
+#contact-list {
+    margin-top:4.75rem
+}
+.contact-info {
+    justify-content: space-between;
+}
+.contact-info > div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-info-p{
+    margin-top:1rem;
+    line-height: 2rem;
+}
