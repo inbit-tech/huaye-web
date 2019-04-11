@@ -44,31 +44,40 @@
         <div class="column is-2"></div>
     </section>
 
-    {{-- message HTML 
-    <section class="">
-        <h3 class="contact-text text-uppercase">send us message if you have any questions</h3>
-        <div class="d-flex flex-column justify-content-between align-items-center w-75"> 
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Your Name</label>
-                <input type="text" name="name" class="form-control" placeholder="How could we address you?" id="form-name">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Working Email</label>
-                <input type="email" name="email" class="form-control" placeholder="name@example.com" id="form-email"> 
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Cell Phone</label>
-                <input type="phone" name="phone" class="form-control" placeholder="+CountryCode ..." id="form-phone">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Your Question</label>
-                <textarea class="form-control" name="question" rows="3" placeholder="Please enter your info" id="form-question"></textarea>
-            </div>
-            <button class="btn btn-outline-primary btn-lg" id="submit-form" onclick="ajaxseed();return false;">Send Message</button>
-        </div> 
+    {{-- form section 
+    <section id="contact-form" class="columns">
+        <div class="column is-3"></div>
+        <div class="column">
+            <h3 class="from-title has-text-centered has-text-weight-bold has-text-grey">send us message what you need</h3>
+            <div class="from-body" style=""> 
+                <div class="field">
+                    <label class="label" for="exampleFormControlInput1">Your Name</label>
+                    <input type="text" name="name" class="input" placeholder="How could we address you?" id="form-name">
+                </div>
+                <div class="field">
+                    <label class="label" for="exampleFormControlInput1">Working Email</label>
+                    <input type="email" name="email" class="input" placeholder="name@example.com" id="form-email"> 
+                </div>
+                <div class="field">
+                    <label class="label" for="exampleFormControlInput1">Cell Phone</label>
+                    <input type="phone" name="phone" class="input" placeholder="+CountryCode ..." id="form-phone">
+                </div>
+                <div class="field">
+                    <label class="label" for="exampleFormControlTextarea1">What you need</label>
+                    <textarea class="textarea" name="question" placeholder="Please enter your need" id="form-question"></textarea>
+                </div>
+
+                <div class="field has-text-centered form-button">
+                    <button class="button  is-info is-medium is-outlined"" type="submit" value="Submit input" id="submit-form">Send Message</button>
+                </div>
+                
+            </div> 
+        </div>
+        <div class="column is-3"></div>
     </section>
     --}}
-    {{-- Google map API --}}
-    <section id="map"></section>
-</section>
+
+    {{-- map API --}}
+    <iframe width='1920' height='560' style="height:560px;margin-top:4.75rem" frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://f.amap.com/6mGsm_06675dm'></iframe>
+    </section>
 @endsection
