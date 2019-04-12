@@ -44,7 +44,7 @@
         <div class="column is-2"></div>
     </section>
 
-    {{-- form section 
+    {{-- form section --}}
     <section id="contact-form" class="columns">
         <div class="column is-3"></div>
         <div class="column">
@@ -75,7 +75,7 @@
         </div>
         <div class="column is-3"></div>
     </section>
-    --}}
+    
 
     {{-- map API --}}
     <iframe width='1920' height='560' style="height:560px;margin-top:4.75rem" frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://f.amap.com/6mGsm_06675dm'></iframe>
