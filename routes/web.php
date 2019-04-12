@@ -13,3 +13,6 @@ Route::get('/about', 'PageController@about');
 
 // Contact Us
 Route::get('/contact', 'PageController@contact');
+
+// mail route
+Route::any('mail/send','MailController@send');
