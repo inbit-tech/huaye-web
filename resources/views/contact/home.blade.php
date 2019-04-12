@@ -49,7 +49,7 @@
         <div class="column is-3"></div>
         <div class="column">
             <h3 class="from-title has-text-centered has-text-weight-bold has-text-grey">send us message what you need</h3>
-            <div class="from-body" style=""> 
+            <form class="from-body" action="mail/send" method="get"> 
                 <div class="field">
                     <label class="label" for="exampleFormControlInput1">Your Name</label>
                     <input type="text" name="name" class="input" placeholder="How could we address you?" id="form-name">
@@ -66,12 +66,21 @@
                     <label class="label" for="exampleFormControlTextarea1">What you need</label>
                     <textarea class="textarea" name="question" placeholder="Please enter your need" id="form-question"></textarea>
                 </div>
-
-                <div class="field has-text-centered form-button">
-                    <button class="button  is-info is-medium is-outlined"" type="submit" value="Submit input" id="submit-form">Send Message</button>
-                </div>
                 
-            </div> 
+                <div class="field has-text-centered form-button">
+                    <button href="mail/send" class="button is-info is-medium is-outlined"" type="submit" value="Submit input" id="submit-form">Send Message</button>
+                </div>
+
+                {{-- send success tip --}}
+                @if(Session::has('message'))
+                 <div class="tile is-parent">
+                    <article class="tile is-child notification is-info">
+                    <p class="title has-text-centered">Message sent!</p>
+                    </article>
+                </div>
+                @endif
+            </form>
+
         </div>
         <div class="column is-3"></div>
     </section>
