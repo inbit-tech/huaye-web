@@ -11530,6 +11530,41 @@ label.panel-block:hover {
 
 .product-card {
   margin-bottom: 4rem;
+  width: 100%;
+  height: 42.5rem;
+  position: relative;
+  background-color: #F9F9F9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product-card-text-section {
+  margin-top: 5.75rem;
+}
+
+.product-title {
+  font-size: 3rem;
+  margin-top: 0;
+  color: #000000;
+}
+
+.product-des-text {
+  color: #000000;
+  font-size: 2rem;
+  margin-top: 0.75rem;
+}
+
+.product-ahref-text {
+  font-size: 1.75rem;
+  margin-top: 3rem;
+}
+
+.product-bg-img {
+  width: 30%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
 }
 
 #contact-list {
