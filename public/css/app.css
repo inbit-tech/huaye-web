@@ -1,5 +1,9 @@
 @import url(https://fonts.loli.net/css?family=Noto+Sans+SC:400,900);@charset "UTF-8";
 
+/*
+ * Customization Styles
+ */
+
 /*! bulma.io v0.7.4 | MIT License | github.com/jgthms/bulma */
 
 @-webkit-keyframes spinAround {
@@ -6667,7 +6671,7 @@ a.list-item {
 
 .navbar {
   background-color: white;
-  min-height: 3.25rem;
+  min-height: 4.55rem;
   position: relative;
   z-index: 30;
 }
@@ -7305,7 +7309,7 @@ a.list-item {
 .navbar > .container {
   align-items: stretch;
   display: flex;
-  min-height: 3.25rem;
+  min-height: 4.55rem;
   width: 100%;
 }
 
@@ -7335,12 +7339,12 @@ a.list-item {
 
 html.has-navbar-fixed-top,
 body.has-navbar-fixed-top {
-  padding-top: 3.25rem;
+  padding-top: 4.55rem;
 }
 
 html.has-navbar-fixed-bottom,
 body.has-navbar-fixed-bottom {
-  padding-bottom: 3.25rem;
+  padding-bottom: 4.55rem;
 }
 
 .navbar-brand,
@@ -7348,7 +7352,7 @@ body.has-navbar-fixed-bottom {
   align-items: stretch;
   display: flex;
   flex-shrink: 0;
-  min-height: 3.25rem;
+  min-height: 4.55rem;
 }
 
 .navbar-brand a.navbar-item:hover {
@@ -7366,9 +7370,9 @@ body.has-navbar-fixed-bottom {
   color: #4a4a4a;
   cursor: pointer;
   display: block;
-  height: 3.25rem;
+  height: 4.55rem;
   position: relative;
-  width: 3.25rem;
+  width: 4.55rem;
   margin-left: auto;
 }
 
@@ -7471,7 +7475,7 @@ a.navbar-item.is-active,
 
 .navbar-item.is-tab {
   border-bottom: 1px solid transparent;
-  min-height: 3.25rem;
+  min-height: 4.55rem;
   padding-bottom: calc(0.5rem - 1px);
 }
 
@@ -7571,18 +7575,18 @@ a.navbar-item.is-active,
   .navbar.is-fixed-top .navbar-menu,
   .navbar.is-fixed-top-touch .navbar-menu {
     -webkit-overflow-scrolling: touch;
-    max-height: calc(100vh - 3.25rem);
+    max-height: calc(100vh - 4.55rem);
     overflow: auto;
   }
 
   html.has-navbar-fixed-top-touch,
   body.has-navbar-fixed-top-touch {
-    padding-top: 3.25rem;
+    padding-top: 4.55rem;
   }
 
   html.has-navbar-fixed-bottom-touch,
   body.has-navbar-fixed-bottom-touch {
-    padding-bottom: 3.25rem;
+    padding-bottom: 4.55rem;
   }
 }
 
@@ -7596,7 +7600,7 @@ a.navbar-item.is-active,
   }
 
   .navbar {
-    min-height: 3.25rem;
+    min-height: 4.55rem;
   }
 
   .navbar.is-spaced {
@@ -7789,22 +7793,22 @@ a.navbar-item.is-active,
 
   html.has-navbar-fixed-top-desktop,
   body.has-navbar-fixed-top-desktop {
-    padding-top: 3.25rem;
+    padding-top: 4.55rem;
   }
 
   html.has-navbar-fixed-bottom-desktop,
   body.has-navbar-fixed-bottom-desktop {
-    padding-bottom: 3.25rem;
+    padding-bottom: 4.55rem;
   }
 
   html.has-spaced-navbar-fixed-top,
   body.has-spaced-navbar-fixed-top {
-    padding-top: 5.25rem;
+    padding-top: 6.55rem;
   }
 
   html.has-spaced-navbar-fixed-bottom,
   body.has-spaced-navbar-fixed-bottom {
-    padding-bottom: 5.25rem;
+    padding-bottom: 6.55rem;
   }
 
   a.navbar-item.is-active,
@@ -7824,7 +7828,7 @@ a.navbar-item.is-active,
 }
 
 .hero.is-fullheight-with-navbar {
-  min-height: calc(100vh - 3.25rem);
+  min-height: calc(100vh - 4.55rem);
 }
 
 .pagination {
@@ -11406,19 +11410,6 @@ label.panel-block:hover {
 
 .columns {
   margin: 0;
-}
-
-.nav-position {
-  height: 4.5rem;
-}
-
-.nav-list {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.nav-list > div {
-  margin-left: 4.75rem;
 }
 
 .footer {
