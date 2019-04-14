@@ -1,0 +1,146 @@
+/* 
+    quality sass
+*/
+.quality-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quality-title-section {
+    margin-top: 9.25rem;
+}
+
+.quality-title {
+    font-size: 2rem;
+    color: #C4C4C4;
+}
+
+.creed-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9.56rem;
+}
+
+.creed-list-item {
+    width: 14.25rem;
+    height: 14.25rem;
+    border: 8px solid #707070;
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        font-size: 2.625rem;
+        color: #686868;
+    }
+}
+
+.creed-text-section {
+    margin-top: 7.75rem;
+    width: 70%;
+}
+
+.creed-text {
+    font-size: 4rem;
+    color: #000000;
+}
+
+/* 
+    history sass
+*/
+.history-section {
+    background-image: url("http://pp3tibsrj.bkt.clouddn.com/factory@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    opacity: 35%;
+    width: 100%;
+    height: 1080px;
+    margin-top: 12rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.history-text-section {
+    width: 100%;
+}
+
+.history-title {
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    margin-top: 6rem;
+    margin-bottom: 5.5rem;
+}
+
+.history-text {
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    margin-bottom: 3rem;
+}
+
+
+
+/* 
+    services sacc
+*/
+.services-section {
+    margin-top: 9rem;
+}
+
+.services-title {
+    font-size: 2rem;
+    color: #c4c4c4;
+}
+
+
+
+.services-description-small-text {
+    line-height: 4.8rem;
+    font-size:4rem;
+    color:#707070;
+}
+
+.services-description-block-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10rem;
+    img{
+        width: 35%;
+        height: auto;
+    }
+    .services-description-big-text {
+        line-height: 9.625rem;
+        font-size: 8rem;
+        color: #000000;
+        margin-bottom: -6rem;
+    }
+}
+
+.services-description-block-right{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12.25rem;
+    img{
+        width:394px;
+        height:209px;
+    }
+    .services-description-big-text {
+        line-height: 9.625rem;
+        font-size: 8rem;
+        color: #000000;
+    }
+    .text-right{
+        text-align: right;
+        margin-top:-4rem;
+    }
+}
+.services-description-last{
+    margin-bottom: 10.375rem !important;
+}
