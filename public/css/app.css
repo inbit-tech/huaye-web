@@ -11412,6 +11412,10 @@ label.panel-block:hover {
   margin: 0;
 }
 
+.has-home-hero-bg {
+  background: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/factory-line.jpg");
+}
+
 .homepage-title {
   font-size: 2rem;
   color: #707070;

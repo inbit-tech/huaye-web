@@ -1,15 +1,14 @@
-@extends ('master')
+@extends ('hero')
 
 @section ('page-title')
-<title>Home - Huaye</title>
+<title>华冶科技 - 东莞华冶线缆科技有限公司</title>
 @endsection
 
-@section('content')
-<section id="homepage">
-    <section id="carousel">
-        <img src="https://via.placeholder.com/1920x560" alt="">
-    </section>
+<section class="hero is-light is-large has-home-hero-bg">
+    @section('content')
+</section>
 
+<section id="homepage">
     <section id="our-product" class="columns">
         <div class="column is-2"></div>
 
