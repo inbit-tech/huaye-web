@@ -11404,42 +11404,12 @@ label.panel-block:hover {
 }
 
 .footer {
-  background-color: #fafafa;
-  padding: 3rem 1.5rem 6rem;
+  background-color: #3273dc;
+  padding: 1.3rem;
 }
 
 .columns {
   margin: 0;
-}
-
-.footer {
-  padding: 0;
-}
-
-.footer-ul {
-  margin-bottom: 92px;
-}
-
-.footer-ul li {
-  line-height: 40px;
-}
-
-.footer-ul li p {
-  color: #707070;
-}
-
-.footer-ui-title {
-  color: #000000 !important;
-  font-weight: bold;
-  margin-top: 44px;
-}
-
-.footer-bottom {
-  display: flex;
-  justify-content: center;
-  background-color: #3490dc;
-  color: #ffffff;
-  padding: 10px 0;
 }
 
 .homepage-title {
