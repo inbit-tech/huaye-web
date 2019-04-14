@@ -11413,7 +11413,8 @@ label.panel-block:hover {
 }
 
 .has-home-hero-bg {
-  background: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/factory-line.jpg");
+  background: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/factory-line.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 .homepage-title {
