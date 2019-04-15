@@ -7367,7 +7367,7 @@ body.has-navbar-fixed-bottom {
 }
 
 .navbar-burger {
-  color: #4a4a4a;
+  color: white;
   cursor: pointer;
   display: block;
   height: 4.55rem;
@@ -7428,7 +7428,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #4a4a4a;
+  color: white;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -7451,7 +7451,7 @@ a.navbar-item.is-active,
 .navbar-link:hover,
 .navbar-link.is-active {
   background-color: #fafafa;
-  color: #3490dc;
+  color: white;
 }
 
 .navbar-item {
@@ -7813,7 +7813,7 @@ a.navbar-item.is-active,
 
   a.navbar-item.is-active,
   .navbar-link.is-active {
-    color: #0a0a0a;
+    color: white;
   }
 
   a.navbar-item.is-active:not(:hover),

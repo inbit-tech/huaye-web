@@ -1,5 +1,5 @@
 <div class="hero-head">
-    <nav class="navbar">
+    <nav class="navbar is-transparent has-text-weight-bold">
         <div class="container">
             <div class="navbar-brand">
                 <a class="navbar-item">
@@ -17,12 +17,12 @@
                     主页
                     </a>
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">产品</a>
+                        <a class="navbar-link is-arrowless">产品</a>
 
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item">特种自粘性漆包线</a>
-                            <a class="navbar-item">超高耐温漆包线</a>
-                            <a class="navbar-item">LITZ 线 / 丝包 LITZ 线</a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item has-text-grey-darker">特种自粘性漆包线</a>
+                            <a class="navbar-item has-text-grey-darker">超高耐温漆包线</a>
+                            <a class="navbar-item has-text-grey-darker">LITZ 线 / 丝包 LITZ 线</a>
                         </div>
                     </div>
                     <a class="navbar-item">关于我们</a>

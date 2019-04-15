@@ -4,7 +4,7 @@
 <title>华冶科技 - 东莞华冶线缆科技有限公司</title>
 @endsection
 
-<section class="hero is-dark is-large has-home-hero-bg">
+<section class="hero is-large has-home-hero-bg">
     @section('content')
 </section>
 
