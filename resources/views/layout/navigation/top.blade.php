@@ -1,55 +1,34 @@
 {{-- Top Navigation --}}
-<nav class="nav-position hero-head">
-	<div class="columns has-text-weight-bold">
-		<div class="column is-2"></div>
+<nav class="navbar container" role="navigation" aria-label="main navigation">
+	<div class="navbar-brand">
+		<a class="navbar-item" href="/">
+			<img src="http://pp3tibsrj.bkt.clouddn.com/huaye-logo.png">
+		</a>
 
-		<div class="column is-4">
-			<figure class="image">
-				<a href="/">
-					<img src="http://pp3tibsrj.bkt.clouddn.com/huaye-logo.png" style="width: 10rem;margin-top: 0.5rem;"  alt="logo">
-				</a>
-			</figure>
-		</div>
+		<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+			<span aria-hidden="true"></span>
+			<span aria-hidden="true"></span>
+			<span aria-hidden="true"></span>
+		</a>
+	</div>
 
-		<div class="column is-4 nav-list">
-			<div class="navbar-item">
-				<a href="/" title="">
-					<p style="color:#707070;">主页</p>
-				</a>
-			</div>
+	<div id="navbarMenu" class="navbar-menu has-text-weight-bold is-size-6">
+		<div class="navbar-end">
+			<a class="navbar-item">主页</a>
 
 			<div class="navbar-item has-dropdown is-hoverable">
-				<a class="navbar-link" href="/products">
-					<p style="color:#707070;">产品</p>
-				</a>
+				<a class="navbar-link">产品</a>
 
 				<div class="navbar-dropdown">
-					<a class="navbar-item" href="/products/bec">
-						<p>特种自粘性漆包线</p>
-					</a>
-					<a class="navbar-item" href="/products/uht">
-						<p>超高耐温漆包线</p>
-					</a>
-					<a class="navbar-item" href="/products/litz">
-						<p>LITZ 线/丝包 LITZ 线</p>
-					</a>
+					<a class="navbar-item">特种自粘性漆包线</a>
+					<a class="navbar-item">超高耐温漆包线</a>
+					<a class="navbar-item">LITZ 线 / 丝包 LITZ 线</a>
 				</div>
-			</div>	
-
-			<div class=" navbar-item">
-				<a href="/about" title="">
-					<p  style="color:#707070;">关于我们</p>
-				</a>
 			</div>
 
-			<div class=" navbar-item">
-				<a href="/contact" title="">
-					<p style="color:#707070;">联系我们</p>
-				</a>
-			</div>
+			<a class="navbar-item">关于我们</a>
+
+			<a class="navbar-item">联系我们</a>
 		</div>
-		
-
-		<div class="column is-2"></div>
 	</div>
 </nav>

@@ -1,4 +1,3 @@
-
 // Body
 $body-bg: #f8fafc;
 
@@ -6,9 +5,6 @@ $body-bg: #f8fafc;
 $font-family-sans-serif: "Noto Sans SC", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
-
-// Sample Block
-$sample: #DDDDDD;
 
 // Colors
 $blue: #3490dc;
@@ -21,3 +17,17 @@ $yellow: #ffed4a;
 $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+
+/*
+ * Customization Styles
+ */
+
+// Navbar
+$navbar-height: 4.55rem;
+$navbar-item-color: hsl(0, 0%, 100%);
+$navbar-item-hover-color: hsl(0, 0%, 100%);
+$navbar-item-active-color: hsl(0, 0%, 100%);
+
+// Footer
+$footer-background-color: hsl(217, 71%, 53%);
+$footer-padding: 1.3rem;
