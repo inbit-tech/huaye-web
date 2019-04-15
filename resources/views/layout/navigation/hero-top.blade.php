@@ -3,7 +3,7 @@
         <div class="container">
             <div class="navbar-brand">
                 <a class="navbar-item">
-                    <img src="https://bulma.io/images/bulma-type-white.png" alt="Huaye">
+                    <img src={{asset('img/home/huaye-logo-reverse.png')}} alt="Huaye">
                 </a>
                 <span class="navbar-burger burger" data-target="navbarMenuHeroB">
                     <span></span>
