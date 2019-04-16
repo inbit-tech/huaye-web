@@ -26,7 +26,7 @@
                         </div>
                     </div>
                     <a class="navbar-item">关于我们</a>
-                    <a class="navbar-item">联系我们</a>
+                    <a href="/contact" class="navbar-item">联系我们</a>
                 </div>
             </div>
         </div>

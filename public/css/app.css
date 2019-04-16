@@ -11408,10 +11408,6 @@ label.panel-block:hover {
   padding: 1.3rem;
 }
 
-.columns {
-  margin: 0;
-}
-
 .has-home-hero-bg {
   background: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/factory-line.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -11685,40 +11681,25 @@ label.panel-block:hover {
   margin-bottom: 10.375rem !important;
 }
 
-#contact-list {
-  margin-top: 4.75rem;
+.align-items-flex-start {
+  align-items: flex-start;
 }
 
 .contact-info {
-  justify-content: space-between;
+  padding: 2rem;
 }
 
-.contact-info > div {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
+@media (min-width: 1152px) {
+  .contact-info-section {
+    margin-top: 3rem;
+  }
 
-.contact-info-p {
-  margin-top: 1rem;
-  line-height: 2rem;
-}
+  #contact-form {
+    margin-top: 2rem;
+  }
 
-#contact-form {
-  margin-top: 4.75rem;
-}
-
-.from-title {
-  font-family: "Titillium Web", sans-serif;
-  text-transform: uppercase !important;
-  font-size: 1.75rem;
-}
-
-.from-body {
-  margin-top: 2rem;
-}
-
-.form-button {
-  margin-top: 2rem;
+  #map {
+    margin-top: 3rem;
+  }
 }
 
