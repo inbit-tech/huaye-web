@@ -25,7 +25,7 @@
                             <a class="navbar-item has-text-grey-darker">LITZ 线 / 丝包 LITZ 线</a>
                         </div>
                     </div>
-                    <a class="navbar-item">关于我们</a>
+                    <a href="/about" class="navbar-item">关于我们</a>
                     <a href="/contact" class="navbar-item">联系我们</a>
                 </div>
             </div>
