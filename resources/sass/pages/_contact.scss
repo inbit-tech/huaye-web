@@ -1,31 +1,19 @@
-#contact-list {
-    margin-top:4.75rem
+
+.align-items-flex-start{
+    align-items: flex-start;
 }
-.contact-info {
-    justify-content: space-between;
-}
-.contact-info > div{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.contact-info{
+    padding: 2rem;
 }
 
-.contact-info-p{
-    margin-top:1rem;
-    line-height: 2rem;
-}
-
-#contact-form{
-    margin-top: 4.75rem;
-}
-.from-title{
-    font-family: 'Titillium Web', sans-serif;
-    text-transform: uppercase !important;
-    font-size: 1.75rem;
-}
-.from-body{
-    margin-top: 2rem;
-}
-.form-button{
-    margin-top:2rem;
+@media (min-width: 1152px) {
+    .contact-info-section {
+        margin-top: 3rem;
+    }
+    #contact-form {
+        margin-top: 2rem;
+    }
+    #map{
+        margin-top: 3rem;
+    }
 }
