@@ -11552,10 +11552,6 @@ label.panel-block:hover {
     history sass
 */
 
-.history-padding {
-  padding-top: 4rem;
-}
-
 .history-section-bg-img {
   background-image: url("http://pp3tibsrj.bkt.clouddn.com/factory@2x.png");
   background-repeat: no-repeat;
@@ -11586,21 +11582,26 @@ label.panel-block:hover {
   margin-top: 6rem;
 }
 
-.services-description-small-text {
-  font-size: 4rem;
-}
+@media (max-width: 768px) {
+  .services-description-small-text {
+    font-size: 2rem;
+  }
 
-.services-description-big-text {
-  font-size: 8rem;
+  .services-description-big-text {
+    font-size: 4rem;
+  }
 }
 
 @media (min-width: 1152px) {
-  .services-description-block-img-right {
-    height: auto;
-    max-width: 50%;
+  .services-description-small-text {
+    font-size: 3rem;
   }
 
-  .services-description-block-img-left {
+  .services-description-big-text {
+    font-size: 7rem;
+  }
+
+  .services-description-img {
     height: auto;
     max-width: 120%;
   }
