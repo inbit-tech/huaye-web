@@ -17,7 +17,7 @@
                     主页
                     </a>
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link is-arrowless">产品</a>
+                        <a href="/products" class="navbar-link is-arrowless">产品</a>
 
                         <div class="navbar-dropdown is-boxed">
                             <a class="navbar-item has-text-grey-darker">特种自粘性漆包线</a>
