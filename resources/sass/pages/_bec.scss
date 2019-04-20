@@ -4,3 +4,9 @@
     letter-spacing: 0.75rem;
     writing-mode: vertical-lr;
 }
+
+@media(min-width:1152px) {
+    .thead-width-desktop {
+        width: 30%;
+    }
+}

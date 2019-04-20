@@ -11613,3 +11613,39 @@ label.panel-block:hover {
           writing-mode: vertical-lr;
 }
 
+@media (min-width: 1152px) {
+  .thead-width-desktop {
+    width: 30%;
+  }
+}
+
+.side-bar-text {
+  padding: 1rem;
+  line-height: 2rem;
+  letter-spacing: 0.75rem;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+}
+
+@media (min-width: 1152px) {
+  .thead-width-desktop {
+    width: 30%;
+  }
+}
+
+.side-bar-text {
+  padding: 1rem;
+  line-height: 2rem;
+  letter-spacing: 0.75rem;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+}
+
+@media (min-width: 1152px) {
+  .thead-width-desktop {
+    width: 30%;
+  }
+}
+
