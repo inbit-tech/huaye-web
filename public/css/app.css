@@ -5277,9 +5277,9 @@ fieldset[disabled] .select select:hover {
 
 .table td,
 .table th {
-  border: 1px solid #dbdbdb;
+  border: 1px solid white;
   border-width: 0 0 1px;
-  padding: 0.5em 0.75em;
+  padding: 0.75em 0.75em;
   vertical-align: top;
 }
 
@@ -5454,7 +5454,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .table.is-striped tbody tr:not(.is-selected):nth-child(even) {
-  background-color: #fafafa;
+  background-color: #dbdbdb;
 }
 
 .table-container {
@@ -11602,5 +11602,14 @@ label.panel-block:hover {
   #map {
     margin-top: 3rem;
   }
+}
+
+.side-bar-text {
+  padding: 1rem;
+  line-height: 2rem;
+  letter-spacing: 0.75rem;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
 }
 
