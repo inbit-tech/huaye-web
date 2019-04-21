@@ -6,49 +6,53 @@
 
 @section('content')
 <section>
-    <section id="contact-bg-img">
+    <section id="contact-bg-img" class="">
         <img src="https://via.placeholder.com/1920x560" alt="">
     </section>
 
-    <section id="contact-list" class="columns">
-        <div class="column is-2"></div>
-
-        <div class="column is-two-thirds">
-            <div class="columns contact-info" >
-                <div class="column is-one-third">
+    {{-- contact info section --}}
+    <section class="section contact-info-section">
+        <div class="container level tile align-items-flex-start">
+            <div class="level-item has-text-centered tile is-vertical">
+                <div class="">
                     <img class="image" src="http://pp3tibsrj.bkt.clouddn.com/icon_phone%20.png" alt="Phone">
-                    <a href="tel:+8618066860099" class="">
-                        <p class="has-text-centered contact-info-p">
-                            <span>联系电话：0769-82601699</span>
-                            <br>
-                            <span>企业传真：0769-82236803</span>
-                        </p>
+                </div>
+                <div class="contact-info">   
+                    <a href="tel:0769-82601699" >
+                        <p>联系电话：0769-82601699</p>
+                    </a>
+                    <a href="tel:0769-82236803" >
+                        <p>企业传真：0769-82236803</p>
                     </a>
                 </div>
-                <div class="column is-one-third">
+            </div>
+            <div class="level-item has-text-centered tile is-vertical">
+                <div class="">
                     <img class="image" src="http://pp3tibsrj.bkt.clouddn.com/icon_addr.png" alt="Address">
-                    <a href="#map" class="">
-                        <p class="has-text-centered contact-info-p">广东省东莞市黄江镇裕元工业园精成二路灵狮小镇C栋三层C313-316号</p>
+                </div>
+                <div class="contact-info">    
+                    <a href="#map">
+                        <p>广东省东莞市黄江镇裕元工业园精成二路灵狮小镇C栋三层C313-316号</p>
                     </a>
                 </div>
-                <div class="column is-one-third">
+            </div>
+            <div class="level-item has-text-centered tile is-vertical">
+                <div class="">
                     <img class="image" src="http://pp3tibsrj.bkt.clouddn.com/icon_email%20.png" alt="eMail">
+                </div>
+                <div class="contact-info">
                     <a href="mailto:huaye@huaye-dg.com">
-                        <p class="has-text-centered contact-info-p">huaye@huaye-dg.com</p>
+                        <p>huaye@huaye-dg.com</p>
                     </a>
-                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="column is-2"></div>
     </section>
 
     {{-- form section --}}
-    <section id="contact-form" class="columns">
-        <div class="column is-3"></div>
-        <div class="column">
-            <h3 class="from-title has-text-centered has-text-weight-bold has-text-grey">send us message what you need</h3>
+    <section id="contact-form" class="section columns">
+        <div class="container column is-6">
+            <h3 class="title is-uppercase has-text-centered has-text-weight-bold has-text-grey">send us message what you need</h3>
             <form class="from-body" action="mail/send" method="get"> 
                 <div class="field">
                     <label class="label" for="exampleFormControlInput1">Your Name</label>
@@ -75,18 +79,15 @@
                 @if(Session::has('message'))
                  <div class="tile is-parent">
                     <article class="tile is-child notification is-info">
-                    <p class="title has-text-centered">Message sent!</p>
+                    <p class="has-text-centered">Message sent!</p>
                     </article>
                 </div>
                 @endif
             </form>
-
         </div>
-        <div class="column is-3"></div>
     </section>
     
-
     {{-- map API --}}
-    <iframe width='1920' height='560' style="height:560px;margin-top:4.75rem" frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://f.amap.com/6mGsm_06675dm'></iframe>
-    </section>
+    <iframe id="map" width='1920' height='560' style="height:560px;" frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://f.amap.com/6mGsm_06675dm'></iframe>
+</section>
 @endsection

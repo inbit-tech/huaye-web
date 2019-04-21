@@ -5,11 +5,82 @@
 @endsection
 
 @section('content')
-<div class="flex-center position-ref full-height">
-     <div class="content">
-        <div class="title m-b-md">
-            Ultra-High-Temperature
+<section id="uht-page">
+    <section class="">
+        <img src="https://via.placeholder.com/1920x1008" alt="">
+    </section>
+
+    <section class="section is-medium container">
+        <section class="section">
+            <p class="is-size-1 has-text-black has-text-weight-bold">漆包线是绕组线的一个主要品种，由导体和绝缘层两部分组成。裸线经退火软化后，再经过多次涂漆、烘焙而成。</p>
+        </section>
+        <section class="section tile">
+            <div class="">
+                <img class="" src="http://pp3tibsrj.bkt.clouddn.com/lb-gold-thin-left45.jpg" alt="Ultra-High-Temperature Wire">
+            </div>
+            <div class="">
+                <img class="" src="http://pp3tibsrj.bkt.clouddn.com/lb-gold-thin-cover.jpg" alt="Ultra-High-Temperature Wire">
+            </div>
+            <div class="">
+                <img class="" src="http://pp3tibsrj.bkt.clouddn.com/lb-gold-thin-right45.jpg" alt="Ultra-High-Temperature Wire">
+            </div>
+        </section>
+    </section>
+
+    <section class="has-text-centered level is-hidden-touch">
+        <div class="level-left">
+            <p class="has-background-link has-text-white is-size-3 side-bar-text">型号标识</p>
         </div>
-    </div>
-</div>
+    </section>
+
+    <section class="section is-medium container">
+        <table class="table is-striped is-hoverable is-fullwidth is-bordered">
+            <thead>
+                <tr>
+                    <th class="has-text-centered has-background-link has-text-white thead-width-desktop">超高耐温漆包线</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="has-text-centered has-text-grey">UEW</th>
+                    <td class="has-text-centered has-text-grey">直焊性聚氨酯漆包圆铜线</td>
+                </tr>
+                <tr>
+                    <th class="has-text-centered has-text-grey">UEWY</th>
+                    <td class="has-text-centered has-text-grey">直焊性聚酰胺复合聚氨酯漆包圆铜线</td>
+                </tr>
+                <tr>
+                    <th class="has-text-centered has-text-grey">SEIW</th>
+                    <td class="has-text-centered has-text-grey">直焊性聚酯亚胺漆包圆铜线</td>
+                </tr>
+                <tr>
+                    <th class="has-text-centered has-text-grey">EIW</th>
+                    <td class="has-text-centered has-text-grey">聚酯亚胺漆包圆铜线</td>
+                </tr>
+                <tr>
+                    <th class="has-text-centered has-text-grey">EI/AIW</th>
+                    <td class="has-text-centered has-text-grey">聚酰胺酰亚胺复合聚酯亚胺漆包圆铜线</td>
+                </tr>
+                <tr>
+                    <th class="has-text-centered has-text-grey">AIW</th>
+                    <td class="has-text-centered has-text-grey">聚酰胺酰亚胺漆包圆铜线</td>
+                </tr>
+                <tr>
+                    <th class="has-text-centered has-text-grey">PIW</th>
+                    <td class="has-text-centered has-text-grey">芳香族聚酰亚胺漆包圆铜线</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="has-text-centered level is-hidden-touch">
+        <div class="level-left">
+            <p class="has-background-link has-text-white is-size-3 side-bar-text">结构示意图</p>
+        </div>
+    </section>
+
+    <section class="container has-text-centered">
+        <img src="http://pp3tibsrj.bkt.clouddn.com/uhtSketchMap.png" alt="Ultra-High-Temperature Wire">
+    </section>
+</section>
 @endsection

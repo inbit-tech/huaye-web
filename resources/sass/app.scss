@@ -2,7 +2,6 @@
 @import 'helpers/variables';
 @import '~bulma/bulma';
 
-@import '../sass/helpers/reset.scss';
 
 @import '../sass/layout/header';
 @import '../sass/layout/footer';
@@ -10,4 +9,7 @@
 @import '../sass/pages/home';
 @import '../sass/pages/product';
 @import '../sass/pages/about';
-@import '../sass/pages/contact'
+@import '../sass/pages/contact';
+@import '../sass/pages/bec';
+@import '../sass/pages/uht';
+@import '../sass/pages/litz';

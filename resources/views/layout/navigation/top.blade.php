@@ -14,21 +14,21 @@
 
 	<div id="navbarMenu" class="navbar-menu has-text-weight-bold is-size-6">
 		<div class="navbar-end">
-			<a class="navbar-item">主页</a>
+			<a  href="/" class="navbar-item">主页</a>
 
 			<div class="navbar-item has-dropdown is-hoverable">
-				<a class="navbar-link">产品</a>
+				<a  href="/products" class="navbar-link">产品</a>
 
 				<div class="navbar-dropdown">
-					<a class="navbar-item">特种自粘性漆包线</a>
-					<a class="navbar-item">超高耐温漆包线</a>
-					<a class="navbar-item">LITZ 线 / 丝包 LITZ 线</a>
+					<a href="/products/bec" class="navbar-item">特种自粘性漆包线</a>
+					<a href="/products/uht" class="navbar-item">超高耐温漆包线</a>
+					<a href="/products/litz" class="navbar-item">LITZ 线 / 丝包 LITZ 线</a>
 				</div>
 			</div>
 
-			<a class="navbar-item">关于我们</a>
+			<a href="/about" class="navbar-item">关于我们</a>
 
-			<a class="navbar-item">联系我们</a>
+			<a href="/contact" class="navbar-item">联系我们</a>
 		</div>
 	</div>
 </nav>

@@ -2,7 +2,7 @@
     <nav class="navbar is-transparent has-text-weight-bold">
         <div class="container">
             <div class="navbar-brand">
-                <a class="navbar-item">
+                <a href="/" class="navbar-item">
                     <img src={{asset('img/home/huaye-logo-reverse.png')}} alt="Huaye">
                 </a>
                 <span class="navbar-burger burger" data-target="navbarMenuHeroB">
@@ -13,16 +13,18 @@
             </div>
             <div id="navbarMenuHeroB" class="navbar-menu">
                 <div class="navbar-end">
+
                     <a class="navbar-item is-active">@lang('navi.home')</a>
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link is-arrowless">@lang('navi.products')</a>
 
                         <div class="navbar-dropdown is-boxed">
-                            <a class="navbar-item has-text-grey-darker">特种自粘性漆包线</a>
-                            <a class="navbar-item has-text-grey-darker">超高耐温漆包线</a>
-                            <a class="navbar-item has-text-grey-darker">LITZ 线 / 丝包 LITZ 线</a>
+                            <a href="/products/bec" class="navbar-item has-text-grey-darker">特种自粘性漆包线</a>
+                            <a href="/products/uht" class="navbar-item has-text-grey-darker">超高耐温漆包线</a>
+                            <a href="/products/litz" class="navbar-item has-text-grey-darker">LITZ 线 / 丝包 LITZ 线</a>
                         </div>
                     </div>
+
                     <a class="navbar-item">@lang('navi.about')</a>
                     <a class="navbar-item">@lang('navi.contact')</a>
                     <div class="navbar-item has-dropdown is-hoverable">

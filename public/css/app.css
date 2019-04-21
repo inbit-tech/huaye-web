@@ -5277,9 +5277,9 @@ fieldset[disabled] .select select:hover {
 
 .table td,
 .table th {
-  border: 1px solid #dbdbdb;
+  border: 1px solid white;
   border-width: 0 0 1px;
-  padding: 0.5em 0.75em;
+  padding: 0.75em 0.75em;
   vertical-align: top;
 }
 
@@ -5454,7 +5454,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .table.is-striped tbody tr:not(.is-selected):nth-child(even) {
-  background-color: #fafafa;
+  background-color: #dbdbdb;
 }
 
 .table-container {
@@ -11395,7 +11395,7 @@ label.panel-block:hover {
 
 @media screen and (min-width: 1088px) {
   .section.is-medium {
-    padding: 9rem 1.5rem;
+    padding: 4rem 1.5rem 9rem 1.5rem;
   }
 
   .section.is-large {
@@ -11406,10 +11406,6 @@ label.panel-block:hover {
 .footer {
   background-color: #3273dc;
   padding: 1.3rem;
-}
-
-.columns {
-  margin: 0;
 }
 
 .has-home-hero-bg {
@@ -11496,129 +11492,61 @@ label.panel-block:hover {
 
 .product-card {
   margin-bottom: 4rem;
-  width: 100%;
-  height: 42.5rem;
-  position: relative;
-  background-color: #F9F9F9;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
-.product-card-text-section {
-  margin-top: 5.75rem;
-}
+@media (min-width: 1152px) {
+  .product-img {
+    width: 30%;
+  }
 
-.product-title {
-  font-size: 3rem;
-  margin-top: 0;
-  color: #000000;
-}
-
-.product-des-text {
-  color: #000000;
-  font-size: 2rem;
-  margin-top: 0.75rem;
-}
-
-.product-ahref-text {
-  font-size: 1.75rem;
-  margin-top: 3rem;
-}
-
-.product-bg-img {
-  width: 30%;
-  height: auto;
-  position: absolute;
-  bottom: 0;
+  .product-text-m-t {
+    margin-top: 1rem;
+  }
 }
 
 /* 
     quality sass
 */
 
-.quality-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.quality-title-section {
-  margin-top: 9.25rem;
-}
-
-.quality-title {
-  font-size: 2rem;
-  color: #C4C4C4;
-}
-
-.creed-list {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 9.56rem;
-}
-
-.creed-list-item {
-  width: 14.25rem;
-  height: 14.25rem;
+.quality-border {
+  height: 12rem;
   border: 8px solid #707070;
-  border-radius: 25%;
+  border-radius: 2.5rem;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
-.creed-list-item p {
-  font-size: 2.625rem;
-  color: #686868;
-}
-
-.creed-text-section {
-  margin-top: 7.75rem;
-  width: 70%;
-}
-
-.creed-text {
-  font-size: 4rem;
-  color: #000000;
+@media (max-width: 768px) {
+  .quality-border {
+    height: auto;
+  }
 }
 
 /* 
     history sass
 */
 
-.history-section {
+.history-section-bg-img {
   background-image: url("http://pp3tibsrj.bkt.clouddn.com/factory@2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  opacity: 35%;
-  width: 100%;
-  height: 1080px;
-  margin-top: 12rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  margin-top: 4rem;
 }
 
-.history-text-section {
-  width: 100%;
-}
-
-.history-title {
-  color: #FFFFFF;
-  font-size: 2rem;
+.history-text-shadow {
   text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-  margin-top: 6rem;
-  margin-bottom: 5.5rem;
 }
 
-.history-text {
-  color: #FFFFFF;
-  font-size: 2rem;
-  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-  margin-bottom: 3rem;
+.history-text-line-height {
+  line-height: 5rem;
+}
+
+@media (min-width: 1152px) {
+  .history-text {
+    padding-left: 8rem;
+  }
 }
 
 /* 
@@ -11626,99 +11554,98 @@ label.panel-block:hover {
 */
 
 .services-section {
-  margin-top: 9rem;
+  margin-top: 6rem;
 }
 
-.services-title {
-  font-size: 2rem;
-  color: #c4c4c4;
+@media (max-width: 768px) {
+  .services-description-small-text {
+    font-size: 2rem;
+  }
+
+  .services-description-big-text {
+    font-size: 4rem;
+  }
 }
 
-.services-description-small-text {
-  line-height: 4.8rem;
-  font-size: 4rem;
-  color: #707070;
+@media (min-width: 1152px) {
+  .services-description-small-text {
+    font-size: 3rem;
+  }
+
+  .services-description-big-text {
+    font-size: 7rem;
+  }
+
+  .services-description-img {
+    height: auto;
+    max-width: 120%;
+  }
 }
 
-.services-description-block-left {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 10rem;
-}
-
-.services-description-block-left img {
-  width: 35%;
-  height: auto;
-}
-
-.services-description-block-left .services-description-big-text {
-  line-height: 9.625rem;
-  font-size: 8rem;
-  color: #000000;
-  margin-bottom: -6rem;
-}
-
-.services-description-block-right {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 12.25rem;
-}
-
-.services-description-block-right img {
-  width: 394px;
-  height: 209px;
-}
-
-.services-description-block-right .services-description-big-text {
-  line-height: 9.625rem;
-  font-size: 8rem;
-  color: #000000;
-}
-
-.services-description-block-right .text-right {
-  text-align: right;
-  margin-top: -4rem;
-}
-
-.services-description-last {
-  margin-bottom: 10.375rem !important;
-}
-
-#contact-list {
-  margin-top: 4.75rem;
+.align-items-flex-start {
+  align-items: flex-start;
 }
 
 .contact-info {
-  justify-content: space-between;
+  padding: 2rem;
 }
 
-.contact-info > div {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+@media (min-width: 1152px) {
+  .contact-info-section {
+    margin-top: 3rem;
+  }
+
+  #contact-form {
+    margin-top: 2rem;
+  }
+
+  #map {
+    margin-top: 3rem;
+  }
 }
 
-.contact-info-p {
-  margin-top: 1rem;
+.side-bar-text {
+  padding: 1rem;
   line-height: 2rem;
+  letter-spacing: 0.75rem;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
 }
 
-#contact-form {
-  margin-top: 4.75rem;
+@media (min-width: 1152px) {
+  .thead-width-desktop {
+    width: 30%;
+  }
 }
 
-.from-title {
-  font-family: "Titillium Web", sans-serif;
-  text-transform: uppercase !important;
-  font-size: 1.75rem;
+.side-bar-text {
+  padding: 1rem;
+  line-height: 2rem;
+  letter-spacing: 0.75rem;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
 }
 
-.from-body {
-  margin-top: 2rem;
+@media (min-width: 1152px) {
+  .thead-width-desktop {
+    width: 30%;
+  }
 }
 
-.form-button {
-  margin-top: 2rem;
+.side-bar-text {
+  padding: 1rem;
+  line-height: 2rem;
+  letter-spacing: 0.75rem;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+}
+
+@media (min-width: 1152px) {
+  .thead-width-desktop {
+    width: 30%;
+  }
 }
 
