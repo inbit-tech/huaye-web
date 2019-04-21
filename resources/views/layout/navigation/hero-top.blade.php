@@ -13,11 +13,10 @@
             </div>
             <div id="navbarMenuHeroB" class="navbar-menu">
                 <div class="navbar-end">
-                    <a href="/" class="navbar-item is-active">
-                    主页
-                    </a>
+
+                    <a class="navbar-item is-active">@lang('navi.home')</a>
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a href="/products" class="navbar-link is-arrowless">产品</a>
+                        <a class="navbar-link is-arrowless">@lang('navi.products')</a>
 
                         <div class="navbar-dropdown is-boxed">
                             <a href="/products/bec" class="navbar-item has-text-grey-darker">特种自粘性漆包线</a>
@@ -25,8 +24,17 @@
                             <a href="/products/litz" class="navbar-item has-text-grey-darker">LITZ 线 / 丝包 LITZ 线</a>
                         </div>
                     </div>
-                    <a href="/about" class="navbar-item">关于我们</a>
-                    <a href="/contact" class="navbar-item">联系我们</a>
+
+                    <a class="navbar-item">@lang('navi.about')</a>
+                    <a class="navbar-item">@lang('navi.contact')</a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link is-arrowless">@lang('navi.lang')</a>
+
+                        <div class="navbar-dropdown is-boxed">
+                            <a href="lang/en" class="navbar-item has-text-grey-darker">英文</a>
+                            <a href="lang/zh" class="navbar-item has-text-grey-darker">中文</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

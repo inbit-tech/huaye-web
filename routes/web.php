@@ -1,6 +1,9 @@
 <?php
+
 // Homepage
 Route::get('/', 'PageController@home');
+
+Route::get('lang/{locale}', 'LocalizationController@index');
 
 // Products
 Route::get('/products', 'PageController@products');
