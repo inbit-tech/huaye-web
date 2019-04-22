@@ -11575,11 +11575,6 @@ label.panel-block:hover {
   .services-description-big-text {
     font-size: 7rem;
   }
-
-  .services-description-img {
-    height: auto;
-    max-width: 120%;
-  }
 }
 
 .align-items-flex-start {

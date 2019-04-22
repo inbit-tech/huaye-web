@@ -70,101 +70,99 @@
         </div>
     </section>
 
-    <section class="section services-section has-text-centered">
-        <div class="section columns">
-            <div class="column is-2"></div>
-            <p class="column is-8 has-text-centered is-size-3 has-text-grey-light">我们尊崇真诚、团结、信任、团结、创造、分享<br>尊重客户体验，适应客户需求，快速响应，定制化生产</p>
-            <div class="column is-2"></div>
+    <section class="section services-section">
+        <div class="section container">
+            <p class="has-text-centered is-size-3 has-text-grey-light">我们尊崇真诚、团结、信任、团结、创造、分享<br>尊重客户体验，适应客户需求，快速响应，定制化生产</p> 
         </div>
 
-        <div class="section tile is-ancestor columns">
-            <div class="column is-1"></div>
-            <div class="tile is-vertical is-7">
-                <div class="tile is-parent">
-                    <article class="tile is-child has-text-left">
-                        <p class="services-description-big-text has-text-black has-text-weight-bold">专业</p>
-                        <p class="services-description-small-text has-text-grey">定制化生产，满足特殊产品需求</p>
+        <div class="section container">
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                    <div class="tile is-parent">
+                        <article class="tile is-child has-text-left">
+                            <p class="services-description-big-text has-text-black has-text-weight-bold">专业</p>
+                            <p class="services-description-small-text has-text-grey">定制化生产，满足特殊产品需求</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="tile is-parent is-5">
+                    <article class="tile is-child has-text-right">
+                        <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-1.png" alt="advantages of Huaye">
                     </article>
                 </div>
             </div>
-            <div class="tile is-parent is-3">
-                <article class="tile is-child has-text-right">
-                    <img class="services-description-img" src="http://pp3tibsrj.bkt.clouddn.com/services-img-1.png" alt="advantages of Huaye">
-                </article>
-            </div>
-            <div class="column is-1"></div>
         </div>
 
-        <div class="section tile is-ancestor columns">
-            <div class="column is-1"></div>
-            <div class="tile is-vertical is-3">
-                <div class="tile is-parent">
-                    <article class="tile is-child">
-                        <img class="services-description-img" src="http://pp3tibsrj.bkt.clouddn.com/services-img-2.png" alt="advantages of Huaye">
-                    </article>
+        <div class="section container">
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-5">
+                    <div class="tile is-parent">
+                        <article class="tile is-child has-text-left">
+                            <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-2.png" alt="advantages of Huaye">
+                        </article>
+                    </div>
                 </div>
-            </div>
-            <div class="tile is-parent is-7">
-                <article class="tile is-child has-text-right">
-                    <p class="services-description-big-text has-text-black has-text-weight-bold">快速</p>
-                    <p class="services-description-small-text has-text-grey">响应机制，提供效率优势</p>
-                </article>
-            </div>
-            <div class="column is-1"></div>
-        </div>
-
-        <div class="section tile is-ancestor columns">
-            <div class="column is-1"></div>
-            <div class="tile is-vertical is-7">
-                <div class="tile is-parent">
-                    <article class="tile is-child has-text-left">
+                <div class="tile is-parent is-8">
+                    <article class="tile is-child has-text-right">
                         <p class="services-description-big-text has-text-black has-text-weight-bold">快速</p>
-                        <p class="services-description-small-text has-text-grey">样品模式，降低客户研发成本</p>
+                        <p class="services-description-small-text has-text-grey">响应机制，提供效率优势</p>
                     </article>
                 </div>
             </div>
-            <div class="tile is-parent is-3">
-                <article class="tile is-child has-text-right">
-                    <img class="services-description-img" src="http://pp3tibsrj.bkt.clouddn.com/services-img-3.png" alt="advantages of Huaye">
-                </article>
-            </div>
-            <div class="column is-1"></div>
         </div>
 
-        <div class="section tile is-ancestor columns">
-            <div class="column is-1"></div>
-            <div class="tile is-vertical is-3">
-                <div class="tile is-parent">
-                    <article class="tile is-child">
-                        <img class="services-description-img" src="http://pp3tibsrj.bkt.clouddn.com/services-img-4.png" alt="advantages of Huaye">
+        <div class="section container">
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                    <div class="tile is-parent">
+                        <article class="tile is-child has-text-left">
+                            <p class="services-description-big-text has-text-black has-text-weight-bold">快速</p>
+                            <p class="services-description-small-text has-text-grey">样品模式，降低客户研发成本</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="tile is-parent is-5">
+                    <article class="tile is-child has-text-right">
+                        <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-3.png" alt="advantages of Huaye">
                     </article>
                 </div>
             </div>
-            <div class="tile is-parent is-7">
-                <article class="tile is-child has-text-right">
-                    <p class="services-description-big-text has-text-black has-text-weight-bold">协助</p>
-                    <p class="services-description-small-text has-text-grey">客户提供线材应用解决方案</p>
-                </article>
-            </div>
-            <div class="column is-1"></div>
         </div>
 
-        <div class="section tile is-ancestor columns">
-            <div class="column is-1"></div>
-            <div class="tile is-vertical is-7">
-                <div class="tile is-parent">
-                    <article class="tile is-child has-text-left">
-                        <p class="services-description-big-text has-text-black has-text-weight-bold">小批量</p>
-                        <p class="services-description-small-text has-text-grey">品种丰富，快速精准交付</p>
+        <div class="section container">
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-5">
+                    <div class="tile is-parent">
+                        <article class="tile is-child">
+                            <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-4.png" alt="advantages of Huaye">
+                        </article>
+                    </div>
+                </div>
+                <div class="tile is-parent is-8">
+                    <article class="tile is-child has-text-right">
+                        <p class="services-description-big-text has-text-black has-text-weight-bold">协助</p>
+                        <p class="services-description-small-text has-text-grey">客户提供线材应用解决方案</p>
                     </article>
                 </div>
             </div>
-            <div class="tile is-parent is-3">
-                <article class="tile is-child has-text-right">
-                    <img class="services-description-img" src="http://pp3tibsrj.bkt.clouddn.com/services-img-5.png" alt="advantages of Huaye">
-                </article>
+        </div>
+
+        <div class="section container">
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                    <div class="tile is-parent">
+                        <article class="tile is-child has-text-left">
+                            <p class="services-description-big-text has-text-black has-text-weight-bold">小批量</p>
+                            <p class="services-description-small-text has-text-grey">品种丰富，快速精准交付</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="tile is-parent is-5">
+                    <article class="tile is-child has-text-right">
+                        <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-5.png" alt="advantages of Huaye">
+                    </article>
+                </div>
             </div>
-            <div class="column is-1"></div>
         </div>
     </section>
 </section>
