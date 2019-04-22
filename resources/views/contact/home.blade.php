@@ -88,6 +88,6 @@
     </section>
     
     {{-- map API --}}
-    <iframe id="map" width='1920' height='560' style="height:560px;" frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://f.amap.com/6mGsm_06675dm'></iframe>
+    <div id="container"></div> 
 </section>
 @endsection
