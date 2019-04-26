@@ -12889,7 +12889,6 @@ __webpack_require__(/*! /Users/vayne/dev/huaye-web/resources/js/app.js */"./reso
 __webpack_require__(/*! /Users/vayne/dev/huaye-web/resources/js/map.js */"./resources/js/map.js");
 module.exports = __webpack_require__(/*! /Users/vayne/dev/huaye-web/resources/sass/app.scss */"./resources/sass/app.scss");
 
-
 /***/ })
 
 /******/ });
