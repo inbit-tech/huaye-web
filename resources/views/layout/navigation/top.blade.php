@@ -18,9 +18,9 @@
 				<a  href="/products" class="navbar-link">@lang('navi.products')</a>
 
 				<div class="navbar-dropdown">
-					<a href="/products/bec" class="navbar-item">特种自粘性漆包线</a>
-					<a href="/products/uht" class="navbar-item">超高耐温漆包线</a>
-					<a href="/products/litz" class="navbar-item">LITZ 线 / 丝包 LITZ 线</a>
+					<a href="/products/bec" class="navbar-item">@lang('navi.prod1')</a>
+					<a href="/products/uht" class="navbar-item">@lang('navi.prod2')</a>
+					<a href="/products/litz" class="navbar-item">@lang('navi.prod3')</a>
 				</div>
 			</div>
 
