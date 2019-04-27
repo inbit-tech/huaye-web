@@ -1,4 +1,4 @@
-<section class="hero is-medium is-light">
+<section class="hero is-light">
 	<div class="hero-body">
 		<div class="container">
 			<nav class="level container">
@@ -42,6 +42,6 @@
 
 <footer class="footer">
 	<div class="content has-text-centered has-text-white is-size-7">
-		<p>@lang('footer.copyright')</p>
+		<p>2019 @lang('footer.copyright')</p>
 	</div>
 </footer>
