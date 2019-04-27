@@ -42,6 +42,6 @@
 
 <footer class="footer">
 	<div class="content has-text-centered has-text-white is-size-6">
-		<p>&copy;东莞市华冶线缆科技有限公司</p>
+		<p>@lang('footer.copyright')</p>
 	</div>
 </footer>
