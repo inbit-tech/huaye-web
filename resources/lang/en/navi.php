@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'home' 		=>	'Home',
+    'title' 	=>	'Huaye Cables Technology Co., Ltd',
     'products'	=>	'Products',
     'about'		=>	'About Us',
     'contact'	=>	'Contact Us',

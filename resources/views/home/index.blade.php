@@ -1,13 +1,14 @@
 @extends ('master')
 
 @section ('page-title')
-<title>华冶科技 - 东莞华冶线缆科技有限公司</title>
+<title>@lang('navi.title')</title>
 @endsection
 
-<section class="hero is-large">
+{{-- <section class="hero is-large is-dark">
     @section('content')
-</section>
+</section> --}}
 
+@section('content')
 <section id="homepage">
     <section id="our-product" class="columns">
         <div class="column is-2"></div>

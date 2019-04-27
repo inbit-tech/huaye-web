@@ -11413,6 +11413,11 @@ label.panel-block:hover {
   background-size: cover;
 }
 
+.navbar-brand img {
+  height: auto;
+  width: 115px;
+}
+
 .homepage-title {
   font-size: 2rem;
   color: #707070;
