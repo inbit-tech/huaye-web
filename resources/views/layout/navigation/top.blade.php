@@ -32,7 +32,7 @@
                 {{-- <a class="navbar-link is-arrowless">@lang('navi.lang')</a> --}}
                 <a class="navbar-link is-arrowless">@lang('navi.lang')</a>
 
-                <div class="navbar-dropdown is-boxed">
+                <div class="navbar-dropdown">
                     <a href="lang/en" class="navbar-item">English</a>
                     <a href="lang/zh" class="navbar-item">中文</a>
                 </div>
