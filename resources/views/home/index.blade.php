@@ -4,11 +4,17 @@
 <title>@lang('navi.title')</title>
 @endsection
 
-{{-- <section class="hero is-large is-dark">
-    @section('content')
-</section> --}}
-
 @section('content')
+
+<section class="hero is-info is-large">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">Title</h1>
+      <h2 class="subtitle">Subtitle</h2>
+    </div>
+  </div>
+</section>
+
 <section id="homepage">
     <section id="our-product" class="columns">
         <div class="column is-2"></div>
