@@ -17,6 +17,7 @@ $yellow: #ffed4a;
 $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+$dark-grey: #363636;
 
 /*
  * Customization Styles
@@ -29,7 +30,7 @@ $cyan: #6cb2eb;
 // $navbar-item-active-color: hsl(0, 0%, 100%);
 
 // Footer
-$footer-background-color: hsl(217, 71%, 53%);
+$footer-background-color: $dark-grey;
 $footer-padding: 1.3rem;
 
 $section-padding-medium: 4rem 1.5rem 9rem 1.5rem;

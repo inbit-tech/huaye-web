@@ -41,7 +41,7 @@
 
 
 <footer class="footer">
-	<div class="content has-text-centered has-text-white is-size-6">
+	<div class="content has-text-centered has-text-white is-size-7">
 		<p>@lang('footer.copyright')</p>
 	</div>
 </footer>
