@@ -6,7 +6,8 @@
 
 @section('content')
 
-<section class="hero is-info is-large">
+{{-- Welcome Image Slider --}}
+<section class="hero is-light is-large">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">Title</h1>
@@ -15,7 +16,41 @@
   </div>
 </section>
 
-<section id="homepage">
+{{-- Our Products --}}
+<section class="section is-medium">
+    <div class="container">
+        <h1 class="title is-size-2 has-text-centered has-text-weight-bold">Our Products</h1>
+        <h2 class="subtitle has-text-centered">simple intro about products</h2>
+    </div>
+</section>
+
+{{-- Production Line Video --}}
+<section class="hero is-light is-large">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">Production Line</h1>
+            <h2 class="subtitle">Video</h2>
+        </div>
+    </div>
+</section>
+
+{{-- Our Patents --}}
+<section class="section is-medium">
+    <div class="container">
+        <h1 class="title is-size-2 has-text-centered has-text-weight-bold">Our Patents</h1>
+        <h2 class="subtitle has-text-centered">simple intro about patents</h2>
+    </div>
+</section>
+
+{{-- Our Patents --}}
+<section class="section is-medium">
+    <div class="container">
+        <h1 class="title is-size-2 has-text-centered has-text-weight-bold">Our Clients</h1>
+        <h2 class="subtitle has-text-centered">simple intro about clients</h2>
+    </div>
+</section>
+
+{{-- <section id="homepage">
     <section id="our-product" class="columns">
         <div class="column is-2"></div>
 
@@ -44,8 +79,13 @@
         <div class="column is-2"></div>
     </section>
 
-    <section id="product-line-video">
-        <img src="https://via.placeholder.com/1920x680" alt="">
+    <section class="hero is-light is-large">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">Product Line</h1>
+                <h2 class="subtitle">Video</h2>
+            </div>
+        </div>
     </section>
 
     <section id="our-patent" class="columns">
@@ -123,5 +163,5 @@
             </div>
         </div>
     </section>
-</section>
+</section> --}}
 @endsection
