@@ -6,8 +6,12 @@
 
 @section('content')
 <section id="about-us">
-    <section class="video-section">
-        <img src="https://via.placeholder.com/1920x1008" alt="">
+    <section class="hero is-light is-large">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">about-page image</h1>
+            </div>
+        </div>
     </section>
 
     <section class="section">
@@ -87,7 +91,7 @@
                 </div>
                 <div class="tile is-parent is-5">
                     <article class="tile is-child has-text-right">
-                        <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-1.png" alt="advantages of Huaye">
+                        <img src="{{asset('img/component/about/services-img-1.png')}}" alt="advantages of Huaye">
                     </article>
                 </div>
             </div>
@@ -98,7 +102,7 @@
                 <div class="tile is-vertical is-5">
                     <div class="tile is-parent">
                         <article class="tile is-child has-text-left">
-                            <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-2.png" alt="advantages of Huaye">
+                            <img src="{{asset('img/component/about/services-img-2.png')}}" alt="advantages of Huaye">
                         </article>
                     </div>
                 </div>
@@ -123,7 +127,7 @@
                 </div>
                 <div class="tile is-parent is-5">
                     <article class="tile is-child has-text-right">
-                        <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-3.png" alt="advantages of Huaye">
+                        <img src="{{asset('img/component/about/services-img-3.png')}}" alt="advantages of Huaye">
                     </article>
                 </div>
             </div>
@@ -134,7 +138,7 @@
                 <div class="tile is-vertical is-5">
                     <div class="tile is-parent">
                         <article class="tile is-child">
-                            <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-4.png" alt="advantages of Huaye">
+                            <img src="{{asset('img/component/about/services-img-4.png')}}" alt="advantages of Huaye">
                         </article>
                     </div>
                 </div>
@@ -159,7 +163,7 @@
                 </div>
                 <div class="tile is-parent is-5">
                     <article class="tile is-child has-text-right">
-                        <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-5.png" alt="advantages of Huaye">
+                        <img src="{{asset('img/component/about/services-img-5.png')}}" alt="advantages of Huaye">
                     </article>
                 </div>
             </div>
