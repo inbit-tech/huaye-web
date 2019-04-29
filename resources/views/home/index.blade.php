@@ -1,14 +1,96 @@
 @extends ('master')
 
 @section ('page-title')
-<title>华冶科技 - 东莞华冶线缆科技有限公司</title>
+<title>@lang('navi.title')</title>
 @endsection
 
-<section class="hero is-large">
-    @section('content')
+@section('content')
+
+{{-- Welcome Image Slider --}}
+<section class="hero is-light is-large">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">Title</h1>
+      <h2 class="subtitle">Subtitle</h2>
+    </div>
+  </div>
 </section>
 
-<section id="homepage">
+{{-- Our Products --}}
+<section class="section is-medium">
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="title">@lang('navi.prod1')</p>
+                <p class="subtitle">simple intro</p>
+                <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/640x480.png">
+                </figure>
+            </article>
+        </div>
+        <div class="tile is-parent has-text-centered">
+            <article class="tile is-child box">
+                <p class="title">@lang('navi.prod2')</p>
+                <p class="subtitle">simple intro</p>
+                <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/640x480.png">
+                </figure>
+            </article>
+        </div>
+        <div class="tile is-parent has-text-centered">
+        <article class="tile is-child box">
+            <p class="title">@lang('navi.prod3')</p>
+            <p class="subtitle">simple intro</p>
+            <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/640x480.png">
+            </figure>
+        </article>
+        </div>
+    </div>
+</section>
+
+{{-- Production Line Video --}}
+<section class="hero is-light is-large">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">Production Line</h1>
+            <h2 class="subtitle">Video</h2>
+        </div>
+    </div>
+</section>
+
+{{-- Our Patents --}}
+<section class="section is-medium">
+    <div class="container">
+        <h1 class="title is-size-2 has-text-centered has-text-weight-bold">Our Patents</h1>
+        <h2 class="subtitle has-text-centered">simple intro about patents</h2>
+    </div>
+    <div class="columns is-mobile is-multiline is-centered">
+        <div class="column">Patent 1</div>
+        <div class="column">Patent 2</div>
+        <div class="column">Patent 3</div>
+    </div>
+</section>
+
+{{-- Team --}}
+<section class="hero is-light is-large">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">Our Team</h1>
+            <h2 class="subtitle">Team intro</h2>
+        </div>
+    </div>
+</section>
+
+{{-- Our Patents --}}
+<section class="section is-medium">
+    <div class="container">
+        <h1 class="title is-size-2 has-text-centered has-text-weight-bold">Our Clients</h1>
+        <h2 class="subtitle has-text-centered">simple intro about clients</h2>
+    </div>
+</section>
+
+{{-- <section id="homepage">
     <section id="our-product" class="columns">
         <div class="column is-2"></div>
 
@@ -37,8 +119,13 @@
         <div class="column is-2"></div>
     </section>
 
-    <section id="product-line-video">
-        <img src="https://via.placeholder.com/1920x680" alt="">
+    <section class="hero is-light is-large">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">Product Line</h1>
+                <h2 class="subtitle">Video</h2>
+            </div>
+        </div>
     </section>
 
     <section id="our-patent" class="columns">
@@ -116,5 +203,5 @@
             </div>
         </div>
     </section>
-</section>
+</section> --}}
 @endsection

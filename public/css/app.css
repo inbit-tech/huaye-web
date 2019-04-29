@@ -6671,7 +6671,7 @@ a.list-item {
 
 .navbar {
   background-color: white;
-  min-height: 4.55rem;
+  min-height: 3.25rem;
   position: relative;
   z-index: 30;
 }
@@ -7309,7 +7309,7 @@ a.list-item {
 .navbar > .container {
   align-items: stretch;
   display: flex;
-  min-height: 4.55rem;
+  min-height: 3.25rem;
   width: 100%;
 }
 
@@ -7339,12 +7339,12 @@ a.list-item {
 
 html.has-navbar-fixed-top,
 body.has-navbar-fixed-top {
-  padding-top: 4.55rem;
+  padding-top: 3.25rem;
 }
 
 html.has-navbar-fixed-bottom,
 body.has-navbar-fixed-bottom {
-  padding-bottom: 4.55rem;
+  padding-bottom: 3.25rem;
 }
 
 .navbar-brand,
@@ -7352,7 +7352,7 @@ body.has-navbar-fixed-bottom {
   align-items: stretch;
   display: flex;
   flex-shrink: 0;
-  min-height: 4.55rem;
+  min-height: 3.25rem;
 }
 
 .navbar-brand a.navbar-item:hover {
@@ -7367,12 +7367,12 @@ body.has-navbar-fixed-bottom {
 }
 
 .navbar-burger {
-  color: white;
+  color: #4a4a4a;
   cursor: pointer;
   display: block;
-  height: 4.55rem;
+  height: 3.25rem;
   position: relative;
-  width: 4.55rem;
+  width: 3.25rem;
   margin-left: auto;
 }
 
@@ -7428,7 +7428,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: white;
+  color: #4a4a4a;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -7451,7 +7451,7 @@ a.navbar-item.is-active,
 .navbar-link:hover,
 .navbar-link.is-active {
   background-color: #fafafa;
-  color: white;
+  color: #3490dc;
 }
 
 .navbar-item {
@@ -7475,7 +7475,7 @@ a.navbar-item.is-active,
 
 .navbar-item.is-tab {
   border-bottom: 1px solid transparent;
-  min-height: 4.55rem;
+  min-height: 3.25rem;
   padding-bottom: calc(0.5rem - 1px);
 }
 
@@ -7575,18 +7575,18 @@ a.navbar-item.is-active,
   .navbar.is-fixed-top .navbar-menu,
   .navbar.is-fixed-top-touch .navbar-menu {
     -webkit-overflow-scrolling: touch;
-    max-height: calc(100vh - 4.55rem);
+    max-height: calc(100vh - 3.25rem);
     overflow: auto;
   }
 
   html.has-navbar-fixed-top-touch,
   body.has-navbar-fixed-top-touch {
-    padding-top: 4.55rem;
+    padding-top: 3.25rem;
   }
 
   html.has-navbar-fixed-bottom-touch,
   body.has-navbar-fixed-bottom-touch {
-    padding-bottom: 4.55rem;
+    padding-bottom: 3.25rem;
   }
 }
 
@@ -7600,7 +7600,7 @@ a.navbar-item.is-active,
   }
 
   .navbar {
-    min-height: 4.55rem;
+    min-height: 3.25rem;
   }
 
   .navbar.is-spaced {
@@ -7793,27 +7793,27 @@ a.navbar-item.is-active,
 
   html.has-navbar-fixed-top-desktop,
   body.has-navbar-fixed-top-desktop {
-    padding-top: 4.55rem;
+    padding-top: 3.25rem;
   }
 
   html.has-navbar-fixed-bottom-desktop,
   body.has-navbar-fixed-bottom-desktop {
-    padding-bottom: 4.55rem;
+    padding-bottom: 3.25rem;
   }
 
   html.has-spaced-navbar-fixed-top,
   body.has-spaced-navbar-fixed-top {
-    padding-top: 6.55rem;
+    padding-top: 5.25rem;
   }
 
   html.has-spaced-navbar-fixed-bottom,
   body.has-spaced-navbar-fixed-bottom {
-    padding-bottom: 6.55rem;
+    padding-bottom: 5.25rem;
   }
 
   a.navbar-item.is-active,
   .navbar-link.is-active {
-    color: white;
+    color: #0a0a0a;
   }
 
   a.navbar-item.is-active:not(:hover),
@@ -7828,7 +7828,7 @@ a.navbar-item.is-active,
 }
 
 .hero.is-fullheight-with-navbar {
-  min-height: calc(100vh - 4.55rem);
+  min-height: calc(100vh - 3.25rem);
 }
 
 .pagination {
@@ -11404,13 +11404,18 @@ label.panel-block:hover {
 }
 
 .footer {
-  background-color: #3273dc;
+  background-color: #363636;
   padding: 1.3rem;
 }
 
 .has-home-hero-bg {
   background: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/factory-line.jpg") no-repeat center center fixed;
   background-size: cover;
+}
+
+.navbar-brand img {
+  height: auto;
+  width: 115px;
 }
 
 .homepage-title {
