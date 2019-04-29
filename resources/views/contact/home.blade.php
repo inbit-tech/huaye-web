@@ -15,13 +15,13 @@
     </section>
 
     {{-- contact info section --}}
-    <section class="section contact-info-section">
+    <section class="section is-medium">
         <div class="container level tile align-items-flex-start">
             <div class="level-item has-text-centered tile is-vertical">
-                <div class="">
+                <div>
                     <img class="image" src="{{asset('img/component/contact/icon_phone.png')}}" alt="Phone">
                 </div>
-                <div class="contact-info">   
+                <div class="section">   
                     <a href="tel:0769-82601699" >
                         <p>联系电话：0769-82601699</p>
                     </a>
@@ -31,20 +31,20 @@
                 </div>
             </div>
             <div class="level-item has-text-centered tile is-vertical">
-                <div class="">
+                <div>
                     <img class="image" src="{{asset('img/component/contact/icon_addr.png')}}" alt="Address">
                 </div>
-                <div class="contact-info">    
+                <div class="section">    
                     <a href="#map">
                         <p>广东省东莞市黄江镇裕元工业园精成二路灵狮小镇C栋三层C313-316号</p>
                     </a>
                 </div>
             </div>
             <div class="level-item has-text-centered tile is-vertical">
-                <div class="">
+                <div>
                     <img class="image" src="{{asset('img/component/contact/icon_email.png')}}" alt="eMail">
                 </div>
-                <div class="contact-info">
+                <div class="section">
                     <a href="mailto:huaye@huaye-dg.com">
                         <p>huaye@huaye-dg.com</p>
                     </a>
@@ -92,6 +92,7 @@
     </section>
     
     {{-- map API --}}
+    {{-- this div's id must be "container" --}}
     <div id="container"></div> 
 </section>
 @endsection
