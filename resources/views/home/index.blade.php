@@ -18,9 +18,34 @@
 
 {{-- Our Products --}}
 <section class="section is-medium">
-    <div class="container">
-        <h1 class="title is-size-2 has-text-centered has-text-weight-bold">Our Products</h1>
-        <h2 class="subtitle has-text-centered">simple intro about products</h2>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered">
+                <p class="title">@lang('navi.prod1')</p>
+                <p class="subtitle">simple intro</p>
+                <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/640x480.png">
+                </figure>
+            </article>
+        </div>
+        <div class="tile is-parent has-text-centered">
+            <article class="tile is-child box">
+                <p class="title">@lang('navi.prod2')</p>
+                <p class="subtitle">simple intro</p>
+                <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/640x480.png">
+                </figure>
+            </article>
+        </div>
+        <div class="tile is-parent has-text-centered">
+        <article class="tile is-child box">
+            <p class="title">@lang('navi.prod3')</p>
+            <p class="subtitle">simple intro</p>
+            <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/640x480.png">
+            </figure>
+        </article>
+        </div>
     </div>
 </section>
 
@@ -39,6 +64,21 @@
     <div class="container">
         <h1 class="title is-size-2 has-text-centered has-text-weight-bold">Our Patents</h1>
         <h2 class="subtitle has-text-centered">simple intro about patents</h2>
+    </div>
+    <div class="columns is-mobile is-multiline is-centered">
+        <div class="column">Patent 1</div>
+        <div class="column">Patent 2</div>
+        <div class="column">Patent 3</div>
+    </div>
+</section>
+
+{{-- Team --}}
+<section class="hero is-light is-large">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">Our Team</h1>
+            <h2 class="subtitle">Team intro</h2>
+        </div>
     </div>
 </section>
 
