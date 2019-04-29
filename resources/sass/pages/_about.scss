@@ -10,12 +10,6 @@
     align-items: center;
 }
 
-@media(max-width:768px) {
-    .quality-border {
-        height: auto;
-    }
-}
-
 /* 
     history sass
 */
@@ -52,6 +46,10 @@
 
 
 @media(max-width:768px) {
+    .quality-border {
+        height: auto;
+    }
+
     .services-description-small-text {
         font-size: 2rem;
     }

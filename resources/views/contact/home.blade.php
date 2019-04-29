@@ -6,8 +6,12 @@
 
 @section('content')
 <section>
-    <section id="contact-bg-img" class="">
-        <img src="https://via.placeholder.com/1920x560" alt="">
+    <section class="hero is-light is-large">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">contact-page image</h1>
+            </div>
+        </div>
     </section>
 
     {{-- contact info section --}}
@@ -15,7 +19,7 @@
         <div class="container level tile align-items-flex-start">
             <div class="level-item has-text-centered tile is-vertical">
                 <div class="">
-                    <img class="image" src="http://pp3tibsrj.bkt.clouddn.com/icon_phone%20.png" alt="Phone">
+                    <img class="image" src="{{asset('img/component/contact/icon_phone.png')}}" alt="Phone">
                 </div>
                 <div class="contact-info">   
                     <a href="tel:0769-82601699" >
@@ -28,7 +32,7 @@
             </div>
             <div class="level-item has-text-centered tile is-vertical">
                 <div class="">
-                    <img class="image" src="http://pp3tibsrj.bkt.clouddn.com/icon_addr.png" alt="Address">
+                    <img class="image" src="{{asset('img/component/contact/icon_addr.png')}}" alt="Address">
                 </div>
                 <div class="contact-info">    
                     <a href="#map">
@@ -38,7 +42,7 @@
             </div>
             <div class="level-item has-text-centered tile is-vertical">
                 <div class="">
-                    <img class="image" src="http://pp3tibsrj.bkt.clouddn.com/icon_email%20.png" alt="eMail">
+                    <img class="image" src="{{asset('img/component/contact/icon_email.png')}}" alt="eMail">
                 </div>
                 <div class="contact-info">
                     <a href="mailto:huaye@huaye-dg.com">
@@ -79,7 +83,7 @@
                 @if(Session::has('message'))
                  <div class="tile is-parent">
                     <article class="tile is-child notification is-info">
-                    <p class="has-text-centered">Message sent!</p>
+                    <p class="has-text-centered is-size-3">Message sent!</p>
                     </article>
                 </div>
                 @endif
