@@ -1,11 +1,13 @@
-
-.align-items-flex-start{
+.align-items-flex-start {
     align-items: flex-start;
 }
-.contact-info{
+.contact-info {
     padding: 2rem;
 }
-
+#container {
+    width: 100%;
+    height: 400px;
+}
 @media (min-width: 1152px) {
     .contact-info-section {
         margin-top: 3rem;

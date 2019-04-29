@@ -10,8 +10,8 @@
 <section class="hero is-light is-large">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title">About Huaye</h1>
-      <h2 class="subtitle"> Dongguan Huaye Cables Technology Co. Ltd is a manufacturing company specialized in magnet round copper wire with import and export rights.</h2>
+      <h1 class="title">Huaye</h1>
+      <h2 class="subtitle">homepage - Top large picture</h2>
     </div>
   </div>
 </section>
@@ -24,7 +24,7 @@
                 <p class="title">@lang('navi.prod1')</p>
                 <p class="subtitle">Self bonding enameled copper wire is a special type of enameled wire.</p>
                 <figure class="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/640x480.png">
+                    <img src="{{asset('img/component/product-detail/bec/sw-red-thick-horizon.jpg')}}" alt="Bonding Enameled Cooper Wire">
                 </figure>
             </article>
         </div>
@@ -33,7 +33,7 @@
                 <p class="title">@lang('navi.prod2')</p>
                 <p class="subtitle">Enameled copper wire is one of main varieties of winding wire.</p>
                 <figure class="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/640x480.png">
+                    <img src="{{asset('img/component/product-detail/uht/lb-gold-thin-horizon.jpg')}}" alt="Ultra-High-Temperature Wire">
                 </figure>
             </article>
         </div>
@@ -42,7 +42,7 @@
             <p class="title">@lang('navi.prod3')</p>
             <p class="subtitle">Litz wire is a winding wire consisting of a number of small diameter </p>
             <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/640x480.png">
+                <img src="{{asset('img/component/product-detail/litz/lb-pink-thin-horizon.jpg')}}" alt="LITZ Wire / Silk Served LITZ Wire">
             </figure>
         </article>
         </div>
@@ -73,20 +73,109 @@
 </section> --}}
 
 {{-- Team --}}
-<section class="hero is-light is-large">
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="title">Our Team</h1>
-            <h2 class="subtitle">Team intro</h2>
-        </div>
+<section class="section">
+    <div class="container">
+        <h1 class="title is-size-2 has-text-centered has-text-weight-bold">Our Team</h1>
     </div>
+    <figure class="image">
+        <img src="{{asset('img/component/home/our-team.png')}}" alt="huaye team">
+    </figure>
 </section>
 
 {{-- Our Patents --}}
 <section class="section is-medium">
     <div class="container">
         <h1 class="title is-size-2 has-text-centered has-text-weight-bold">Our Clients</h1>
-        <h2 class="subtitle has-text-centered">simple intro about clients</h2>
+    </div>
+    <div class="section is-medium container">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+            <div class="column">
+                <figure class="">
+                    <img src="{{asset('img/clients/client-01.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="">
+                    <img src="{{asset('img/clients/client-02.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="">
+                    <img src="{{asset('img/clients/client-03.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="">
+                    <img src="{{asset('img/clients/client-04.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+        </div>
+        <div class="columns is-multiline is-vcentered has-text-centered">
+            <div class="column">
+                <figure class="">
+                    <img src="{{asset('img/clients/client-05.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="">
+                    <img src="{{asset('img/clients/client-06.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="">
+                    <img src="{{asset('img/clients/client-07.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="">
+                    <img class="is-square" src="{{asset('img/clients/client-08.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+        </div>
+        <div class="columns is-multiline is-vcentered has-text-centered">
+            <div class="column">
+                <figure class="">
+                    <img class="is-square" src="{{asset('img/clients/client-09.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="">
+                    <img class="is-square" src="{{asset('img/clients/client-10.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="">
+                    <img class="is-square" src="{{asset('img/clients/client-11.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="">
+                    <img class="is-square" src="{{asset('img/clients/client-12.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+        </div>
+        <div class="columns is-multiline is-vcentered has-text-centered">
+            <div class="column">
+                <figure class="">
+                    <img class="is-square" src="{{asset('img/clients/client-13.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="">
+                    <img class="is-square" src="{{asset('img/clients/client-14.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="">
+                    <img class="is-square" src="{{asset('img/clients/client-15.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="">
+                    <img class="is-square" src="{{asset('img/clients/client-16.png')}}" alt="huaye-patents">
+                </figure>
+            </div>
+        </div>
     </div>
 </section>
 

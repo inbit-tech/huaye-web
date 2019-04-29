@@ -9,7 +9,7 @@
     <section class="hero is-light is-large">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title">about-page image</h1>
+                <h1 class="title">about - Top large picture</h1>
             </div>
         </div>
     </section>
@@ -52,8 +52,8 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="container has-text-left">
+    <section class="section container">
+        <div class="has-text-left">
             <p class="is-size-1 has-text-black-bis has-text-weight-bold">
                 <span>严格的品质控制标准及逐轴检验的控制手段，</span>
                 <br>
@@ -63,7 +63,7 @@
     </section>
 
     <section class="section is-medium history-padding history-section-bg-img has-text-centered">
-        <p class="has-text-centered is-size-4 has-text-white history-text-shadow history-text-line-height">公 司 概 况</p>
+        <h1 class="has-text-centered is-size-4 has-text-white history-text-shadow history-text-line-height">公 司 概 况</h1>
         <div class="history-text level section container tile is-vertical">
             <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-line-height">2003 . 12 . 08 - 深圳市华冶电工材料有限公司成立</p>
             <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-line-height">2004 . 03 . 12 - 深圳市华冶电工材料有限公司开工投产</p>

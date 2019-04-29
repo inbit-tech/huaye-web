@@ -9,7 +9,7 @@
     <section class="hero is-light is-large">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title">uht-page image</h1>
+                <h1 class="title">uht - Top large picture</h1>
             </div>
         </div>
     </section>
@@ -20,7 +20,7 @@
         </section>
         <section class="section tile">
             <div class="">
-                <img class="" src="{{asset('img/component/product-detail/uht/lb-gold-thin-left45.jpg')}}" src="http://pp3tibsrj.bkt.clouddn.com/lb-gold-thin-left45.jpg" alt="Ultra-High-Temperature Wire">
+                <img class="" src="{{asset('img/component/product-detail/uht/lb-gold-thin-left45.jpg')}}" alt="Ultra-High-Temperature Wire">
             </div>
             <div class="">
                 <img class="" src="{{asset('img/component/product-detail/uht/lb-gold-thin-cover.jpg')}}" alt="Ultra-High-Temperature Wire">
@@ -84,7 +84,7 @@
     </section>
 
     <section class="container has-text-centered">
-        <img src="{{asset('img/component/product-detail/uht/uht-structure.png')}}" src="http://pp3tibsrj.bkt.clouddn.com/uhtSketchMap.png" alt="Ultra-High-Temperature Wire">
+        <img src="{{asset('img/component/product-detail/uht/uht-structure.png')}}" alt="Ultra-High-Temperature Wire">
     </section>
 </section>
 @endsection

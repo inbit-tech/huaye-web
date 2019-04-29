@@ -9,7 +9,7 @@
     <section class="hero is-light is-large">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title">litz-page image</h1>
+                <h1 class="title">litz - Top large picture</h1>
             </div>
         </div>
     </section>
@@ -125,7 +125,7 @@
     </section>
 
     <section class="container has-text-centered">
-        <img src="{{asset('img/component/product-detail/litz/lita-structure.png')}}" src="http://pp3tibsrj.bkt.clouddn.com/litzSketchMap.png" alt="LITZ Wire / Silk Served LITZ Wire">
+        <img src="{{asset('img/component/product-detail/litz/lita-structure.png')}}" alt="LITZ Wire / Silk Served LITZ Wire">
     </section>
 </section>
 @endsection

@@ -9,7 +9,7 @@
     <section class="hero is-light is-large">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title">bec-page image</h1>
+                <h1 class="title">bec - Top large picture</h1>
             </div>
         </div>
     </section>
