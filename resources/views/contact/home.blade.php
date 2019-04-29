@@ -6,18 +6,22 @@
 
 @section('content')
 <section>
-    <section id="contact-bg-img" class="">
-        <img src="https://via.placeholder.com/1920x560" alt="">
+    <section class="hero is-light is-large">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">contact - Top large picture</h1>
+            </div>
+        </div>
     </section>
 
     {{-- contact info section --}}
-    <section class="section contact-info-section">
+    <section class="section is-medium">
         <div class="container level tile align-items-flex-start">
             <div class="level-item has-text-centered tile is-vertical">
-                <div class="">
-                    <img class="image" src="http://pp3tibsrj.bkt.clouddn.com/icon_phone%20.png" alt="Phone">
+                <div>
+                    <img class="image" src="{{asset('img/component/contact/icon_phone.png')}}" alt="Phone">
                 </div>
-                <div class="contact-info">   
+                <div class="section">   
                     <a href="tel:0769-82601699" >
                         <p>联系电话：0769-82601699</p>
                     </a>
@@ -27,20 +31,20 @@
                 </div>
             </div>
             <div class="level-item has-text-centered tile is-vertical">
-                <div class="">
-                    <img class="image" src="http://pp3tibsrj.bkt.clouddn.com/icon_addr.png" alt="Address">
+                <div>
+                    <img class="image" src="{{asset('img/component/contact/icon_addr.png')}}" alt="Address">
                 </div>
-                <div class="contact-info">    
+                <div class="section">    
                     <a href="#map">
                         <p>广东省东莞市黄江镇裕元工业园精成二路灵狮小镇C栋三层C313-316号</p>
                     </a>
                 </div>
             </div>
             <div class="level-item has-text-centered tile is-vertical">
-                <div class="">
-                    <img class="image" src="http://pp3tibsrj.bkt.clouddn.com/icon_email%20.png" alt="eMail">
+                <div>
+                    <img class="image" src="{{asset('img/component/contact/icon_email.png')}}" alt="eMail">
                 </div>
-                <div class="contact-info">
+                <div class="section">
                     <a href="mailto:huaye@huaye-dg.com">
                         <p>huaye@huaye-dg.com</p>
                     </a>
@@ -79,7 +83,7 @@
                 @if(Session::has('message'))
                  <div class="tile is-parent">
                     <article class="tile is-child notification is-info">
-                    <p class="has-text-centered">Message sent!</p>
+                    <p class="has-text-centered is-size-3">Message sent!</p>
                     </article>
                 </div>
                 @endif
@@ -88,6 +92,7 @@
     </section>
     
     {{-- map API --}}
+    {{-- this div's id must be "container" --}}
     <div id="container"></div> 
 </section>
 @endsection

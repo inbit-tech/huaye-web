@@ -6,8 +6,12 @@
 
 @section('content')
 <section id="about-us">
-    <section class="video-section">
-        <img src="https://via.placeholder.com/1920x1008" alt="">
+    <section class="hero is-light is-large">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">about - Top large picture</h1>
+            </div>
+        </div>
     </section>
 
     <section class="section">
@@ -48,8 +52,8 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="container has-text-left">
+    <section class="section container">
+        <div class="has-text-left">
             <p class="is-size-1 has-text-black-bis has-text-weight-bold">
                 <span>严格的品质控制标准及逐轴检验的控制手段，</span>
                 <br>
@@ -59,18 +63,18 @@
     </section>
 
     <section class="section is-medium history-padding history-section-bg-img has-text-centered">
-        <p class="has-text-centered is-size-4 has-text-white history-text-shadow history-text-line-height">公 司 概 况</p>
-        <div class="history-text level section container tile is-vertical">
-            <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-line-height">2003 . 12 . 08 - 深圳市华冶电工材料有限公司成立</p>
-            <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-line-height">2004 . 03 . 12 - 深圳市华冶电工材料有限公司开工投产</p>
-            <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-line-height">2005 . 07 - 深圳市华冶电工材料有限公司获得 ISO9001 体系认证</p>
-            <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-line-height">2009 . 07 - 深圳市华冶电工材料有限公司取得 UL 安全认证</p>
-            <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-line-height">2010 . 08 - 深圳市华冶电工材料有限公司取得生产技术专利</p>
-            <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-line-height">2013 . 10 . 25 - 公司整体搬迁至东莞大朗，东莞市华冶线缆科技有限公司成立</p>
+        <h1 class="has-text-centered is-size-4 has-text-white history-text-shadow history-text-margin">公 司 概 况</h1>
+        <div class="section container level tile is-vertical width-max-content">
+            <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-margin">2003 . 12 . 08 - 深圳市华冶电工材料有限公司成立</p>
+            <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-margin">2004 . 03 . 12 - 深圳市华冶电工材料有限公司开工投产</p>
+            <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-margin">2005 . 07 - 深圳市华冶电工材料有限公司获得 ISO9001 体系认证</p>
+            <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-margin">2009 . 07 - 深圳市华冶电工材料有限公司取得 UL 安全认证</p>
+            <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-margin">2010 . 08 - 深圳市华冶电工材料有限公司取得生产技术专利</p>
+            <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-margin">2013 . 10 . 25 - 公司整体搬迁至东莞大朗，东莞市华冶线缆科技有限公司成立</p>
         </div>
     </section>
 
-    <section class="section services-section">
+    <section class="section is-medium">
         <div class="section container">
             <p class="has-text-centered is-size-3 has-text-grey-light">我们尊崇真诚、团结、信任、团结、创造、分享<br>尊重客户体验，适应客户需求，快速响应，定制化生产</p> 
         </div>
@@ -87,7 +91,7 @@
                 </div>
                 <div class="tile is-parent is-5">
                     <article class="tile is-child has-text-right">
-                        <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-1.png" alt="advantages of Huaye">
+                        <img src="{{asset('img/component/about/services-img-1.png')}}" alt="advantages of Huaye">
                     </article>
                 </div>
             </div>
@@ -98,7 +102,7 @@
                 <div class="tile is-vertical is-5">
                     <div class="tile is-parent">
                         <article class="tile is-child has-text-left">
-                            <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-2.png" alt="advantages of Huaye">
+                            <img src="{{asset('img/component/about/services-img-2.png')}}" alt="advantages of Huaye">
                         </article>
                     </div>
                 </div>
@@ -123,7 +127,7 @@
                 </div>
                 <div class="tile is-parent is-5">
                     <article class="tile is-child has-text-right">
-                        <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-3.png" alt="advantages of Huaye">
+                        <img src="{{asset('img/component/about/services-img-3.png')}}" alt="advantages of Huaye">
                     </article>
                 </div>
             </div>
@@ -134,7 +138,7 @@
                 <div class="tile is-vertical is-5">
                     <div class="tile is-parent">
                         <article class="tile is-child">
-                            <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-4.png" alt="advantages of Huaye">
+                            <img src="{{asset('img/component/about/services-img-4.png')}}" alt="advantages of Huaye">
                         </article>
                     </div>
                 </div>
@@ -159,7 +163,7 @@
                 </div>
                 <div class="tile is-parent is-5">
                     <article class="tile is-child has-text-right">
-                        <img src="http://pp3tibsrj.bkt.clouddn.com/services-img-5.png" alt="advantages of Huaye">
+                        <img src="{{asset('img/component/about/services-img-5.png')}}" alt="advantages of Huaye">
                     </article>
                 </div>
             </div>

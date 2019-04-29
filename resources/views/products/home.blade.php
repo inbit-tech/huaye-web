@@ -16,7 +16,7 @@
         </div>
     </div>
     <div class="container">
-        <img class="product-img" src="http://pp3tibsrj.bkt.clouddn.com/bec-bg.png" alt="Bonding Enameled Cooper Wire">
+        <img class="product-img" src="{{asset('img/component/product/bec-bg.png')}}" alt="Bonding Enameled Cooper Wire">
     </div>
 </section>
 
@@ -31,7 +31,7 @@
         </div>
     </div>
     <div class="container">
-        <img class="product-img" src="http://pp3tibsrj.bkt.clouddn.com/uht-bg.png" alt=" Ultra-High-Temperature Wire">
+        <img class="product-img" src="{{asset('img/component/product/uht-bg.png')}}" alt=" Ultra-High-Temperature Wire">
     </div>
     </section>
 
@@ -46,7 +46,7 @@
         </div>
     </div>
     <div class="container">
-        <img class="product-img" src="http://pp3tibsrj.bkt.clouddn.com/litz-bg.png" alt="LITZ Wire / Silk Served LITZ Wire">
+        <img class="product-img" src="{{asset('img/component/product/litz-bg.png')}}" alt="LITZ Wire / Silk Served LITZ Wire">
     </div>
 </section>
 

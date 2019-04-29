@@ -3,17 +3,11 @@
 */
 .quality-border {
     height: 12rem;
-    border: 8px solid #707070;
+    border: 0.5rem solid #707070;
     border-radius: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-@media(max-width:768px) {
-    .quality-border {
-        height: auto;
-    }
 }
 
 /* 
@@ -21,7 +15,7 @@
 */
 
 .history-section-bg-img {
-    background-image: url("http://pp3tibsrj.bkt.clouddn.com/factory@2x.png");
+    background-image: url("http://pqpazom17.bkt.clouddn.com/factory.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
@@ -32,26 +26,19 @@
     text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
-.history-text-line-height {
-    line-height: 5rem;
+.history-text-margin {
+    margin: 2rem 0;
 }
-
-@media(min-width:1152px) {
-    .history-text {
-        padding-left: 8rem;
-    }
-}
-
 
 /* 
-    services sacc
+    services sass
 */
-.services-section {
-    margin-top: 6rem;
-}
 
+@media (max-width: 768px) {
+    .quality-border {
+        height: auto;
+    }
 
-@media(max-width:768px) {
     .services-description-small-text {
         font-size: 2rem;
     }
@@ -61,7 +48,10 @@
     }
 }
 
-@media(min-width:1152px) {
+@media (min-width: 1152px) {
+    .width-max-content {
+        width: max-content;
+    }
     .services-description-small-text {
         font-size: 3rem;
     }

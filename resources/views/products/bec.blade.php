@@ -6,8 +6,12 @@
 
 @section('content')
 <section id="bec-page">
-    <section class="">
-        <img src="https://via.placeholder.com/1920x1008" alt="">
+    <section class="hero is-light is-large">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">bec - Top large picture</h1>
+            </div>
+        </div>
     </section>
 
     <section class="section is-medium container">
@@ -16,13 +20,13 @@
         </section>
         <section class="section tile">
             <div class="">
-                <img class="" src="http://pp3tibsrj.bkt.clouddn.com/sw-red-thick-left45.jpg" alt="Bonding Enameled Cooper Wire">
+                <img class="" src="{{asset('img/component/product-detail/bec/sw-red-thick-left45.jpg')}}" alt="Bonding Enameled Cooper Wire">
             </div>
             <div class="">
-                <img class="" src="http://pp3tibsrj.bkt.clouddn.com/sw-red-thick-cover.jpg" alt="Bonding Enameled Cooper Wire">
+                <img class="" src="{{asset('img/component/product-detail/bec/sw-red-thick-cover.jpg')}}" alt="Bonding Enameled Cooper Wire">
             </div>
             <div class="">
-                <img class="" src="http://pp3tibsrj.bkt.clouddn.com/sw-red-thick-right45.jpg" alt="Bonding Enameled Cooper Wire">
+                <img class="" src="{{asset('img/component/product-detail/bec/sw-red-thick-right45.jpg')}}" alt="Bonding Enameled Cooper Wire">
             </div>
         </section>
     </section>
@@ -132,7 +136,7 @@
     </section>
 
     <section class="container has-text-centered">
-        <img src="http://pp3tibsrj.bkt.clouddn.com/becSketchMap.png" alt="Bonding Enameled Cooper Wire">
+        <img src="{{asset('img/component/product-detail/bec/bec-structure.png')}}" alt="Bonding Enameled Cooper Wire">
     </section>
 </section>
 @endsection
