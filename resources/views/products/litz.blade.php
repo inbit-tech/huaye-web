@@ -6,8 +6,12 @@
 
 @section('content')
 <section id="bec-page">
-    <section class="">
-        <img src="https://via.placeholder.com/1920x1008" alt="LITZ Wire / Silk Served LITZ Wire">
+    <section class="hero is-light is-large">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">litz-page image</h1>
+            </div>
+        </div>
     </section>
 
     <section class="section is-medium container">
@@ -21,13 +25,13 @@
         </section>
         <section class="section tile">
             <div class="">
-                <img class="" src="http://pp3tibsrj.bkt.clouddn.com/lb-pink-thin-left45.jpg" alt="LITZ Wire / Silk Served LITZ Wire">
+                <img class="" src="{{asset('img/component/product-detail/litz/lb-pink-thin-left45.jpg')}}" alt="LITZ Wire / Silk Served LITZ Wire">
             </div>
             <div class="">
-                <img class="" src="http://pp3tibsrj.bkt.clouddn.com/lb-pink-thin-cover.jpg" alt="LITZ Wire / Silk Served LITZ Wire">
+                <img class="" src="{{asset('img/component/product-detail/litz/lb-pink-thin-cover.jpg')}}" alt="LITZ Wire / Silk Served LITZ Wire">
             </div>
             <div class="">
-                <img class="" src="http://pp3tibsrj.bkt.clouddn.com/lb-pink-thin-right45.jpg" alt="LITZ Wire / Silk Served LITZ Wire">
+                <img class="" src="{{asset('img/component/product-detail/litz/lb-pink-thin-right45.jpg')}}" alt="LITZ Wire / Silk Served LITZ Wire">
             </div>
         </section>
     </section>
@@ -121,7 +125,7 @@
     </section>
 
     <section class="container has-text-centered">
-        <img src="http://pp3tibsrj.bkt.clouddn.com/litzSketchMap.png" alt="LITZ Wire / Silk Served LITZ Wire">
+        <img src="{{asset('img/component/product-detail/litz/lita-structure.png')}}" src="http://pp3tibsrj.bkt.clouddn.com/litzSketchMap.png" alt="LITZ Wire / Silk Served LITZ Wire">
     </section>
 </section>
 @endsection
