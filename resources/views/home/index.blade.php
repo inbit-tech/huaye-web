@@ -10,8 +10,14 @@
 <section class="hero is-light is-large">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title">Huaye</h1>
-      <h2 class="subtitle">homepage - Top large picture</h2>
+        <div id="homepage-video">
+            <video src="http://pqpazom17.bkt.clouddn.com/testVideo.mp4"></video>
+        </div>
+        <div id="typed-strings">
+            <p>Typed.js is a <strong>JavaScript</strong> library.</p>
+            <p>It <em>types</em> out sentences.</p>
+        </div>
+        <span id="typed"></span>
     </div>
   </div>
 </section>
