@@ -13905,7 +13905,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var typed_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(typed_js__WEBPACK_IMPORTED_MODULE_0__);
 
 var typed = new typed_js__WEBPACK_IMPORTED_MODULE_0___default.a('#typed', {
-  stringsElement: '#typed-strings'
+  stringsElement: '#typed-strings',
+  typeSpeed: 50,
+  backSpeed: 0,
+  backDelay: 500,
+  startDelay: 1000
 });
 
 /***/ }),

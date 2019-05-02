@@ -8,18 +8,17 @@
 
 {{-- Welcome Image Slider --}}
 <section class="hero is-light is-large">
-  <div class="hero-body">
-    <div class="container">
-        <div id="homepage-video">
-            <video src="http://pqpazom17.bkt.clouddn.com/testVideo.mp4"></video>
+    <div class="home-video-section">
+        <video  loop controls id="home-video-content">
+            <source src="http://pqpazom17.bkt.clouddn.com/testVideo.mp4">
+        </video>
+        <div class="has-text-white-bis is-size-1 is-size-5-mobile has-text-weight-bold has-text-centered video-text">
+            <div id="typed-strings">
+                <p>HUAYE TECHNOLOGY<br>Dongguan China</p>
+            </div>
+            <span id="typed"></span>
         </div>
-        <div id="typed-strings">
-            <p>Typed.js is a <strong>JavaScript</strong> library.</p>
-            <p>It <em>types</em> out sentences.</p>
-        </div>
-        <span id="typed"></span>
     </div>
-  </div>
 </section>
 
 {{-- Our Products --}}
