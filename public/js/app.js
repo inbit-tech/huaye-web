@@ -13907,9 +13907,9 @@ __webpack_require__.r(__webpack_exports__);
 // typed.js will throw error and stop other code running.
 //  GitHub issues  -> https://github.com/mattboldt/typed.js/issues/417
 
-var home_text_el = document.getElementById('typed');
+var homepage_typed_targetId = document.getElementById('typed');
 
-if (home_text_el) {
+if (homepage_typed_targetId) {
   var typed = new typed_js__WEBPACK_IMPORTED_MODULE_0___default.a('#typed', {
     stringsElement: '#typed-strings',
     typeSpeed: 50,
