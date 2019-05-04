@@ -13903,14 +13903,21 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var typed_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! typed.js */ "./node_modules/typed.js/lib/typed.js");
 /* harmony import */ var typed_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(typed_js__WEBPACK_IMPORTED_MODULE_0__);
+ // typed.js has a problem that current page must be have target id, if not , 
+// typed.js will throw error and stop other code running.
+//  GitHub issues  -> https://github.com/mattboldt/typed.js/issues/417
 
-var typed = new typed_js__WEBPACK_IMPORTED_MODULE_0___default.a('#typed', {
-  stringsElement: '#typed-strings',
-  typeSpeed: 50,
-  backSpeed: 0,
-  backDelay: 500,
-  startDelay: 1000
-});
+var home_text_el = document.getElementById('typed');
+
+if (home_text_el) {
+  var typed = new typed_js__WEBPACK_IMPORTED_MODULE_0___default.a('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 50,
+    backSpeed: 0,
+    backDelay: 500,
+    startDelay: 1000
+  });
+}
 
 /***/ }),
 
@@ -13921,22 +13928,20 @@ var typed = new typed_js__WEBPACK_IMPORTED_MODULE_0___default.a('#typed', {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-window.init = function () {
-  var map = new AMap.Map('container', {
-    center: [114.005383, 22.893244],
-    zoom: 13
-  });
-  var marker = new AMap.Marker({
-    position: new AMap.LngLat(114.005383, 22.893244),
-    title: '裕元工业园精成二路灵狮小镇C栋三层C313-316号'
-  });
-  marker.setLabel({
-    offset: new AMap.Pixel(20, -10),
-    content: '<div style="font-size:16px">精成二路灵狮小镇C栋三层C313-316号</div>',
-    direction: 'top'
-  });
-  map.add(marker);
-};
+var map = new AMap.Map('container', {
+  center: [114.005383, 22.893244],
+  zoom: 13
+});
+var marker = new AMap.Marker({
+  position: new AMap.LngLat(114.005383, 22.893244),
+  title: '裕元工业园精成二路灵狮小镇C栋三层C313-316号'
+});
+marker.setLabel({
+  offset: new AMap.Pixel(20, -10),
+  content: '<div style="font-size:16px">精成二路灵狮小镇C栋三层C313-316号</div>',
+  direction: 'top'
+});
+map.add(marker);
 
 /***/ }),
 
