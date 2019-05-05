@@ -9,9 +9,11 @@
 {{-- Welcome Image Slider --}}
 <section class="hero is-light is-large">
     <div class="home-video-section">
-        <video autoplay loop controls id="home-video-content">
-            <source src="http://pqpazom17.bkt.clouddn.com/testVideo.mp4">
-        </video>
+        <div class="video-opacity">
+            <video autoplay loop controls id="home-video-content">
+                <source src="http://pqpazom17.bkt.clouddn.com/testVideo.mp4">
+            </video>
+        </div>
         <div class="has-text-white-bis is-size-1 is-size-5-mobile has-text-weight-bold has-text-centered video-text">
             <div id="typed-strings">
                 <p>HUAYE TECHNOLOGY<br>Dongguan China</p>
