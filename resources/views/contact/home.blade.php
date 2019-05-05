@@ -93,6 +93,6 @@
     
     {{-- map API --}}
     {{-- this div's id must be "container" --}}
-    <div id="container"></div> 
+    <div id="container"></div>
 </section>
 @endsection
