@@ -69,8 +69,8 @@
     <div class="container">
         <h1 class="title is-size-2 has-text-centered has-text-weight-bold">Our Team</h1>
     </div>
-    <figure class="image">
-        <img src="{{asset('img/component/home/our-team.png')}}" alt="huaye team">
+    <figure class="team-bg-section image">
+        <img src="{{asset('img/component/home/team-member-cover.png')}}" alt="huaye team">
     </figure>
 </section>
 

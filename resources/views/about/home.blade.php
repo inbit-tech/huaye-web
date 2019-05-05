@@ -7,11 +7,9 @@
 @section('content')
 <section id="about-us">
     <section class="hero is-light is-large">
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title">about - Top large picture</h1>
-            </div>
-        </div>
+        <figure class="image top-img">
+            <img src="{{asset('img/component/about/about-us-cover.jpg')}}" alt="huaye about us">
+        </figure>
     </section>
 
     <section class="section">
