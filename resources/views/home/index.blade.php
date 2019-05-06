@@ -10,7 +10,7 @@
 <section class="hero is-light is-large">
     <div class="home-video-section">
         <div class="video-opacity">
-            <video autoplay loop controls id="home-video-content">
+            <video id="home-video-content" autoplay loop controls poster="{{asset('img/component/home/video-poster.jpg')}}">
                 <source src="http://pqpazom17.bkt.clouddn.com/testVideo.mp4">
             </video>
         </div>
@@ -55,16 +55,6 @@
         </div>
     </div>
 </section>
-
-{{-- Production Line Video --}}
-{{-- <section class="hero is-light is-large">
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="title">Production Line</h1>
-            <h2 class="subtitle">Video</h2>
-        </div>
-    </div>
-</section> --}}
 
 {{-- Team --}}
 <section class="section">
