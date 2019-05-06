@@ -17,30 +17,33 @@
         <div class="container level tile align-items-flex-start">
             <div class="level-item has-text-centered tile is-vertical">
                 <div>
-                    <img class="image" src="{{asset('img/component/contact/icon_phone.png')}}" alt="Phone">
+                    <a href="tel:0769-82601699" >
+                        <img class="image contact-info-img" src="{{asset('img/component/contact/icon_phone.png')}}" alt="Phone">
+                    </a>
                 </div>
                 <div class="section">   
                     <a href="tel:0769-82601699" >
                         <p>联系电话：0769-82601699</p>
                     </a>
-                    <a href="tel:0769-82236803" >
-                        <p>企业传真：0769-82236803</p>
-                    </a>
                 </div>
             </div>
             <div class="level-item has-text-centered tile is-vertical">
                 <div>
-                    <img class="image" src="{{asset('img/component/contact/icon_addr.png')}}" alt="Address">
+                    <a href="#container">
+                        <img class="image contact-info-img" src="{{asset('img/component/contact/icon_addr.png')}}" alt="Address">
+                    </a>
                 </div>
                 <div class="section">    
-                    <a href="#map">
+                    <a href="#container">
                         <p>广东省东莞市黄江镇裕元工业园精成二路灵狮小镇C栋三层C313-316号</p>
                     </a>
                 </div>
             </div>
             <div class="level-item has-text-centered tile is-vertical">
                 <div>
-                    <img class="image" src="{{asset('img/component/contact/icon_email.png')}}" alt="eMail">
+                    <a href="mailto:huaye@huaye-dg.com">
+                        <img class="image contact-info-img" src="{{asset('img/component/contact/icon_email.png')}}" alt="eMail">
+                    </a>
                 </div>
                 <div class="section">
                     <a href="mailto:huaye@huaye-dg.com">
