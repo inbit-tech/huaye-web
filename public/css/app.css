@@ -7461,7 +7461,7 @@ a.navbar-item.is-active,
 }
 
 .navbar-item img {
-  max-height: 1.75rem;
+  max-height: 3.25rem;
 }
 
 .navbar-item.has-dropdown {
@@ -11406,11 +11406,6 @@ label.panel-block:hover {
 .footer {
   background-color: #363636;
   padding: 1.3rem;
-}
-
-.has-home-hero-bg {
-  background: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/factory-line.jpg") no-repeat center center fixed;
-  background-size: cover;
 }
 
 .home-video-section {
