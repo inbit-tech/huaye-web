@@ -40,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <section class="container width-max-content">
+        <div class="section container width-max-content">
             <div class="has-text-left">
                 <p class="is-size-1 has-text-black-bis has-text-weight-bold ">
                     <span>严格的品质控制标准及逐轴检验的控制手段，</span>
@@ -48,13 +48,13 @@
                     <span>严保产品的高度一致性</span>
                 </p>
             </div>
-        </section>
+        </div>
     </section>
 
     
 
     <section class="section is-medium history-padding history-section-bg-img has-text-centered">
-        <h1 class="has-text-centered is-size-4 has-text-white history-text-shadow history-text-margin">公 司 概 况</h1>
+        <h1 class="has-text-centered is-size-3 has-text-white history-text-shadow history-text-margin">公 司 概 况</h1>
         <div class="section container level tile is-vertical width-max-content">
             <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-margin">2003 . 12 . 08 - 深圳市华冶电工材料有限公司成立</p>
             <p class="has-text-left level-left is-size-4 has-text-white history-text-shadow history-text-margin">2004 . 03 . 12 - 深圳市华冶电工材料有限公司开工投产</p>
