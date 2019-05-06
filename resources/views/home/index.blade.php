@@ -9,9 +9,11 @@
 {{-- Welcome Image Slider --}}
 <section class="hero is-light is-large">
     <div class="home-video-section">
-        <video autoplay loop controls id="home-video-content">
-            <source src="http://pqpazom17.bkt.clouddn.com/testVideo.mp4">
-        </video>
+        <div class="video-opacity">
+            <video autoplay loop controls id="home-video-content">
+                <source src="http://pqpazom17.bkt.clouddn.com/testVideo.mp4">
+            </video>
+        </div>
         <div class="has-text-white-bis is-size-1 is-size-5-mobile has-text-weight-bold has-text-centered video-text">
             <div id="typed-strings">
                 <p>HUAYE TECHNOLOGY<br>Dongguan China</p>
@@ -69,8 +71,8 @@
     <div class="container">
         <h1 class="title is-size-2 has-text-centered has-text-weight-bold">Our Team</h1>
     </div>
-    <figure class="image">
-        <img src="{{asset('img/component/home/our-team.png')}}" alt="huaye team">
+    <figure class="team-bg-section image">
+        <img src="{{asset('img/component/home/team-member-cover.png')}}" alt="huaye team">
     </figure>
 </section>
 

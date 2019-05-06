@@ -1,3 +1,8 @@
-
-
-
+.side-bar-text {
+ @include side-bar-text();
+}
+@media(min-width:1152px) {
+    .thead-width-desktop{
+        @include thead-width-desktop();
+    }
+}

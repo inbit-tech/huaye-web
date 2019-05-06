@@ -1,3 +1,6 @@
+.top-img{
+    @include top-img();
+}
 /* 
     quality sass
 */
@@ -15,7 +18,7 @@
 */
 
 .history-section-bg-img {
-    background-image: url("http://pqpazom17.bkt.clouddn.com/factory.jpg");
+    background-image: url("http://pqpazom17.bkt.clouddn.com/factory-cover.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;

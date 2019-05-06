@@ -1,13 +1,22 @@
 .home-video-section{
     position: relative;
 }
+.video-opacity{
+    opacity: 0.8;
+}
 #home-video-content {
     width: 100%;
 }
 .video-text {
     position: absolute;
-    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+}
+.team-bg-section{
+    background-image: url("http://pqpazom17.bkt.clouddn.com/team-bg-trans.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
 }

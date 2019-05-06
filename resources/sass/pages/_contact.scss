@@ -1,6 +1,12 @@
+.top-img{
+    @include top-img();
+}
+// contact-us info style
 .align-items-flex-start {
     align-items: flex-start;
 }
+
+// map style
 #container {
     width: 100%;
     height: 500px;
