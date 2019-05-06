@@ -77,9 +77,9 @@
             <p class="has-text-centered is-size-3 has-text-grey-light">我们尊崇真诚、团结、信任、团结、创造、分享<br>尊重客户体验，适应客户需求，快速响应，定制化生产</p> 
         </div>
 
-        <div class="section container">
+        <div class="section container team-advantages-margin">
             <div class="tile is-ancestor">
-                <div class="tile is-vertical is-8">
+                <div class="tile is-vertical is-7">
                     <div class="tile is-parent">
                         <article class="tile is-child has-text-left">
                             <p class="services-description-big-text has-text-black has-text-weight-bold">专业</p>
@@ -95,7 +95,7 @@
             </div>
         </div>
 
-        <div class="section container">
+        <div class="section container team-advantages-margin">
             <div class="tile is-ancestor">
                 <div class="tile is-vertical is-5">
                     <div class="tile is-parent">
@@ -104,7 +104,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="tile is-parent is-8">
+                <div class="tile is-parent is-7">
                     <article class="tile is-child has-text-right">
                         <p class="services-description-big-text has-text-black has-text-weight-bold">快速</p>
                         <p class="services-description-small-text has-text-grey">响应机制，提供效率优势</p>
@@ -113,9 +113,9 @@
             </div>
         </div>
 
-        <div class="section container">
+        <div class="section container team-advantages-margin">
             <div class="tile is-ancestor">
-                <div class="tile is-vertical is-8">
+                <div class="tile is-vertical is-7">
                     <div class="tile is-parent">
                         <article class="tile is-child has-text-left">
                             <p class="services-description-big-text has-text-black has-text-weight-bold">快速</p>
@@ -131,7 +131,7 @@
             </div>
         </div>
 
-        <div class="section container">
+        <div class="section container team-advantages-margin">
             <div class="tile is-ancestor">
                 <div class="tile is-vertical is-5">
                     <div class="tile is-parent">
@@ -140,7 +140,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="tile is-parent is-8">
+                <div class="tile is-parent is-7">
                     <article class="tile is-child has-text-right">
                         <p class="services-description-big-text has-text-black has-text-weight-bold">协助</p>
                         <p class="services-description-small-text has-text-grey">客户提供线材应用解决方案</p>
@@ -149,9 +149,9 @@
             </div>
         </div>
 
-        <div class="section container">
+        <div class="section container team-advantages-margin">
             <div class="tile is-ancestor">
-                <div class="tile is-vertical is-8">
+                <div class="tile is-vertical is-7">
                     <div class="tile is-parent">
                         <article class="tile is-child has-text-left">
                             <p class="services-description-big-text has-text-black has-text-weight-bold">小批量</p>

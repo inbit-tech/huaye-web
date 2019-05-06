@@ -11494,9 +11494,9 @@ label.panel-block:hover {
   margin: 2rem 0;
 }
 
-/* 
-    services sass
-*/
+.team-advantages-margin {
+  margin: 4rem auto;
+}
 
 @media (max-width: 768px) {
   .quality-border {
