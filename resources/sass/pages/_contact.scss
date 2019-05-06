@@ -1,5 +1,7 @@
 .top-img{
-    @include top-img();
+    max-height: 1000px;
+    width: 100%;
+    overflow: hidden;
 }
 // contact-us info style
 .align-items-flex-start {

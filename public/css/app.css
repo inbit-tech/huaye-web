@@ -11470,12 +11470,12 @@ label.panel-block:hover {
   overflow: hidden;
 }
 
-/* 
-    quality sass
-*/
-
 .quality-border {
-  height: 12rem;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  margin: 0 auto;
+  padding: 2.5rem;
   border: 0.5rem solid #707070;
   border-radius: 2.5rem;
   display: flex;
@@ -11508,14 +11508,6 @@ label.panel-block:hover {
 }
 
 @media (max-width: 768px) {
-  .quality-border {
-    height: auto;
-  }
-
-  .services-description-small-text {
-    font-size: 2rem;
-  }
-
   .services-description-big-text {
     font-size: 4rem;
   }
@@ -11526,10 +11518,6 @@ label.panel-block:hover {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-  }
-
-  .services-description-small-text {
-    font-size: 3rem;
   }
 
   .services-description-big-text {

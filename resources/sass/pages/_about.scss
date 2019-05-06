@@ -1,18 +1,19 @@
-.top-img{
-    @include top-img();
+.top-img {
+    max-height: 1000px;
+    width: 100%;
+    overflow: hidden;
 }
-/* 
-    quality sass
-*/
+
 .quality-border {
-    height: 12rem;
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 2.5rem;
     border: 0.5rem solid #707070;
     border-radius: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 /* 
     history sass
 */
@@ -33,19 +34,11 @@
     margin: 2rem 0;
 }
 
-.team-advantages-margin{
+.team-advantages-margin {
     margin: 4rem auto;
 }
 
 @media (max-width: 768px) {
-    .quality-border {
-        height: auto;
-    }
-
-    .services-description-small-text {
-        font-size: 2rem;
-    }
-
     .services-description-big-text {
         font-size: 4rem;
     }
@@ -54,9 +47,6 @@
 @media (min-width: 1152px) {
     .width-max-content {
         width: max-content;
-    }
-    .services-description-small-text {
-        font-size: 3rem;
     }
 
     .services-description-big-text {

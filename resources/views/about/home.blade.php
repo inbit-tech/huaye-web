@@ -12,53 +12,46 @@
         </figure>
     </section>
 
-    <section class="section">
-        <div class="container">
-            <p class="has-text-centered is-size-3 has-text-grey-light">品 质 保 障</p>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="columns">
-            <div class="column is-1"></div>
-            <div class="column is-2">
+    <section class="section is-medium container">
+        <div class="section columns">
+            <div class="column">
                 <div class="quality-border">
                     <p class="is-size-2 has-text-grey has-text-weight-bold">信念</p>
                 </div>
             </div>
-            <div class="column is-2">
+            <div class="column">
                 <div class="quality-border">
                     <p class="is-size-2 has-text-grey has-text-weight-bold">体系</p>
                 </div>
             </div>
-            <div class="column is-2">
+            <div class="column">
                 <div class="quality-border">
                     <p class="is-size-2 has-text-grey has-text-weight-bold">硬件</p>
                 </div>
             </div>
-            <div class="column is-2">
+            <div class="column">
                 <div class="quality-border">
                     <p class="is-size-2 has-text-grey has-text-weight-bold">保障</p>
                 </div>
             </div>
-            <div class="column is-2">
+            <div class="column">
                 <div class="quality-border">
                     <p class="is-size-2 has-text-grey has-text-weight-bold">控制</p>
                 </div>
             </div>
-            <div class="column is-1"></div> 
         </div>
+        <section class="container width-max-content">
+            <div class="has-text-left">
+                <p class="is-size-1 has-text-black-bis has-text-weight-bold ">
+                    <span>严格的品质控制标准及逐轴检验的控制手段，</span>
+                    <br>
+                    <span>严保产品的高度一致性</span>
+                </p>
+            </div>
+        </section>
     </section>
 
-    <section class="section container">
-        <div class="has-text-left">
-            <p class="is-size-1 has-text-black-bis has-text-weight-bold">
-                <span>严格的品质控制标准及逐轴检验的控制手段，</span>
-                <br>
-                <span>严保产品的高度一致性</span>
-            </p>
-        </div>
-    </section>
+    
 
     <section class="section is-medium history-padding history-section-bg-img has-text-centered">
         <h1 class="has-text-centered is-size-4 has-text-white history-text-shadow history-text-margin">公 司 概 况</h1>
@@ -83,7 +76,7 @@
                     <div class="tile is-parent">
                         <article class="tile is-child has-text-left">
                             <p class="services-description-big-text has-text-black has-text-weight-bold">专业</p>
-                            <p class="services-description-small-text has-text-grey">定制化生产，满足特殊产品需求</p>
+                            <p class="is-size-1 is-size-3-mobile has-text-grey">定制化生产，满足特殊产品需求</p>
                         </article>
                     </div>
                 </div>
@@ -107,7 +100,7 @@
                 <div class="tile is-parent is-7">
                     <article class="tile is-child has-text-right">
                         <p class="services-description-big-text has-text-black has-text-weight-bold">快速</p>
-                        <p class="services-description-small-text has-text-grey">响应机制，提供效率优势</p>
+                        <p class="is-size-1 is-size-3-mobile has-text-grey">响应机制，提供效率优势</p>
                     </article>
                 </div>
             </div>
@@ -119,7 +112,7 @@
                     <div class="tile is-parent">
                         <article class="tile is-child has-text-left">
                             <p class="services-description-big-text has-text-black has-text-weight-bold">快速</p>
-                            <p class="services-description-small-text has-text-grey">样品模式，降低客户研发成本</p>
+                            <p class="is-size-1 is-size-3-mobile has-text-grey">样品模式，降低客户研发成本</p>
                         </article>
                     </div>
                 </div>
@@ -143,7 +136,7 @@
                 <div class="tile is-parent is-7">
                     <article class="tile is-child has-text-right">
                         <p class="services-description-big-text has-text-black has-text-weight-bold">协助</p>
-                        <p class="services-description-small-text has-text-grey">客户提供线材应用解决方案</p>
+                        <p class="is-size-1 is-size-3-mobile has-text-grey">客户提供线材应用解决方案</p>
                     </article>
                 </div>
             </div>
@@ -155,7 +148,7 @@
                     <div class="tile is-parent">
                         <article class="tile is-child has-text-left">
                             <p class="services-description-big-text has-text-black has-text-weight-bold">小批量</p>
-                            <p class="services-description-small-text has-text-grey">品种丰富，快速精准交付</p>
+                            <p class="is-size-1 is-size-3-mobile has-text-grey">品种丰富，快速精准交付</p>
                         </article>
                     </div>
                 </div>
