@@ -74,90 +74,62 @@
     <div class="container">
         <div class="columns is-multiline is-vcentered has-text-centered">
             <div class="column">
-                <figure class="">
-                    <img src="{{asset('img/clients/client-01.png')}}" alt="huaye-patents">
-                </figure>
+                <img src="{{asset('img/clients/client-01.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
-                <figure class="">
-                    <img src="{{asset('img/clients/client-02.png')}}" alt="huaye-patents">
-                </figure>
+                <img src="{{asset('img/clients/client-02.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
-                <figure class="">
-                    <img src="{{asset('img/clients/client-03.png')}}" alt="huaye-patents">
-                </figure>
+                <img src="{{asset('img/clients/client-03.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
-                <figure class="">
-                    <img src="{{asset('img/clients/client-04.png')}}" alt="huaye-patents">
-                </figure>
+                <img src="{{asset('img/clients/client-04.png')}}" alt="huaye-patents">
+            </div>
+            <div class="column">
+                <img src="{{asset('img/clients/client-05.png')}}" alt="huaye-patents">
+            </div>
+            <div class="column">
+                <img src="{{asset('img/clients/client-06.png')}}" alt="huaye-patents">
+            </div>        
+        </div>
+        <div class="columns is-multiline is-vcentered has-text-centered">
+            <div class="column">
+                <img src="{{asset('img/clients/client-07.png')}}" alt="huaye-patents">
+            </div>
+            <div class="column">
+                <img src="{{asset('img/clients/client-08.png')}}" alt="huaye-patents">
+            </div>
+            <div class="column">
+                <img src="{{asset('img/clients/client-09.png')}}" alt="huaye-patents">
+            </div>
+            <div class="column">
+                <img src="{{asset('img/clients/client-10.png')}}" alt="huaye-patents">
+            </div>          
+            <div class="column">
+                <img src="{{asset('img/clients/client-11.png')}}" alt="huaye-patents">
+            </div>  
+            <div class="column">
+                <img src="{{asset('img/clients/client-12.png')}}" alt="huaye-patents">
             </div>
         </div>
         <div class="columns is-multiline is-vcentered has-text-centered">
             <div class="column">
-                <figure class="">
-                    <img src="{{asset('img/clients/client-05.png')}}" alt="huaye-patents">
-                </figure>
+                <img src="{{asset('img/clients/client-13.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
-                <figure class="">
-                    <img src="{{asset('img/clients/client-06.png')}}" alt="huaye-patents">
-                </figure>
+                <img src="{{asset('img/clients/client-14.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
-                <figure class="">
-                    <img src="{{asset('img/clients/client-07.png')}}" alt="huaye-patents">
-                </figure>
+                <img src="{{asset('img/clients/client-15.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
-                <figure class="">
-                    <img class="is-square" src="{{asset('img/clients/client-08.png')}}" alt="huaye-patents">
-                </figure>
-            </div>
-        </div>
-        <div class="columns is-multiline is-vcentered has-text-centered">
-            <div class="column">
-                <figure class="">
-                    <img class="is-square" src="{{asset('img/clients/client-09.png')}}" alt="huaye-patents">
-                </figure>
+                <img src="{{asset('img/clients/client-16.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
-                <figure class="">
-                    <img class="is-square" src="{{asset('img/clients/client-10.png')}}" alt="huaye-patents">
-                </figure>
+                <img src="{{asset('img/clients/client-17.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
-                <figure class="">
-                    <img class="is-square" src="{{asset('img/clients/client-11.png')}}" alt="huaye-patents">
-                </figure>
-            </div>
-            <div class="column">
-                <figure class="">
-                    <img class="is-square" src="{{asset('img/clients/client-12.png')}}" alt="huaye-patents">
-                </figure>
-            </div>
-        </div>
-        <div class="columns is-multiline is-vcentered has-text-centered">
-            <div class="column">
-                <figure class="">
-                    <img class="is-square" src="{{asset('img/clients/client-13.png')}}" alt="huaye-patents">
-                </figure>
-            </div>
-            <div class="column">
-                <figure class="">
-                    <img class="is-square" src="{{asset('img/clients/client-14.png')}}" alt="huaye-patents">
-                </figure>
-            </div>
-            <div class="column">
-                <figure class="">
-                    <img class="is-square" src="{{asset('img/clients/client-15.png')}}" alt="huaye-patents">
-                </figure>
-            </div>
-            <div class="column">
-                <figure class="">
-                    <img class="is-square" src="{{asset('img/clients/client-16.png')}}" alt="huaye-patents">
-                </figure>
+                <img src="{{asset('img/clients/client-18.png')}}" alt="huaye-patents">
             </div>
         </div>
     </div>
