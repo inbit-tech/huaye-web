@@ -78,10 +78,10 @@
 
 {{-- Our Patents --}}
 <section class="section is-medium">
-    <div class="container">
+    <div class="section container">
         <h1 class="title is-size-2 has-text-centered has-text-weight-bold">Our Clients</h1>
     </div>
-    <div class="section is-medium container">
+    <div class="container">
         <div class="columns is-multiline is-vcentered has-text-centered">
             <div class="column">
                 <figure class="">
