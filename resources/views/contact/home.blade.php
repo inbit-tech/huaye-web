@@ -76,7 +76,7 @@
                     <textarea class="textarea" name="question" placeholder="Please enter your need" id="form-question"></textarea>
                 </div>
                 
-                <div class="field has-text-centered form-button">
+                <div class="section field has-text-centered form-button">
                     <button href="mail/send" class="button is-info is-medium is-outlined"" type="submit" value="Submit input" id="submit-form">Send Message</button>
                 </div>
 
