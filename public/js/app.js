@@ -13928,20 +13928,52 @@ if (homepage_typed_targetId) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var map = new AMap.Map('container', {
-  center: [114.005383, 22.893244],
-  zoom: 13
+var map_id = document.getElementById('container');
+
+if (map_id) {
+  var map = new AMap.Map('container', {
+    center: [114.005383, 22.893244],
+    zoom: 13
+  });
+  var marker = new AMap.Marker({
+    position: new AMap.LngLat(114.005383, 22.893244),
+    title: '裕元工业园精成二路灵狮小镇C栋三层C313-316号'
+  });
+  marker.setLabel({
+    offset: new AMap.Pixel(20, -10),
+    content: '<div style="font-size:16px">精成二路灵狮小镇C栋三层C313-316号</div>',
+    direction: 'top'
+  });
+  map.add(marker);
+}
+
+/***/ }),
+
+/***/ "./resources/js/navbar.js":
+/*!********************************!*\
+  !*** ./resources/js/navbar.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Get all "navbar-burger" elements
+  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0); // Check if there are any navbar burgers
+
+  if ($navbarBurgers.length > 0) {
+    // Add a click event on each of them
+    $navbarBurgers.forEach(function (el) {
+      el.addEventListener('click', function () {
+        // Get the target from the "data-target" attribute
+        var target = el.dataset.target;
+        var $target = document.getElementById(target); // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+      });
+    });
+  }
 });
-var marker = new AMap.Marker({
-  position: new AMap.LngLat(114.005383, 22.893244),
-  title: '裕元工业园精成二路灵狮小镇C栋三层C313-316号'
-});
-marker.setLabel({
-  offset: new AMap.Pixel(20, -10),
-  content: '<div style="font-size:16px">精成二路灵狮小镇C栋三层C313-316号</div>',
-  direction: 'top'
-});
-map.add(marker);
 
 /***/ }),
 
@@ -13957,15 +13989,16 @@ map.add(marker);
 /***/ }),
 
 /***/ 0:
-/*!**************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/js/hoempage.js ./resources/js/map.js ./resources/sass/app.scss ***!
-  \**************************************************************************************************************/
+/*!***************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/js/hoempage.js ./resources/js/map.js ./resources/js/navbar.js ./resources/sass/app.scss ***!
+  \***************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Users/vayne/dev/huaye-web/resources/js/app.js */"./resources/js/app.js");
 __webpack_require__(/*! /Users/vayne/dev/huaye-web/resources/js/hoempage.js */"./resources/js/hoempage.js");
 __webpack_require__(/*! /Users/vayne/dev/huaye-web/resources/js/map.js */"./resources/js/map.js");
+__webpack_require__(/*! /Users/vayne/dev/huaye-web/resources/js/navbar.js */"./resources/js/navbar.js");
 module.exports = __webpack_require__(/*! /Users/vayne/dev/huaye-web/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
