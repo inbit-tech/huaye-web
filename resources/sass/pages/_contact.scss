@@ -1,11 +1,23 @@
 .top-img{
-    @include top-img();
+    max-height: 1000px;
+    width: 100%;
+    overflow: hidden;
 }
 // contact-us info style
 .align-items-flex-start {
     align-items: flex-start;
 }
+.contact-info-img{
+    width: 100px;
+    height: auto;
+}
+.contact-info-img:hover {
+  transform: scale(1.02) translateY(-4px);
+}
 
+.contact-info-img:active {
+  transform: scale(0.98) translateY(-2px);
+}
 // map style
 #container {
     width: 100%;

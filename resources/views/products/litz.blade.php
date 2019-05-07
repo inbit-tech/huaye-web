@@ -36,9 +36,9 @@
         </section>
     </section>
 
-    <section class="has-text-centered level is-hidden-touch">
-        <div class="level-left">
-            <p class="has-background-link has-text-white is-size-3 side-bar-text">型号标识</p>
+    <section class="section">
+        <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
+            <p>型号标识</p>
         </div>
     </section>
 
@@ -118,9 +118,9 @@
         </table>
     </section>
 
-    <section class="has-text-centered level is-hidden-touch">
-        <div class="level-left">
-            <p class="has-background-link has-text-white is-size-3 side-bar-text">结构示意图</p>
+    <section class="section">
+        <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
+            <p>结构示意图</p>
         </div>
     </section>
 
