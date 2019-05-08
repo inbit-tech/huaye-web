@@ -6,15 +6,15 @@
 
 @section('content')
 
-{{-- Welcome Image Slider --}}
-<section class="hero is-light is-large with-video-bg">
+{{-- Welcome Video --}}
+<section class="hero is-light is-large with-video-bg is-marginless is-paddingless has-text-centered">
     <div class="hero-video">
         <video poster="{{asset('img/component/home/video-poster.jpg')}}" playsinline autoplay muted loop>
             <source src="{{asset('video/welcome.mp4')}}" type="video/mp4">
         </video>
     </div>
-    <div class="hero-body is-large">
-        <div class="container is-size-1 is-size-5-mobile has-text-centered use-noto-900 has-text-white">
+    <div class="hero-body">
+        <div class="container is-size-1 is-size-5-mobile use-noto-900 has-text-white">
             <div id="typed-strings">
                 <p>@lang('home.welcome')</p>
                 <p>@lang('home.company')</p>
@@ -28,51 +28,66 @@
 </section>
 
 {{-- Our Products --}}
-<section class="section is-medium light-grey">
-    <div class="tile is-ancestor is-size-2">
-        <div class="tile is-parent">
-            <article class="tile is-child box has-text-centered">
-                <p class="title use-noto-900">@lang('navi.prod1')</p>
-                <figure class="image is-4by3">
-                    <img src="{{asset('img/component/product-detail/bec/sw-red-thick-horizon.jpg')}}" alt="Bonding Enameled Cooper Wire">
-                </figure>
-            </article>
+<section class="section">
+    <div class="columns">
+        {{-- Column 1 --}}
+        <div class="column container">
+            <div class="card">
+                <div class="card-content has-text-centered">
+                    <p class="title use-noto-900 is-size-2 has-text-grey-dark set-pad-top25">{{ __('Self Bonding Wire') }}</p>
+                    <p class="subtitle is-size-5 use-noto-500 has-text-centered set-pad-top25"><a href="/products/bec">{{ __('Learn More') }}</a></p>
+                </div>
+                <div class="card-image">
+                    <figure class="image is-3by2">
+                        <img src="{{asset('img/component/product-detail/bec/sw-red-thick-horizon.jpg')}}" alt="Placeholder image">
+                    </figure>
+                </div>
+            </div>
         </div>
-        <div class="tile is-parent has-text-centered">
-            <article class="tile is-child box">
-                <p class="title use-noto-900">@lang('navi.prod2')</p>
-                <figure class="image is-4by3">
-                    <img src="{{asset('img/component/product-detail/uht/lb-gold-thin-horizon.jpg')}}" alt="Ultra-High-Temperature Wire">
-                </figure>
-            </article>
+        {{-- Column 2 --}}
+        <div class="column">
+            <div class="card">
+                <div class="card-content has-text-centered">
+                    <p class="title use-noto-900 is-size-2 has-text-grey-dark set-pad-top25">{{ __('Ultra-High Temperature Wire') }}</p>
+                    <p class="subtitle is-size-5 use-noto-500 has-text-centered set-pad-top25"><a href="/products/uht">{{ __('Learn More') }}</a></p>
+                </div>
+                <div class="card-image">
+                    <figure class="image is-3by2">
+                        <img src="{{asset('img/component/product-detail/uht/lb-gold-thin-horizon.jpg')}}" alt="Placeholder image">
+                    </figure>
+                </div>
+            </div>
         </div>
-        <div class="tile is-parent has-text-centered">
-        <article class="tile is-child box">
-            <p class="title use-noto-900">@lang('navi.prod3')</p>
-            <figure class="image is-4by3">
-                <img src="{{asset('img/component/product-detail/litz/lb-pink-thin-horizon.jpg')}}" alt="LITZ Wire / Silk Served LITZ Wire">
-            </figure>
-        </article>
+        {{-- Column 3 --}}
+        <div class="column">
+            <div class="card">
+                <div class="card-content has-text-centered">
+                    <p class="title use-noto-900 is-size-2 has-text-grey-dark set-pad-top25">{{ __('LITZ Wire') }}</p>
+                    <p class="subtitle is-size-5 use-noto-500 has-text-centered set-pad-top25"><a href="products/litz">{{ __('Learn More') }}</a></p>
+                </div>
+                <div class="card-image">
+                    <figure class="image is-3by2">
+                        <img src="{{asset('img/component/product-detail/litz/lb-pink-thin-horizon.jpg')}}" alt="Placeholder image">
+                    </figure>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-{{-- Team --}}
-<section class="section">
-    <div class="container">
-        <h1 class="title is-size-1 has-text-centered use-noto-900">@lang('home.team')</h1>
-    </div>
+{{-- Our Team --}}
+<section class="section is-small">
     <figure class="team-bg-section image">
         <img src="{{asset('img/component/home/team-member-cover.png')}}" alt="huaye team">
     </figure>
 </section>
 
-{{-- Our Patents --}}
-<section class="section is-medium">
-    <div class="section container is-medium">
+{{-- Our Clients --}}
+<section class="section">
+    <div class="section is-medium">
         <h1 class="title is-size-1 has-text-centered use-noto-900">@lang('home.client')</h1>
     </div>
-    <div class="container">
+    <div class="section">
         <div class="columns is-multiline is-vcentered has-text-centered">
             <div class="column">
                 <img class="resize-smaller-52" src="{{asset('img/clients/client-01.png')}}" alt="huaye-patents">

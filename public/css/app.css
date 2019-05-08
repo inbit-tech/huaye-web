@@ -11461,6 +11461,10 @@ label.panel-block:hover {
   font-weight: 900;
 }
 
+.set-pad-top25 {
+  padding-top: 25px;
+}
+
 .is-size-6-5 {
   font-size: 0.9rem;
 }

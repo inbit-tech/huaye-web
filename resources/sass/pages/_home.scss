@@ -35,6 +35,10 @@
     @include noto-sans-900;
 }
 
+.set-pad-top25 {
+    @include pad-top-25;
+}
+
 .is-size-6-5 {
     font-size: .9rem;
 }
