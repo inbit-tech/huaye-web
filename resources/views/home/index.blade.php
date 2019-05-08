@@ -34,7 +34,7 @@
         <div class="column container">
             <div class="card">
                 <div class="card-content has-text-centered">
-                    <p class="title use-noto-900 is-size-2 has-text-grey-dark is-pad-top-25">{{ __('Self Bonding Wire') }}</p>
+                    <p class="title use-noto-900 is-size-2 has-text-black is-pad-top-25">{{ __('Self Bonding Wire') }}</p>
                     <p class="subtitle is-size-5 use-noto-500 has-text-centered is-pad-top-25"><a href="/products/bec">{{ __('Learn More') }}</a></p>
                 </div>
                 <div class="card-image">
@@ -48,7 +48,7 @@
         <div class="column">
             <div class="card">
                 <div class="card-content has-text-centered">
-                    <p class="title use-noto-900 is-size-2 has-text-grey-dark is-pad-top-25">{{ __('Ultra-High Temperature Wire') }}</p>
+                    <p class="title use-noto-900 is-size-2 has-text-black is-pad-top-25">{{ __('Ultra-High Temperature Wire') }}</p>
                     <p class="subtitle is-size-5 use-noto-500 has-text-centered is-pad-top-25"><a href="/products/uht">{{ __('Learn More') }}</a></p>
                 </div>
                 <div class="card-image">
@@ -62,7 +62,7 @@
         <div class="column">
             <div class="card">
                 <div class="card-content has-text-centered">
-                    <p class="title use-noto-900 is-size-2 has-text-grey-dark is-pad-top-25">{{ __('LITZ Wire') }}</p>
+                    <p class="title use-noto-900 is-size-2 has-text-black is-pad-top-25">{{ __('LITZ Wire') }}</p>
                     <p class="subtitle is-size-5 use-noto-500 has-text-centered is-pad-top-25"><a href="products/litz">{{ __('Learn More') }}</a></p>
                 </div>
                 <div class="card-image">
@@ -91,7 +91,7 @@
 {{-- Our Clients --}}
 <section class="section">
     <div class="section is-medium">
-        <h1 class="title is-size-1 has-text-centered use-noto-900">@lang('home.client')</h1>
+        <h1 class="title is-size-1 has-text-centered has-text-black use-noto-900">@lang('home.client')</h1>
     </div>
     <div class="section">
         <div class="columns is-multiline is-vcentered has-text-centered">

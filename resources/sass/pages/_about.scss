@@ -1,8 +1,25 @@
-.top-img {
-    max-height: 1000px;
-    width: 100%;
-    overflow: hidden;
+.contact-background-image {
+    position: relative;
+    background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/about-us-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.history-background-image {
+    position: relative;
+    background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/factory-cover.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
 
 .quality-border {
     max-width: max-content;
@@ -32,10 +49,6 @@
 
 .history-text-margin {
     margin: 2rem 0;
-}
-
-.team-advantages-margin {
-    margin: 2rem auto;
 }
 
 @media (max-width: 768px) {
