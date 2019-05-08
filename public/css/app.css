@@ -11450,6 +11450,10 @@ label.panel-block:hover {
   background-position: bottom center;
 }
 
+.use-font-noto {
+  font-family: "Noto Sans SC", sans-serif;
+}
+
 .is-size-6-5 {
   font-size: 0.9rem;
 }

@@ -12,7 +12,7 @@
 		</a>
 	</div>
 
-	<div id="navbarMenu" class="navbar-menu is-size-6-5 has-text-weight-semibold is-uppercase">
+	<div id="navbarMenu" class="navbar-menu is-size-6-5 is-uppercase use-font-noto">
 		<div class="navbar-start">
 			<div class="navbar-item has-dropdown is-hoverable">
 				<a  href="/products" class="navbar-link">@lang('navi.products')</a>

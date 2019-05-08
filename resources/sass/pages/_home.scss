@@ -25,6 +25,10 @@
     background-position: bottom center;
 }
 
+.use-font-noto {
+    @include noto-sans;
+}
+
 .is-size-6-5 {
     font-size: .9rem;
 }
