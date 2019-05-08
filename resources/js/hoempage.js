@@ -7,9 +7,9 @@ let homepage_typed_targetId = document.getElementById('typed');
 if (homepage_typed_targetId) {
     var typed = new Typed('#typed', {
         stringsElement: '#typed-strings',
-        typeSpeed: 10,
-        backSpeed: 0,
-        backDelay: 1000,
+        typeSpeed: 40,
+        backSpeed: 35,
+        backDelay: 500,
         startDelay: 1000
     });
 }

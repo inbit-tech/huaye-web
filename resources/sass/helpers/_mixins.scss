@@ -8,6 +8,18 @@
 	font-weight: 900;
 }
 
+@mixin pad-top-10 {
+	padding-top: 10px;
+}
+
 @mixin pad-top-25 {
 	padding-top: 25px;
+}
+
+@mixin margin-top-50 {
+	margin-top: 50px;
+}
+
+@mixin margin-top-100 {
+	margin-top: 100px;
 }

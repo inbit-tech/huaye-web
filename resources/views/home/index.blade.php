@@ -34,8 +34,8 @@
         <div class="column container">
             <div class="card">
                 <div class="card-content has-text-centered">
-                    <p class="title use-noto-900 is-size-2 has-text-grey-dark set-pad-top25">{{ __('Self Bonding Wire') }}</p>
-                    <p class="subtitle is-size-5 use-noto-500 has-text-centered set-pad-top25"><a href="/products/bec">{{ __('Learn More') }}</a></p>
+                    <p class="title use-noto-900 is-size-2 has-text-grey-dark is-pad-top-25">{{ __('Self Bonding Wire') }}</p>
+                    <p class="subtitle is-size-5 use-noto-500 has-text-centered is-pad-top-25"><a href="/products/bec">{{ __('Learn More') }}</a></p>
                 </div>
                 <div class="card-image">
                     <figure class="image is-3by2">
@@ -48,8 +48,8 @@
         <div class="column">
             <div class="card">
                 <div class="card-content has-text-centered">
-                    <p class="title use-noto-900 is-size-2 has-text-grey-dark set-pad-top25">{{ __('Ultra-High Temperature Wire') }}</p>
-                    <p class="subtitle is-size-5 use-noto-500 has-text-centered set-pad-top25"><a href="/products/uht">{{ __('Learn More') }}</a></p>
+                    <p class="title use-noto-900 is-size-2 has-text-grey-dark is-pad-top-25">{{ __('Ultra-High Temperature Wire') }}</p>
+                    <p class="subtitle is-size-5 use-noto-500 has-text-centered is-pad-top-25"><a href="/products/uht">{{ __('Learn More') }}</a></p>
                 </div>
                 <div class="card-image">
                     <figure class="image is-3by2">
@@ -62,8 +62,8 @@
         <div class="column">
             <div class="card">
                 <div class="card-content has-text-centered">
-                    <p class="title use-noto-900 is-size-2 has-text-grey-dark set-pad-top25">{{ __('LITZ Wire') }}</p>
-                    <p class="subtitle is-size-5 use-noto-500 has-text-centered set-pad-top25"><a href="products/litz">{{ __('Learn More') }}</a></p>
+                    <p class="title use-noto-900 is-size-2 has-text-grey-dark is-pad-top-25">{{ __('LITZ Wire') }}</p>
+                    <p class="subtitle is-size-5 use-noto-500 has-text-centered is-pad-top-25"><a href="products/litz">{{ __('Learn More') }}</a></p>
                 </div>
                 <div class="card-image">
                     <figure class="image is-3by2">
@@ -80,8 +80,8 @@
     <div class="hero-body team-background-image is-marginless is-paddingless image is-16by9">
         <div class="container">
             <h1 class="title use-noto-900 is-size-1 has-text-centered has-text-white">@lang('home.team')</h1>
-            <h2 class="subtitle use-note-500 is-size-3 has-text-centered has-text-white set-pad-top25">{{ __('Be Excellence, Branding Impact, Intelligent Future') }}</h2>
-            <div class="buttons is-centered set-pad-top25">
+            <h2 class="subtitle use-note-500 is-size-3 has-text-centered has-text-white is-pad-top-25">{{ __('Be Excellence, Branding Impact, Intelligent Future') }}</h2>
+            <div class="buttons is-centered is-pad-top-25">
                 <a href="/about" class="button is-link is-large">{{ __('Learn More') }}</a>
             </div>
         </div>
