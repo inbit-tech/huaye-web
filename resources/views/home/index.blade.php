@@ -20,6 +20,7 @@
                 <p>@lang('home.company')</p>
                 <p>@lang('home.domain')</p>
                 <p>@lang('home.location')</p>
+                <p>@lang('home.huaye')</p>
             </div>
             <span id="typed"></span>
         </div>
