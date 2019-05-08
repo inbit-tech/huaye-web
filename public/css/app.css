@@ -11450,13 +11450,32 @@ label.panel-block:hover {
   background-position: bottom center;
 }
 
+.is-size-6-5 {
+  font-size: 0.9rem;
+}
+
 .resize-smaller-21 {
   height: 21px;
   width: auto;
 }
 
+.resize-smaller-36 {
+  height: 36px;
+  width: auto;
+}
+
+.resize-smaller-42 {
+  height: 42px;
+  width: auto;
+}
+
 .resize-smaller-50 {
   height: 50px;
+  width: auto;
+}
+
+.resize-smaller-52 {
+  height: 52px;
   width: auto;
 }
 

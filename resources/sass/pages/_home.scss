@@ -1,12 +1,15 @@
 .home-video-section{
     position: relative;
 }
+
 .video-opacity{
     opacity: 0.8;
 }
+
 #home-video-content {
     width: 100%;
 }
+
 .video-text {
     position: absolute;
     text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
@@ -14,6 +17,7 @@
     top: 50%;
     transform: translate(-50%,-50%);
 }
+
 .team-bg-section{
     background-image: url("http://pqpazom17.bkt.clouddn.com/team-bg-trans.png");
     background-repeat: no-repeat;
@@ -21,12 +25,31 @@
     background-position: bottom center;
 }
 
+.is-size-6-5 {
+    font-size: .9rem;
+}
+
 .resize-smaller-21 {
     height: 21px;
     width: auto;
 }
 
+.resize-smaller-36 {
+    height: 36px;
+    width: auto;
+}
+
+.resize-smaller-42 {
+    height: 42px;
+    width: auto;
+}
+
 .resize-smaller-50 {
     height: 50px;
+    width: auto;
+}
+
+.resize-smaller-52 {
+    height: 52px;
     width: auto;
 }
