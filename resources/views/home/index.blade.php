@@ -16,7 +16,9 @@
     <div class="hero-body is-large">
         <div class="container is-size-1 is-size-5-mobile has-text-centered use-noto-900 has-text-white">
             <div id="typed-strings">
+                <p>@lang('home.welcome')</p>
                 <p>@lang('home.company')</p>
+                <p>@lang('home.domain')</p>
                 <p>@lang('home.location')</p>
             </div>
             <span id="typed"></span>
