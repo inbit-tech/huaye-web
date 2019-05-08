@@ -1,9 +1,27 @@
-.with-video-bg{
+.has-background-video{
     position: relative;
     min-height: 100%;
     min-width: 100%;
     background-size: cover;
     overflow: hidden;
+}
+
+.team-background-image {
+    position: relative;
+    background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/team-background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.is-opacity-25 {
+    opacity: 0.25;
+    filter: alpha(opacity=25); /* For IE8 and earlier */
+}
+
+.is-opacity-100 {
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .heor-video{

@@ -7,7 +7,7 @@
 @section('content')
 
 {{-- Welcome Video --}}
-<section class="hero is-light is-large with-video-bg is-marginless is-paddingless has-text-centered">
+<section class="hero is-light is-large has-background-video is-marginless is-paddingless has-text-centered">
     <div class="hero-video">
         <video poster="{{asset('img/component/home/video-poster.jpg')}}" playsinline autoplay muted loop>
             <source src="{{asset('video/welcome.mp4')}}" type="video/mp4">
@@ -28,7 +28,7 @@
 </section>
 
 {{-- Our Products --}}
-<section class="section">
+<section class="section is-medium">
     <div class="columns">
         {{-- Column 1 --}}
         <div class="column container">
@@ -76,10 +76,16 @@
 </section>
 
 {{-- Our Team --}}
-<section class="section is-small">
-    <figure class="team-bg-section image">
-        <img src="{{asset('img/component/home/team-member-cover.png')}}" alt="huaye team">
-    </figure>
+<section class="hero is-fullheight">
+    <div class="hero-body team-background-image is-marginless is-paddingless image is-16by9">
+        <div class="container">
+            <h1 class="title use-noto-900 is-size-1 has-text-centered has-text-white">@lang('home.team')</h1>
+            <h2 class="subtitle use-note-500 is-size-3 has-text-centered has-text-white set-pad-top25">{{ __('Be Excellence, Branding Impact, Intelligent Future') }}</h2>
+            <div class="buttons is-centered set-pad-top25">
+                <a href="/about" class="button is-link is-large">{{ __('Learn More') }}</a>
+            </div>
+        </div>
+    </div>
 </section>
 
 {{-- Our Clients --}}
