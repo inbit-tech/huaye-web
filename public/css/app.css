@@ -11422,25 +11422,26 @@ label.panel-block:hover {
   width: 30%;
 }
 
-.home-video-section {
+.with-video-bg {
   position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;
+  overflow: hidden;
 }
 
-.video-opacity {
+.heor-video {
   opacity: 0.8;
-}
-
-#home-video-content {
-  width: 100%;
-}
-
-.video-text {
   position: absolute;
-  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  height: auto;
+  width: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -100;
+  background-size: cover;
+  overflow: hidden;
 }
 
 .team-bg-section {

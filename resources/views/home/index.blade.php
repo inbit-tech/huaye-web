@@ -7,16 +7,17 @@
 @section('content')
 
 {{-- Welcome Image Slider --}}
-<section class="hero is-light is-large">
-    <div class="home-video-section">
-        <div class="video-opacity">
-            <video id="home-video-content" autoplay loop controls poster="{{asset('img/component/home/video-poster.jpg')}}">
-                <source src="http://pqpazom17.bkt.clouddn.com/testVideo.mp4s">
-            </video>
-        </div>
-        <div class="has-text-white-bis is-size-1 is-size-5-mobile has-text-weight-bold has-text-centered video-text">
+<section class="hero is-light is-large with-video-bg">
+    <div class="hero-video">
+        <video poster="{{asset('img/component/home/video-poster.jpg')}}" playsinline autoplay muted loop>
+            <source src="{{asset('video/welcome.mp4')}}" type="video/mp4">
+        </video>
+    </div>
+    <div class="hero-body is-large">
+        <div class="container is-size-1 is-size-5-mobile has-text-centered use-noto-900 has-text-white">
             <div id="typed-strings">
-                <p>@lang('home.company')<br>@lang('home.location')</p>
+                <p>@lang('home.company')</p>
+                <p>@lang('home.location')</p>
             </div>
             <span id="typed"></span>
         </div>
@@ -24,11 +25,11 @@
 </section>
 
 {{-- Our Products --}}
-<section class="section is-large light-grey">
+<section class="section is-medium light-grey">
     <div class="tile is-ancestor is-size-2">
         <div class="tile is-parent">
             <article class="tile is-child box has-text-centered">
-                <p class="title">@lang('navi.prod1')</p>
+                <p class="title use-noto-900">@lang('navi.prod1')</p>
                 <figure class="image is-4by3">
                     <img src="{{asset('img/component/product-detail/bec/sw-red-thick-horizon.jpg')}}" alt="Bonding Enameled Cooper Wire">
                 </figure>
@@ -36,7 +37,7 @@
         </div>
         <div class="tile is-parent has-text-centered">
             <article class="tile is-child box">
-                <p class="title">@lang('navi.prod2')</p>
+                <p class="title use-noto-900">@lang('navi.prod2')</p>
                 <figure class="image is-4by3">
                     <img src="{{asset('img/component/product-detail/uht/lb-gold-thin-horizon.jpg')}}" alt="Ultra-High-Temperature Wire">
                 </figure>
@@ -44,7 +45,7 @@
         </div>
         <div class="tile is-parent has-text-centered">
         <article class="tile is-child box">
-            <p class="title">@lang('navi.prod3')</p>
+            <p class="title use-noto-900">@lang('navi.prod3')</p>
             <figure class="image is-4by3">
                 <img src="{{asset('img/component/product-detail/litz/lb-pink-thin-horizon.jpg')}}" alt="LITZ Wire / Silk Served LITZ Wire">
             </figure>
