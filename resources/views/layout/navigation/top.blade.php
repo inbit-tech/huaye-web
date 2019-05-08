@@ -2,7 +2,7 @@
 <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
 	<div class="navbar-brand">
 		<a class="navbar-item" href="/">
-			<img class="image resize-smaller-120" src="{{asset('img/common/huaye-logo-reverse.png')}}">
+			<img class="image resize-smaller-21" src="{{asset('img/common/huaye-logo-reverse.png')}}">
 		</a>
 
 		<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
