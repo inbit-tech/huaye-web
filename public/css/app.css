@@ -11450,6 +11450,16 @@ label.panel-block:hover {
   background-position: bottom center;
 }
 
+.resize-smaller-21 {
+  height: 21px;
+  width: auto;
+}
+
+.resize-smaller-50 {
+  height: 50px;
+  width: auto;
+}
+
 .product-card {
   margin-bottom: 4rem;
 }

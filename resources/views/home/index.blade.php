@@ -11,7 +11,7 @@
     <div class="home-video-section">
         <div class="video-opacity">
             <video id="home-video-content" autoplay loop controls poster="{{asset('img/component/home/video-poster.jpg')}}">
-                <source src="http://pqpazom17.bkt.clouddn.com/testVideo.mp4">
+                <source src="http://pqpazom17.bkt.clouddn.com/testVideo.mp4s">
             </video>
         </div>
         <div class="has-text-white-bis is-size-1 is-size-5-mobile has-text-weight-bold has-text-centered video-text">
@@ -74,16 +74,16 @@
     <div class="container">
         <div class="columns is-multiline is-vcentered has-text-centered">
             <div class="column">
-                <img src="{{asset('img/clients/client-01.png')}}" alt="huaye-patents">
+                <img class="resize-smaller-50" src="{{asset('img/clients/client-01.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
                 <img src="{{asset('img/clients/client-02.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
-                <img src="{{asset('img/clients/client-03.png')}}" alt="huaye-patents">
+                <img class="resize-smaller-50" src="{{asset('img/clients/client-03.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
-                <img src="{{asset('img/clients/client-04.png')}}" alt="huaye-patents">
+                <img class="resize-smaller-50" src="{{asset('img/clients/client-04.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
                 <img src="{{asset('img/clients/client-05.png')}}" alt="huaye-patents">
@@ -94,7 +94,7 @@
         </div>
         <div class="columns is-multiline is-vcentered has-text-centered">
             <div class="column">
-                <img src="{{asset('img/clients/client-07.png')}}" alt="huaye-patents">
+                <img class="resize-smaller-50" src="{{asset('img/clients/client-07.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
                 <img src="{{asset('img/clients/client-08.png')}}" alt="huaye-patents">
@@ -106,7 +106,7 @@
                 <img src="{{asset('img/clients/client-10.png')}}" alt="huaye-patents">
             </div>          
             <div class="column">
-                <img src="{{asset('img/clients/client-11.png')}}" alt="huaye-patents">
+                <img class="resize-smaller-50" src="{{asset('img/clients/client-11.png')}}" alt="huaye-patents">
             </div>  
             <div class="column">
                 <img src="{{asset('img/clients/client-12.png')}}" alt="huaye-patents">
@@ -114,7 +114,7 @@
         </div>
         <div class="columns is-multiline is-vcentered has-text-centered">
             <div class="column">
-                <img src="{{asset('img/clients/client-13.png')}}" alt="huaye-patents">
+                <img class="resize-smaller-50" src="{{asset('img/clients/client-13.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
                 <img src="{{asset('img/clients/client-14.png')}}" alt="huaye-patents">
