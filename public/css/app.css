@@ -1,4 +1,4 @@
-@import url(https://fonts.loli.net/css?family=Noto+Sans+SC:400,900);@charset "UTF-8";
+@import url(https://fonts.loli.net/css?family=Noto+Sans+SC:500,900&subset=chinese-simplified);@charset "UTF-8";
 
 /*
  * Customization Styles
@@ -11450,8 +11450,14 @@ label.panel-block:hover {
   background-position: bottom center;
 }
 
-.use-font-noto {
+.use-noto-500 {
   font-family: "Noto Sans SC", sans-serif;
+  font-weight: 500;
+}
+
+.use-noto-900 {
+  font-family: "Noto Sans SC", sans-serif;
+  font-weight: 900;
 }
 
 .is-size-6-5 {

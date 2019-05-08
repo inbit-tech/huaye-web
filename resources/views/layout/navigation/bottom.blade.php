@@ -1,7 +1,7 @@
 <section class="hero is-light">
 	<div class="hero-body">
 		<div class="container">
-			<nav class="level container use-font-noto">
+			<nav class="level container use-noto-500">
 				<div class="level-item has-text-centered">
 					<div class="has-text-left">
 						<p><a href="" class="heading has-text-weight-bold">@lang('navi.products-bottom')</a></p>
@@ -40,7 +40,7 @@
 
 
 <footer class="footer">
-	<div class="content has-text-centered has-text-white is-size-7 use-font-noto">
+	<div class="content has-text-centered has-text-white is-size-7 use-noto-500">
 		<p>2019 @lang('footer.copyright')</p>
 	</div>
 </footer>

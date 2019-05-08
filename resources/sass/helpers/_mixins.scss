@@ -1,3 +1,9 @@
-@mixin noto-sans {
-	font-family: 'Noto Sans SC', sans-serif;;
+@mixin noto-sans-500 {
+	font-family: 'Noto Sans SC', sans-serif;
+	font-weight: 500;
+}
+
+@mixin noto-sans-900 {
+	font-family: 'Noto Sans SC', sans-serif;
+	font-weight: 900;
 }
