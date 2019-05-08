@@ -16,7 +16,7 @@
         </div>
         <div class="has-text-white-bis is-size-1 is-size-5-mobile has-text-weight-bold has-text-centered video-text">
             <div id="typed-strings">
-                <p>HUAYE TECHNOLOGY<br>Dongguan China</p>
+                <p>@lang('home.company')<br>@lang('home.location')</p>
             </div>
             <span id="typed"></span>
         </div>
@@ -24,12 +24,11 @@
 </section>
 
 {{-- Our Products --}}
-<section class="section is-medium light-grey">
-    <div class="tile is-ancestor">
+<section class="section is-large light-grey">
+    <div class="tile is-ancestor is-size-2">
         <div class="tile is-parent">
             <article class="tile is-child box has-text-centered">
                 <p class="title">@lang('navi.prod1')</p>
-                <p class="subtitle">Self bonding enameled copper wire is a special type of enameled wire.</p>
                 <figure class="image is-4by3">
                     <img src="{{asset('img/component/product-detail/bec/sw-red-thick-horizon.jpg')}}" alt="Bonding Enameled Cooper Wire">
                 </figure>
@@ -38,7 +37,6 @@
         <div class="tile is-parent has-text-centered">
             <article class="tile is-child box">
                 <p class="title">@lang('navi.prod2')</p>
-                <p class="subtitle">Enameled copper wire is one of main varieties of winding wire.</p>
                 <figure class="image is-4by3">
                     <img src="{{asset('img/component/product-detail/uht/lb-gold-thin-horizon.jpg')}}" alt="Ultra-High-Temperature Wire">
                 </figure>
@@ -47,7 +45,6 @@
         <div class="tile is-parent has-text-centered">
         <article class="tile is-child box">
             <p class="title">@lang('navi.prod3')</p>
-            <p class="subtitle">Litz wire is a winding wire consisting of a number of small diameter </p>
             <figure class="image is-4by3">
                 <img src="{{asset('img/component/product-detail/litz/lb-pink-thin-horizon.jpg')}}" alt="LITZ Wire / Silk Served LITZ Wire">
             </figure>
@@ -59,7 +56,7 @@
 {{-- Team --}}
 <section class="section">
     <div class="container">
-        <h1 class="title is-size-2 has-text-centered has-text-weight-bold">Our Team</h1>
+        <h1 class="title is-size-1 has-text-centered use-noto-900">@lang('home.team')</h1>
     </div>
     <figure class="team-bg-section image">
         <img src="{{asset('img/component/home/team-member-cover.png')}}" alt="huaye team">
@@ -68,8 +65,8 @@
 
 {{-- Our Patents --}}
 <section class="section is-medium">
-    <div class="section container">
-        <h1 class="title is-size-2 has-text-centered has-text-weight-bold">Our Clients</h1>
+    <div class="section container is-medium">
+        <h1 class="title is-size-1 has-text-centered use-noto-900">@lang('home.client')</h1>
     </div>
     <div class="container">
         <div class="columns is-multiline is-vcentered has-text-centered">
