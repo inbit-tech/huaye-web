@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<section class="hero is-light is-large contact-background-image is-marginless is-paddingless">
+<section class="hero is-light is-large about-background-image is-marginless is-paddingless">
     <div class="hero-body">
         <div class="container">
             <h1 class="title use-noto-900 is-size-1 has-text-white">@lang('navi.about')</h1>
@@ -13,7 +13,7 @@
     </div>
 </section>
 
-<section class="container is-margin-top-100">
+<section id="our-quality" class="container is-margin-top-100">
     <div class="tile is-ancestor">
         <div class="tile is-parent">
             <article class="tile is-child box has-text-centered">
@@ -68,7 +68,7 @@
 
 <section class="section is-small"></section>
 
-<section class="hero is-light is-fullheight history-background-image is-marginless is-paddingless">
+<section id="our-story" class="hero is-light is-fullheight history-background-image is-marginless is-paddingless">
     <div class="hero-body has-text-centered has-text-white">
         <div class="container">
             <h1 class="title has-text-white use-noto-900 is-sizie-2 is-uppercase">{{ __('Huaye Technology') }}</h1>
@@ -76,7 +76,7 @@
     </div>
 </section>
 
-<section class="section container is-large">
+<section id="our-service" class="section container is-large">
     <p class="has-text-centered is-size-1 has-text-black use-noto-900">{{ __('Sincere Trust, Unity, Create, Share')}}<br>{{ __('Customer Experience, Client Needs Adoption, Quick Respond, Customizable Production') }}</p> 
 </section>
 
