@@ -11422,6 +11422,10 @@ label.panel-block:hover {
   width: 30%;
 }
 
+.has-padding-btm-18 {
+  padding-bottom: 18px;
+}
+
 .has-background-video {
   position: relative;
   min-height: 100%;
