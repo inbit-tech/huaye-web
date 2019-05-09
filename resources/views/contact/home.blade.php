@@ -24,7 +24,7 @@
                 </a>
             </div>
             <div class="section">   
-                <a href="fax:0769-82601699" >
+                <a href="tel:0769-82601699" >
                     <p class="use-noto-900 is-size-5">0769-82601699</p>
                 </a>
             </div>

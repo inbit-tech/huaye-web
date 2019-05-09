@@ -22,7 +22,6 @@
 					<div class="has-text-left">
 						<p class="has-padding-btm-18"><a href="/contact" class="use-noto-900 is-uppercase is-size-7">@lang('navi.contact')</a></p>
 						<p><a href="tel:0769-82601699">@lang('navi.phone')</a></p>
-						<p><a href="fax:0769-82601699">@lang('navi.fax')</a></p>
 						<p><a href="mailto:huaye@huaye-dg.com">@lang('navi.mail')</a></p>
 					</div>
 				</div>
