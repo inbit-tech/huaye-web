@@ -1,8 +1,9 @@
-.top-img{
-    max-height: 1000px;
-    width: 100%;
-    overflow: hidden;
+.contact-background-image {
+    @include image-cover-bg($contact-img-cover);
 }
+
+
+
 // contact-us info style
 .align-items-flex-start {
     align-items: flex-start;

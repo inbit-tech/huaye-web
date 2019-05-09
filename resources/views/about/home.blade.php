@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<section class="hero is-light is-large contact-background-image is-marginless is-paddingless">
+<section class="hero is-light is-large about-background-image is-marginless is-paddingless">
     <div class="hero-body">
         <div class="container">
             <h1 class="title use-noto-900 is-size-1 has-text-white">@lang('navi.about')</h1>

@@ -11560,7 +11560,7 @@ label.panel-block:hover {
   bottom: 0;
 }
 
-.contact-background-image {
+.about-background-image {
   position: relative;
   background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/about-us-bg.jpg");
   background-position: center center;
@@ -11627,10 +11627,12 @@ label.panel-block:hover {
   }
 }
 
-.top-img {
-  max-height: 1000px;
-  width: 100%;
-  overflow: hidden;
+.contact-background-image {
+  position: relative;
+  background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/contact-us-cover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .align-items-flex-start {
