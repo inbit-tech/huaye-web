@@ -1,7 +1,7 @@
 @extends ('master')
 
 @section ('page-title')
-<title>BEC - Huaye</title>
+<title>{{ __('Self Bonding Wire')}} - {{__('Huaye Technology') }}</title>
 @endsection
 
 @section('content')
@@ -9,14 +9,14 @@
     <section class="hero is-light is-large">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title">bec - Top large picture</h1>
+                <h1 class="title"></h1>
             </div>
         </div>
     </section>
 
     <section class="section is-medium container">
         <section class="section">
-            <p class="is-size-1 has-text-black has-text-weight-bold">自粘性漆包线是漆包线品种中的一个特殊品种，是在非自粘漆包线的基础上再涂覆一层自粘性涂层而成。</p>
+            <p class="is-size-1 has-text-black has-text-weight-bold">{{ __('Self bonding enameled copper wire is a special type of enameled wire, with an additional self-bonding coating on the basis of enameled wire.') }}</p>
         </section>
         <section class="section tile">
             <div class="">
@@ -33,7 +33,7 @@
 
     <section class="section">
         <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
-            <p>型号标识</p>
+            <p>{{ __('Model identification') }}</p>
         </div>
     </section>
 
@@ -41,45 +41,45 @@
         <table class="table is-striped is-hoverable is-fullwidth is-bordered">
             <thead>
                 <tr>
-                    <th class="has-text-centered has-background-link has-text-white thead-width-desktop">热熔自粘性漆包线</th>
+                    <th class="has-text-centered has-background-link has-text-white thead-width-desktop">{{__('Hot air self-bonding enameled copper wire')}}</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th class="has-text-centered has-text-grey">LSLOCKY</th>
-                    <td class="has-text-centered has-text-grey">热熔低温焊锡自粘性聚氨酯漆包圆铜线，规格范围0.018mm---0.050mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Hot air) low soldering temperature self-bonding polyurethane enameled round copper wire. diameter: 0.018mm---0.050mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">LSLOCKCS</th>
-                    <td class="has-text-centered has-text-grey">热熔低温焊锡自粘性聚氨酯漆包圆铜线，规格范围0.051mm---0.700mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Hot air) low soldering temperature self-bonding polyurethane enameled round copper wire. diameter: 0.051mm---0.700mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">LOCKY</th>
-                    <td class="has-text-centered has-text-grey">热熔自粘性聚氨酯漆包圆铜线，规格范围0.018mm---0.050mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Hot air) self-bonding polyurethane enameled round copper wire. diameter: 0.018mm---0.050mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">LOCKYZ</th>
-                    <td class="has-text-centered has-text-grey">热熔自粘性聚氨酯漆包圆铜线，规格范围0.018mm---0.050mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Hot air) self-bonding polyurethane enameled round copper wire. diameter: 0.018mm---0.050mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">LOCKCS</th>
-                    <td class="has-text-centered has-text-grey">热熔自粘性聚氨酯漆包圆铜线，规格范围0.051mm---0.700mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Hot air) self-bonding polyurethane enameled round copper wire. diameter: 0.051mm---0.700mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">LOCKCZ</th>
-                    <td class="has-text-centered has-text-grey">热熔自粘性聚氨酯漆包圆铜线，规格范围0.051mm---0.700mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Hot air) self-bonding polyurethane enameled round copper wire. diameter: 0.051mm---0.700mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">SBEIW</th>
-                    <td class="has-text-centered has-text-grey">热熔自粘性聚酯亚胺漆包圆铜线，规格范围0.051mm---0.700mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Hot air) self-bonding polyesterimide enameled round copper wire. diameter: 0.051mm---0.700mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">SBAIW</th>
-                    <td class="has-text-centered has-text-grey">热熔自粘性聚酰胺酰亚胺漆包圆铜线，规格范围0.051mm---0.700mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Hot air) self-bonding polyamidimide enameled round copper wire. diameter: 0.051mm---0.700mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">SBEI/AIW</th>
-                    <td class="has-text-centered has-text-grey">热熔自粘性聚酰胺酰亚胺复合聚酯亚胺漆包圆铜线，规格范围0.051mm---0.700mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Hot air) self-bonding polyesterimide compound polyamidimide enameled round copper wire. diameter: 0.051mm---0.700mm.')}}</td>
                 </tr>
             </tbody>
         </table>
@@ -89,41 +89,41 @@
         <table class="table is-striped is-hoverable is-fullwidth is-bordered">
             <thead>
                 <tr>
-                    <th class="has-text-centered has-background-link has-text-white thead-width-desktop">醇溶自粘性漆包线</th>
+                    <th class="has-text-centered has-background-link has-text-white thead-width-desktop">{{__('Alcohol self-bonding enameled copper wire')}}</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th class="has-text-centered has-text-grey">LSLOCKM</th>
-                    <td class="has-text-centered has-text-grey">醇溶低温焊锡自粘性聚氨酯漆包圆铜线，规格范围0.018mm---0.050mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Alcohol) low welding temperature self-bonding polyurethane enameled round copper wire. diameter: 0.018mm---0.050mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">LSLOCKB</th>
-                    <td class="has-text-centered has-text-grey">醇溶低温焊锡自粘性聚氨酯漆包圆铜线，规格范围0.051mm---0.700mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Alcohol) low welding temperature self-bonding polyurethane enameled round copper wire. diameter: 0.051mm---0.700mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">LOCKM</th>
-                    <td class="has-text-centered has-text-grey">醇溶自粘性聚氨酯漆包圆铜线，规格范围0.018mm---0.050mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Alcohol) self-bonding polyurethane enameled round copper wire. diameter: 0.018mm---0.050mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">LOCKMZ</th>
-                    <td class="has-text-centered has-text-grey">醇溶自粘性聚氨酯漆包圆铜线，规格范围0.018mm---0.050mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Alcohol) self-bonding polyurethane enameled round copper wire. diameter: 0.018mm---0.050mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">LOCKB</th>
-                    <td class="has-text-centered has-text-grey">醇溶自粘性聚氨酯漆包圆铜线，规格范围0.051mm---0.700mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Alcohol) self-bonding polyurethane enameled round copper wire. diameter: 0.051mm---0.700mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">LOCKBZ</th>
-                    <td class="has-text-centered has-text-grey">醇溶自粘性聚氨酯漆包圆铜线，规格范围0.051mm---0.700mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Alcohol) self-bonding polyurethane enameled round copper wire. diameter :0.051mm---0.700mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">DBPESVW</th>
-                    <td class="has-text-centered has-text-grey">醇溶/热熔自粘性聚酯漆包圆铜线，规格范围0.051mm---0.700mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Alcohol/Hot air) self-bonding polyester enameled round copper wire. diameter: 0.051mm---0.700mm.')}}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">DBEISVW</th>
-                    <td class="has-text-centered has-text-grey">醇溶/热熔自粘性聚酯亚胺漆包圆铜线，规格范围0.051mm---0.700mm。</td>
+                    <td class="has-text-centered has-text-grey">{{__('(Alcohol/Hot air) self-bonding polyesterimide enameled round copper wire. diameter: 0.051mm---0.700mm.')}}</td>
                 </tr>
             </tbody>
         </table>
@@ -131,7 +131,7 @@
 
     <section class="section">
         <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
-            <p>结构示意图</p>
+            <p>{{__('Structure diagram')}}</p>
         </div>
     </section>
 
