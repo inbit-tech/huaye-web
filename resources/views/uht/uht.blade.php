@@ -9,7 +9,7 @@
     <section class="hero is-light is-large uht-background-image">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title">uht - Top large picture</h1>
+                <h1 class="title"></h1>
             </div>
         </div>
     </section>
