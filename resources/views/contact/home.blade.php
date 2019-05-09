@@ -59,27 +59,27 @@
 {{-- Contact Form --}}
 <section id="contact-form" class="section columns">
     <div class="container column is-6">
-        <h3 class="title is-uppercase has-text-centered has-text-weight-bold has-text-grey">send us message what you need</h3>
+        <h3 class="title is-uppercase has-text-centered use-noto-900 has-text-grey-dark">{{ __('Send Us Message What You Need') }}</h3>
         <form class="from-body" action="mail/send" method="get"> 
             <div class="field">
-                <label class="label" for="exampleFormControlInput1">Your Name</label>
-                <input type="text" name="name" class="input" placeholder="How could we address you?" id="form-name">
+                <label class="label" for="exampleFormControlInput1"></label>
+                <input type="text" name="name" class="input" placeholder="{{ __('How could we address you?') }}" id="form-name">
             </div>
             <div class="field">
-                <label class="label" for="exampleFormControlInput1">Working Email</label>
-                <input type="email" name="email" class="input" placeholder="name@example.com" id="form-email"> 
+                <label class="label" for="exampleFormControlInput1"></label>
+                <input type="email" name="email" class="input" placeholder="{{ __('your-mail@mail.com') }}" id="form-email"> 
             </div>
             <div class="field">
-                <label class="label" for="exampleFormControlInput1">Cell Phone</label>
-                <input type="phone" name="phone" class="input" placeholder="+CountryCode ..." id="form-phone">
+                <label class="label" for="exampleFormControlInput1"></label>
+                <input type="phone" name="phone" class="input" placeholder="{{ __('+CountryCode') }} ..." id="form-phone">
             </div>
             <div class="field">
-                <label class="label" for="exampleFormControlTextarea1">What you need</label>
-                <textarea class="textarea" name="question" placeholder="Please enter your need" id="form-question"></textarea>
+                <label class="label" for="exampleFormControlTextarea1"></label>
+                <textarea class="textarea" name="question" placeholder="{{ __('Please enter your need') }}" id="form-question"></textarea>
             </div>
             
             <div class="section field has-text-centered form-button">
-                <button href="mail/send" class="button is-info is-medium is-outlined"" type="submit" value="Submit input" id="submit-form">Send Message</button>
+                <button href="mail/send" class="button is-info is-medium is-outlined"" type="submit" value="Submit input" id="submit-form">{{ __('Send Message') }}</button>
             </div>
 
             {{-- send success tip --}}
