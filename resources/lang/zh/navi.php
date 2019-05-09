@@ -9,7 +9,7 @@ return [
     'prod3'				=> 	'LITZ线',
     'about'				=>	'关于我们',
     'contact'			=>	'联系我们',
-    'lang'				=>	'切换语言 ',
+    'lang'				=>	'Language ',
     'service'			=>	'服务理念',
     'quality'			=>	'质量保障',
     'intro'				=> 	'公司概况',

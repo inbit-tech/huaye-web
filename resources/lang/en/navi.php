@@ -9,7 +9,7 @@ return [
     'prod3'				=> 	'LITZ Wire',
     'about'				=>	'About Us',
     'contact'			=>	'Contact Us',
-    'lang'				=>	'Language',
+    'lang'				=>	'切换语言',
     'service'			=>	'Service Philosophy',
     'quality'			=>	'Quality Assurance',
     'intro'				=> 	'Huaye Story',
