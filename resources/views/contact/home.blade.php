@@ -79,7 +79,7 @@
             </div>
             
             <div class="section field has-text-centered form-button">
-                <button href="mail/send" class="button is-info is-medium is-outlined"" type="submit" value="Submit input" id="submit-form">{{ __('Send Message') }}</button>
+                <button href="mail/send" class="button is-link is-large is-outlined use-noto-900"" type="submit" value="Submit input" id="submit-form">{{ __('Send Message') }}</button>
             </div>
 
             {{-- send success tip --}}
