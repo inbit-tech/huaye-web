@@ -11664,3 +11664,27 @@ label.panel-block:hover {
   margin-top: 5rem;
 }
 
+.bondwire-background-image {
+  position: relative;
+  background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/prod-01-cover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.uht-background-image {
+  position: relative;
+  background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/prod-02-cover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.litz-background-image {
+  position: relative;
+  background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/prod-03-cover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

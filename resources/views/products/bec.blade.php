@@ -6,7 +6,7 @@
 
 @section('content')
 <section id="bec-page">
-    <section class="hero is-light is-large">
+    <section class="hero is-light is-large bondwire-background-image">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title">bec - Top large picture</h1>
