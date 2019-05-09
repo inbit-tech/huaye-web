@@ -18,9 +18,9 @@
 				<a  href="/products" class="navbar-link">@lang('navi.products')</a>
 
 				<div class="navbar-dropdown">
-					<a href="/products/bec" class="navbar-item">@lang('navi.prod1')</a>
-					<a href="/products/uht" class="navbar-item">@lang('navi.prod2')</a>
-					<a href="/products/litz" class="navbar-item">@lang('navi.prod3')</a>
+					<a href="/bec" class="navbar-item">@lang('navi.prod1')</a>
+					<a href="/uht" class="navbar-item">@lang('navi.prod2')</a>
+					<a href="/litz" class="navbar-item">@lang('navi.prod3')</a>
 				</div>
 			</div>
 
@@ -29,7 +29,6 @@
 		</div>
 		<div class="navbar-end">
 			<div class="navbar-item has-dropdown is-hoverable">
-                {{-- <a class="navbar-link is-arrowless">@lang('navi.lang')</a> --}}
                 <a class="navbar-link is-arrowless">@lang('navi.lang')</a>
 
                 <div class="navbar-dropdown">

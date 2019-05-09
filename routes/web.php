@@ -7,9 +7,9 @@ Route::get('lang/{locale}', 'LocalizationController@index');
 
 // Products
 Route::get('/products', 'PageController@products');
-Route::get('/products/bec', 'PageController@bec');
-Route::get('/products/uht', 'PageController@uht');
-Route::get('/products/litz', 'PageController@litz');
+Route::get('/bec', 'PageController@bec');
+Route::get('/uht', 'PageController@uht');
+Route::get('/litz', 'PageController@litz');
 
 // About Us
 Route::get('/about', 'PageController@about');

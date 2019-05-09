@@ -1,7 +1,7 @@
 @extends ('master')
 
 @section ('page-title')
-<title>LITZ - Huaye</title>
+<title>{{ __('LITZ Wire')}} - {{__('Huaye Technology') }}</title>
 @endsection
 
 @section('content')
@@ -14,13 +14,14 @@
         </div>
     </section>
 
-    <section class="section is-medium container">
+    <section class="section container">
         <section class="section">
-            <p class="is-size-1 has-text-black has-text-weight-bold">
-                绞合漆包线束线是有或无绕包层的若干根小直径的绝缘线芯进行无预定几何形状的排列绞合而成的绕组线。
+            <p class="is-size-4 has-text-black has-text-weight-bold">
+                {{ __('A stranded enameled wire bundle is a winding wire formed by an undetermined geometric arrangement of a number of small diameters insulated cores with or without a wrapping layer, and the winding wire is a winding wire formed by an undetermined geometric arrangement of a number of small diameters insulated cores with or without a wrapping layer.') }}
             </p>
-            <p class="is-size-1 has-text-black has-text-weight-bold">
-                被广泛应用于需要良好柔韧性和高频性能的场合，通常用于工作频率在10 KHz至5 MHz之间的应用。
+            <br>
+            <p class="is-size-4 has-text-black has-text-weight-bold">
+                {{ __('It is widely used in situations where good flexibility and high-frequency performance are needed and is commonly used in applications with operating frequencies between 10 KHz and 5 MHz.') }}
             </p>
         </section>
         <section class="section tile">
@@ -38,7 +39,7 @@
 
     <section class="section">
         <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
-            <p>型号标识</p>
+            <p>{{ __('Model identification') }}</p>
         </div>
     </section>
 
@@ -46,21 +47,21 @@
         <table class="table is-striped is-hoverable is-fullwidth is-bordered">
             <thead>
                 <tr>
-                    <th class="has-text-centered has-background-link has-text-white thead-width-desktop">利兹线（无绕包层束线）</th>
+                    <th class="has-text-centered has-background-link has-text-white thead-width-desktop">{{ __('LITZ W1re(Non served)') }}</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th class="has-text-centered has-text-grey">LZ UEW</th>
-                    <td class="has-text-centered has-text-grey">直焊性聚氨酯漆包束线</td>
+                    <td class="has-text-centered has-text-grey">{{ __('Solderable polyurethane enameled copper wire bundles.') }}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">LZ UEWY</th>
-                    <td class="has-text-centered has-text-grey">直焊性聚酰胺复合聚氨酯漆包束线</td>
+                    <td class="has-text-centered has-text-grey">{{ __('Solderable polyamide composite polyurethane enameled copper wire bundles.') }}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">LZ SBUEW</th>
-                    <td class="has-text-centered has-text-grey">自粘性直焊聚氨酯漆包束线</td>
+                    <td class="has-text-centered has-text-grey">{{ __('Self-bonding polyurethane enameled copper wire bundles.') }}</td>
                 </tr>
             </tbody>
         </table>
@@ -70,25 +71,25 @@
         <table class="table is-striped is-hoverable is-fullwidth is-bordered">
             <thead>
                 <tr>
-                    <th class="has-text-centered has-background-link has-text-white thead-width-desktop">丝包线</th>
+                    <th class="has-text-centered has-background-link has-text-white thead-width-desktop">{{ __('USTC(silk served ) Wire') }}</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th class="has-text-centered has-text-grey">USTC UEW</th>
-                    <td class="has-text-centered has-text-grey">普通单层丝包聚氨酯漆包束线</td>
+                    <td class="has-text-centered has-text-grey">{{ __('Single silk served layer polyurethane enameled copper wire bundles.') }}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">UDTC UEW</th>
-                    <td class="has-text-centered has-text-grey">普通双层丝包聚氨酯漆包束线</td>
+                    <td class="has-text-centered has-text-grey">{{ __('Double silk served layer polyurethane enameled copper wire bundles.') }}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">SLUSTC UEW</th>
-                    <td class="has-text-centered has-text-grey">丙酮粘合双层丝包聚氨酯漆包束线</td>
+                    <td class="has-text-centered has-text-grey">{{ __('Acetone double silk served layer polyurethane enameled copper wire bundles.') }}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">HLUSTC UEW</th>
-                    <td class="has-text-centered has-text-grey">热风粘结双层丝包聚氨酯漆包束线</td>
+                    <td class="has-text-centered has-text-grey">{{ __('Hot air double silk served layer polyurethane enameled copper wire bundles.') }}</td>
                 </tr>
             </tbody>
         </table>
@@ -98,21 +99,21 @@
         <table class="table is-striped is-hoverable is-fullwidth is-bordered">
             <thead>
                 <tr>
-                    <th class="has-text-centered has-background-link has-text-white thead-width-desktop">麦拉线</th>
+                    <th class="has-text-centered has-background-link has-text-white thead-width-desktop">{{ __('Mylar Wire') }}</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th class="has-text-centered has-text-grey">ML-T UEW</th>
-                    <td class="has-text-centered has-text-grey">PET 薄膜绕包线</td>
+                    <td class="has-text-centered has-text-grey">{{ __('PET coating winding wire') }}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">ML-N UEW</th>
-                    <td class="has-text-centered has-text-grey">PEN 薄膜绕包线</td>
+                    <td class="has-text-centered has-text-grey">{{ __('PEN coating winding wire') }}</td>
                 </tr>
                 <tr>
                     <th class="has-text-centered has-text-grey">ML-I UEW</th>
-                    <td class="has-text-centered has-text-grey">PI 薄膜绕包线</td>
+                    <td class="has-text-centered has-text-grey">{{ __('PI coating winding wire') }}</td>
                 </tr>
             </tbody>
         </table>
@@ -120,11 +121,11 @@
 
     <section class="section">
         <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
-            <p>结构示意图</p>
+            <p>{{__('Structure diagram')}}</p>
         </div>
     </section>
 
-    <section class="container has-text-centered">
+    <section class="section container has-text-centered">
         <img src="{{asset('img/component/product-detail/litz/lita-structure.png')}}" alt="LITZ Wire / Silk Served LITZ Wire">
     </section>
 </section>
