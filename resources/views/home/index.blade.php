@@ -35,7 +35,7 @@
             <div class="card">
                 <div class="card-content has-text-centered">
                     <p class="title use-noto-900 is-size-2 has-text-black is-pad-top-25">{{ __('Self Bonding Wire') }}</p>
-                    <p class="subtitle is-size-5 use-noto-500 has-text-centered is-pad-top-25"><a href="/products/bec">{{ __('Learn More') }}</a></p>
+                    <p class="subtitle is-size-5 use-noto-500 has-text-centered is-pad-top-25"><a href="/bec">{{ __('Learn More') }}</a></p>
                 </div>
                 <div class="card-image">
                     <figure class="image is-3by2">
@@ -49,7 +49,7 @@
             <div class="card">
                 <div class="card-content has-text-centered">
                     <p class="title use-noto-900 is-size-2 has-text-black is-pad-top-25">{{ __('Ultra-High Temperature Wire') }}</p>
-                    <p class="subtitle is-size-5 use-noto-500 has-text-centered is-pad-top-25"><a href="/products/uht">{{ __('Learn More') }}</a></p>
+                    <p class="subtitle is-size-5 use-noto-500 has-text-centered is-pad-top-25"><a href="/uht">{{ __('Learn More') }}</a></p>
                 </div>
                 <div class="card-image">
                     <figure class="image is-3by2">
@@ -63,7 +63,7 @@
             <div class="card">
                 <div class="card-content has-text-centered">
                     <p class="title use-noto-900 is-size-2 has-text-black is-pad-top-25">{{ __('LITZ Wire') }}</p>
-                    <p class="subtitle is-size-5 use-noto-500 has-text-centered is-pad-top-25"><a href="products/litz">{{ __('Learn More') }}</a></p>
+                    <p class="subtitle is-size-5 use-noto-500 has-text-centered is-pad-top-25"><a href="/litz">{{ __('Learn More') }}</a></p>
                 </div>
                 <div class="card-image">
                     <figure class="image is-3by2">

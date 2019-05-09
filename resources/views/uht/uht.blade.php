@@ -14,9 +14,9 @@
         </div>
     </section>
 
-    <section class="section is-medium container">
+    <section class="section container">
         <section class="section">
-            <p class="is-size-1 has-text-black has-text-weight-bold">{{ __('Enameled copper wire is one of the main varieties of winding wire, consisting of conductor and insulation coating. After annealing to soft enough, several enameling and baking steps, the bare wire becomes the enameled copper wire.') }}</p>
+            <p class="is-size-3 has-text-black has-text-weight-bold">{{ __('Enameled copper wire is one of the main varieties of winding wire, consisting of conductor and insulation coating. After annealing to soft enough, several enameling and baking steps, the bare wire becomes the enameled copper wire.') }}</p>
         </section>
         <section class="section tile">
             <div class="">
@@ -83,7 +83,7 @@
         </div>
     </section>
 
-    <section class="container has-text-centered">
+    <section class="section container has-text-centered">
         <img src="{{asset('img/component/product-detail/uht/uht-structure.png')}}" alt="Ultra-High-Temperature Wire">
     </section>
 </section>

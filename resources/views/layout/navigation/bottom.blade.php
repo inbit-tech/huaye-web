@@ -4,10 +4,10 @@
 			<nav class="level container use-noto-500 is-size-7">
 				<div class="level-item has-text-centered">
 					<div class="has-text-left">
-						<p><a href="" class="heading has-text-weight-bold">@lang('navi.products-bottom')</a></p>
-						<p><a href="">@lang('navi.prod1')</a></p>
-						<p><a href="">@lang('navi.prod2')</a></p>
-						<p><a href="">@lang('navi.prod3')</a></p>
+						<p><a href="/products" class="heading has-text-weight-bold">@lang('navi.products-bottom')</a></p>
+						<p><a href="/bec">@lang('navi.prod1')</a></p>
+						<p><a href="/uht">@lang('navi.prod2')</a></p>
+						<p><a href="/litz">@lang('navi.prod3')</a></p>
 					</div>
 				</div>
 				<div class="level-item has-text-centered">

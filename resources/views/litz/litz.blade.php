@@ -14,12 +14,13 @@
         </div>
     </section>
 
-    <section class="section is-medium container">
+    <section class="section container">
         <section class="section">
-            <p class="is-size-1 has-text-black has-text-weight-bold">
+            <p class="is-size-4 has-text-black has-text-weight-bold">
                 {{ __('A stranded enameled wire bundle is a winding wire formed by an undetermined geometric arrangement of a number of small diameters insulated cores with or without a wrapping layer, and the winding wire is a winding wire formed by an undetermined geometric arrangement of a number of small diameters insulated cores with or without a wrapping layer.') }}
             </p>
-            <p class="is-size-1 has-text-black has-text-weight-bold">
+            <br>
+            <p class="is-size-4 has-text-black has-text-weight-bold">
                 {{ __('It is widely used in situations where good flexibility and high-frequency performance are needed and is commonly used in applications with operating frequencies between 10 KHz and 5 MHz.') }}
             </p>
         </section>
@@ -124,7 +125,7 @@
         </div>
     </section>
 
-    <section class="container has-text-centered">
+    <section class="section container has-text-centered">
         <img src="{{asset('img/component/product-detail/litz/lita-structure.png')}}" alt="LITZ Wire / Silk Served LITZ Wire">
     </section>
 </section>

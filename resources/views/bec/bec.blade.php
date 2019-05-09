@@ -14,9 +14,9 @@
         </div>
     </section>
 
-    <section class="section is-medium container">
+    <section class="section container">
         <section class="section">
-            <p class="is-size-1 has-text-black has-text-weight-bold">{{ __('Self bonding enameled copper wire is a special type of enameled wire, with an additional self-bonding coating on the basis of enameled wire.') }}</p>
+            <p class="is-size-3 has-text-black has-text-weight-bold">{{ __('Self bonding enameled copper wire is a special type of enameled wire, with an additional self-bonding coating on the basis of enameled wire.') }}</p>
         </section>
         <section class="section tile">
             <div class="">
@@ -135,7 +135,7 @@
         </div>
     </section>
 
-    <section class="container has-text-centered">
+    <section class="section container has-text-centered">
         <img src="{{asset('img/component/product-detail/bec/bec-structure.png')}}" alt="Bonding Enameled Cooper Wire">
     </section>
 </section>
