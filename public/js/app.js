@@ -13912,8 +13912,8 @@ var homepage_typed_targetId = document.getElementById('typed');
 if (homepage_typed_targetId) {
   var typed = new typed_js__WEBPACK_IMPORTED_MODULE_0___default.a('#typed', {
     stringsElement: '#typed-strings',
-    typeSpeed: 50,
-    backSpeed: 0,
+    typeSpeed: 40,
+    backSpeed: 35,
     backDelay: 500,
     startDelay: 1000
   });
@@ -13995,11 +13995,11 @@ document.addEventListener('DOMContentLoaded', function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/vayne/dev/huaye-web/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /Users/vayne/dev/huaye-web/resources/js/hoempage.js */"./resources/js/hoempage.js");
-__webpack_require__(/*! /Users/vayne/dev/huaye-web/resources/js/map.js */"./resources/js/map.js");
-__webpack_require__(/*! /Users/vayne/dev/huaye-web/resources/js/navbar.js */"./resources/js/navbar.js");
-module.exports = __webpack_require__(/*! /Users/vayne/dev/huaye-web/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/xiaonan/Projects/huaye/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /Users/xiaonan/Projects/huaye/resources/js/hoempage.js */"./resources/js/hoempage.js");
+__webpack_require__(/*! /Users/xiaonan/Projects/huaye/resources/js/map.js */"./resources/js/map.js");
+__webpack_require__(/*! /Users/xiaonan/Projects/huaye/resources/js/navbar.js */"./resources/js/navbar.js");
+module.exports = __webpack_require__(/*! /Users/xiaonan/Projects/huaye/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

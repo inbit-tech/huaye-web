@@ -1,52 +1,54 @@
 @extends ('master')
 
 @section ('page-title')
-<title>Products - Huaye</title>
+<title>@lang('navi.products-bottom') - @lang('navi.title')</title>
 @endsection
 
 @section('content')
-<section class="product-card tile is-vertical has-text-centered  has-background-light">
-    <div class="section is-medium">
-        <div class="section">
-            <p><strong class="is-size-1 has-text-black">特 种 自 粘 性 漆 包 线</strong></p>
-            <p class="product-text-m-t is-size-3 has-text-black">用于车载设备、电声设备、传感器、VCM 马达</p>
-        </div>
-        <div class="section">
-            <a href="/products/bec" class="has-text-link"><p class="is-size-4">了解更多></p></a>
+
+<section class="hero is-light is-large is-relative">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title is-size-1 use-noto-900 has-text-black">{{ __('Self Bonding Wire') }}</h1>
+            <h2 class="subtitle is-size-4 is-pad-top-10 use-noto-500 has-text-grey-dark">{{ __('for automotive equipment, electro-acoustic devices, sensors, VCM motor') }}</h2>
+            <a href="/products/bec" class="button is-link is-outlined is-large use-noto-500">{{ __('Learn More') }}</a>
         </div>
     </div>
-    <div class="container">
-        <img class="product-img" src="{{asset('img/component/product/bec-bg.png')}}" alt="Bonding Enameled Cooper Wire">
+
+    <div class="hero-foot">
+        <div class="image resize-image-28 has-image-centered">
+            <img class="at-bottom" src="{{asset('img/component/product/bec-background.png')}}" alt="">
+        </div>
     </div>
 </section>
 
-<section class="product-card tile is-vertical has-text-centered  has-background-light">
-    <div class="section is-medium">
-        <div class="section">
-            <p><strong class="is-size-1 has-text-black">超 高 耐 温 漆 包 线</strong></p>
-            <p class="product-text-m-t is-size-3 has-text-black">用于电脑主板、车用电感、工业设备等</p>
-        </div>
-        <div class="section">
-            <a href="/products/uht" class="has-text-link"><p class="is-size-4">了解更多></p></a>
+<section class="hero is-light is-large is-relative is-margin-top-100">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title is-size-1 use-noto-900 has-text-black">{{ __('Ultra-High Temperature Wire') }}</h1>
+            <h2 class="subtitle is-size-4 is-pad-top-10 use-noto-500 has-text-grey-dark">{{ __('for computer motherboards, car inductance, industrial equipment, etc') }}</h2>
+            <a href="/products/uht" class="button is-link is-outlined is-large use-noto-500">{{ __('Learn More') }}</a>
         </div>
     </div>
-    <div class="container">
-        <img class="product-img" src="{{asset('img/component/product/uht-bg.png')}}" alt=" Ultra-High-Temperature Wire">
+    <div class="hero-foot">
+        <div class="image resize-image-28 has-image-centered">
+            <img class="at-bottom" src="{{asset('img/component/product/uht-background.png')}}" alt="">
+        </div>
     </div>
-    </section>
+</section>
 
-<section class="product-card tile is-vertical has-text-centered  has-background-light">
-    <div class="section is-medium">
-        <div class="section">
-            <p><strong class="is-size-1 has-text-black">LITZ 线</strong></p>
-            <p class="product-text-m-t is-size-3 has-text-black">用于无线充电、变压器、照明系统</p>
-        </div>
-        <div class="section">
-            <a href="/products/litz" class="has-text-link"><p class="is-size-4">了解更多></p></a>
+<section class="hero is-light is-large is-relative is-margin-top-100">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title is-size-1 use-noto-900 has-text-black">{{ __('LITZ Wire') }}</h1>
+            <h2 class="subtitle is-size-4 is-pad-top-10 use-noto-500 has-text-grey-dark">{{ __('for wireless charging, transformers, lighting systems') }}</h2>
+            <a href="/products/litz" class="button is-link is-outlined is-large use-noto-500">{{ __('Learn More') }}</a>
         </div>
     </div>
-    <div class="container">
-        <img class="product-img" src="{{asset('img/component/product/litz-bg.png')}}" alt="LITZ Wire / Silk Served LITZ Wire">
+    <div class="hero-foot">
+        <div class="image resize-image-28 has-image-centered">
+            <img class="at-bottom" src="{{asset('img/component/product/litz-background.png')}}" alt="">
+        </div>
     </div>
 </section>
 

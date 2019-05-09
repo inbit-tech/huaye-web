@@ -1,22 +1,77 @@
-.home-video-section{
+.has-background-video{
     position: relative;
-}
-.video-opacity{
-    opacity: 0.8;
-}
-#home-video-content {
-    width: 100%;
-}
-.video-text {
-    position: absolute;
-    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-}
-.team-bg-section{
-    background-image: url("http://pqpazom17.bkt.clouddn.com/team-bg-trans.png");
-    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
     background-size: cover;
-    background-position: bottom center;
+    overflow: hidden;
+}
+
+.team-background-image {
+    // background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/team-background.jpg");
+    @include image-cover-bg($team-img-cover);
+}
+
+.is-opacity-25 {
+    opacity: 0.25;
+    filter: alpha(opacity=25); /* For IE8 and earlier */
+}
+
+.is-opacity-100 {
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.heor-video{
+    opacity: 0.8;
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.use-noto-500 {
+    @include noto-sans-500;
+}
+
+.use-noto-900 {
+    @include noto-sans-900;
+}
+
+.is-pad-top-25 {
+    @include pad-top-25;
+}
+
+.is-size-6-5 {
+    font-size: .9rem;
+}
+
+.resize-smaller-21 {
+    height: 21px;
+    width: auto;
+}
+
+.resize-smaller-36 {
+    height: 36px;
+    width: auto;
+}
+
+.resize-smaller-42 {
+    height: 42px;
+    width: auto;
+}
+
+.resize-smaller-50 {
+    height: 50px;
+    width: auto;
+}
+
+.resize-smaller-52 {
+    height: 52px;
+    width: auto;
 }

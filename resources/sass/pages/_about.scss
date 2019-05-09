@@ -1,8 +1,17 @@
-.top-img {
-    max-height: 1000px;
-    width: 100%;
-    overflow: hidden;
+.contact-background-image {
+    @include image-cover-bg($contact-img-cover);
 }
+
+.history-background-image {
+    @include image-cover-bg($history-img-cover);
+}
+
+
+
+
+
+
+
 
 .quality-border {
     max-width: max-content;
@@ -32,10 +41,6 @@
 
 .history-text-margin {
     margin: 2rem 0;
-}
-
-.team-advantages-margin {
-    margin: 2rem auto;
 }
 
 @media (max-width: 768px) {

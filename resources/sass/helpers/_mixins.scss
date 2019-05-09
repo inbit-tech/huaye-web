@@ -1,0 +1,33 @@
+@mixin noto-sans-500 {
+	font-family: 'Noto Sans SC', sans-serif;
+	font-weight: 500;
+}
+
+@mixin noto-sans-900 {
+	font-family: 'Noto Sans SC', sans-serif;
+	font-weight: 900;
+}
+
+@mixin image-cover-bg($image-url) {
+	position: relative;
+	background-image: url($image-url);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin pad-top-10 {
+	padding-top: 10px;
+}
+
+@mixin pad-top-25 {
+	padding-top: 25px;
+}
+
+@mixin margin-top-50 {
+	margin-top: 50px;
+}
+
+@mixin margin-top-100 {
+	margin-top: 100px;
+}
