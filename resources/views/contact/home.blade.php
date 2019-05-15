@@ -9,7 +9,7 @@
 <section class="hero is-light is-large contact-background-image is-marginless is-paddingless">
     <div class="hero-body">
         <div class="container">
-            <h1 class="title use-noto-900 is-size-1 has-text-black has-text-centered">@lang('navi.contact')</h1>
+            <h1 class="title use-noto-900 is-size-1 has-text-white has-text-centered is-shadow-8">@lang('navi.contact')</h1>
         </div>
     </div>
 </section>
@@ -62,19 +62,19 @@
         <h3 class="title is-uppercase has-text-centered use-noto-900 has-text-grey-dark">{{ __('Send Us Message What You Need') }}</h3>
         <form class="from-body" action="mail/send" method="get"> 
             <div class="field">
-                <label class="label" for="exampleFormControlInput1"></label>
+                <label class="label"></label>
                 <input type="text" name="name" class="input" placeholder="{{ __('How could we address you?') }}" id="form-name">
             </div>
             <div class="field">
-                <label class="label" for="exampleFormControlInput1"></label>
+                <label class="label"></label>
                 <input type="email" name="email" class="input" placeholder="{{ __('your-mail@mail.com') }}" id="form-email"> 
             </div>
             <div class="field">
-                <label class="label" for="exampleFormControlInput1"></label>
+                <label class="label"></label>
                 <input type="phone" name="phone" class="input" placeholder="{{ __('+CountryCode') }} ..." id="form-phone">
             </div>
             <div class="field">
-                <label class="label" for="exampleFormControlTextarea1"></label>
+                <label class="label"></label>
                 <textarea class="textarea" name="question" placeholder="{{ __('Please enter your need') }}" id="form-question"></textarea>
             </div>
             

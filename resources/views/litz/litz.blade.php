@@ -47,7 +47,7 @@
         <table class="table is-striped is-hoverable is-fullwidth is-bordered">
             <thead>
                 <tr>
-                    <th class="has-text-centered has-background-link has-text-white thead-width-desktop">{{ __('LITZ W1re(Non served)') }}</th>
+                    <th class="has-text-centered has-background-link has-text-white thead-width-desktop">{{ __('LITZ Wire(Non served)') }}</th>
                 </tr>
             </thead>
             <tbody>

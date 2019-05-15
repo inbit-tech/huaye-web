@@ -25,13 +25,13 @@ $light-grey: #f5f5f5;
  */
 
 // Page Cover Images URL
-$team-img-cover: "//ppz2v4njy.bkt.clouddn.com/image/jpg/team-background.jpg";
-$about-img-cover: "//ppz2v4njy.bkt.clouddn.com/image/jpg/about-us-bg.jpg";
-$history-img-cover: "//ppz2v4njy.bkt.clouddn.com/image/jpg/factory-cover.jpg";
-$contact-img-cover: "//ppz2v4njy.bkt.clouddn.com/image/jpg/contact-us-cover.jpg";
-$prod1-img-cover: "//ppz2v4njy.bkt.clouddn.com/image/jpg/prod-01-cover.jpg";
-$prod2-img-cover: "//ppz2v4njy.bkt.clouddn.com/image/jpg/prod-02-cover.jpg";
-$prod3-img-cover: "//ppz2v4njy.bkt.clouddn.com/image/jpg/prod-03-cover.jpg";
+$team-img-cover: "../image/component/home/team-background.jpg";
+$about-img-cover: "../image/component/about/about-us-bg.jpg";
+$history-img-cover: "../image/component/about/factory-cover.jpg";
+$contact-img-cover: "../image/component/contact/contact-us-cover.jpg";
+$prod1-img-cover: "../image/component/bec/prod-01-cover.jpg";
+$prod2-img-cover: "../image/component/uht/prod-02-cover.jpg";
+$prod3-img-cover: "../image/component/litz/prod-03-cover.jpg";
 
 // Footer
 $footer-background-color: $dark-grey;
@@ -41,3 +41,6 @@ $footer-padding: 1.3rem;
 $table-cell-border: 1px solid hsl(0, 0%, 100%);
 $table-striped-row-even-background-color: hsl(0, 0%, 86%);
 $table-cell-padding:0.75em 0.75em;
+
+// text-shadow
+$is-shadow-8: 0px 3px 6px rgba(0, 0, 0, 0.8);
