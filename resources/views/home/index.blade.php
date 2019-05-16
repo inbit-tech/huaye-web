@@ -7,7 +7,7 @@
 @section('content')
 
 {{-- Welcome Video --}}
-<section class="hero is-light is-large has-background-video is-marginless is-paddingless has-text-centered">
+<section class="hero is-large has-background-video is-marginless is-paddingless has-text-centered">
     <div class="hero-video">
         <video poster="{{asset('img/component/home/video-poster.jpg')}}" playsinline autoplay muted loop>
             <source src="{{asset('video/welcome.mp4')}}" type="video/mp4">
