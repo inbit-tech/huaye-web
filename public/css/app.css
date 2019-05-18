@@ -11663,12 +11663,16 @@ label.panel-block:hover {
           transform: scale(0.98) translateY(-2px);
 }
 
-.contact-info-text {
-  margin-top: 1rem;
-}
-
 .field-padding {
   padding: 0.5rem;
+}
+
+.has-input-height {
+  height: 3rem;
+}
+
+#submit-form {
+  width: 100%;
 }
 
 #container {
