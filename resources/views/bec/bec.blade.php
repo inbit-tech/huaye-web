@@ -139,6 +139,12 @@
         <img src="{{asset('img/component/product-detail/bec/bec-structure.png')}}" alt="Bonding Enameled Cooper Wire">
     </section>
 
+    <section class="section">
+        <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
+            <p>漆包线分类表（自粘性）</p>
+        </div>
+    </section>
+
     <section class="section container">
         <table class="table is-striped is-hoverable is-bordered is-size-6">
             <thead>
