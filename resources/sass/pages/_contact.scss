@@ -1,27 +1,48 @@
-.contact-background-image {
-    @include image-cover-bg($contact-img-cover);
+.section-half-screen{
+    padding: 3rem;
 }
-
-
-
 // contact-us info style
 .align-items-flex-start {
     align-items: flex-start;
 }
-.contact-info-img{
+
+.contact-info-img {
     width: 100px;
     height: auto;
 }
+
 .contact-info-img:hover {
-  transform: scale(1.02) translateY(-4px);
+    transform: scale(1.02) translateY(-4px);
 }
 
 .contact-info-img:active {
-  transform: scale(0.98) translateY(-2px);
+    transform: scale(0.98) translateY(-2px);
 }
+.contact-info-text-m-t{
+    margin-top: 1.5rem;
+}
+
+.field-padding {
+    padding: 0.5rem;
+}
+
+.has-input-height {
+    height: 3rem;
+}
+
+#submit-form {
+    width: 100%;
+}
+
 // map style
 #container {
     width: 100%;
-    height: 500px;
-    margin-top: 5rem;
+    height: 1200px;
+}
+
+@media (max-width: 768px) {
+    #container {
+        width: 100%;
+        height: 500px;
+    }
 }

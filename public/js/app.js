@@ -1185,7 +1185,7 @@ if (map_id) {
   });
   marker.setLabel({
     offset: new AMap.Pixel(20, -10),
-    content: '<div style="font-size:16px">精成二路灵狮小镇C栋三层C313-316号</div>',
+    content: '<div style="font-size:16px;text-align:center"><p>广东省东莞市黄江镇裕元工业园</p><br><p>精成二路灵狮小镇C栋三层C313-316号</p></div>',
     direction: 'top'
   });
   map.add(marker);
