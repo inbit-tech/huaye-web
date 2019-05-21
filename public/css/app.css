@@ -11434,10 +11434,17 @@ label.panel-block:hover {
 
 .team-background-image {
   position: relative;
-  background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/team-background.jpg");
+  background-image: url(/images/team-background.jpg?f4f013b31594d30698e1cbfc8d097738);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+}
+
+.is-shadow-8 {
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
 }
 
 .is-opacity-25 {
@@ -11452,7 +11459,7 @@ label.panel-block:hover {
   /* For IE8 and earlier */
 }
 
-.heor-video {
+.hero-video {
   opacity: 0.8;
   position: absolute;
   height: auto;
@@ -11564,7 +11571,7 @@ label.panel-block:hover {
 
 .about-background-image {
   position: relative;
-  background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/about-us-bg.jpg");
+  background-image: url(/images/about-us-bg.jpg?820cb87f8002eebff817776c0b910dbe);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11572,7 +11579,7 @@ label.panel-block:hover {
 
 .history-background-image {
   position: relative;
-  background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/factory-cover.jpg");
+  background-image: url(/images/factory-cover.jpg?2c53da3f265391526b796b47b18e5ddf);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11629,12 +11636,8 @@ label.panel-block:hover {
   }
 }
 
-.contact-background-image {
-  position: relative;
-  background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/contact-us-cover.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.section-half-screen {
+  padding: 3rem;
 }
 
 .align-items-flex-start {
@@ -11656,15 +11659,37 @@ label.panel-block:hover {
           transform: scale(0.98) translateY(-2px);
 }
 
+.contact-info-text-m-t {
+  margin-top: 1.5rem;
+}
+
+.field-padding {
+  padding: 0.5rem;
+}
+
+.has-input-height {
+  height: 3rem;
+}
+
+#submit-form {
+  width: 100%;
+}
+
 #container {
   width: 100%;
-  height: 500px;
-  margin-top: 5rem;
+  height: 1200px;
+}
+
+@media (max-width: 768px) {
+  #container {
+    width: 100%;
+    height: 500px;
+  }
 }
 
 .bondwire-background-image {
   position: relative;
-  background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/prod-01-cover.jpg");
+  background-image: url(/images/prod-01-cover.jpg?b405d3a8155945fb6ad1d243c1c95de4);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11672,7 +11697,7 @@ label.panel-block:hover {
 
 .uht-background-image {
   position: relative;
-  background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/prod-02-cover.jpg");
+  background-image: url(/images/prod-02-cover.jpg?c6bf3dc83cfe1ba625ea86de1d95bee4);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11680,7 +11705,7 @@ label.panel-block:hover {
 
 .litz-background-image {
   position: relative;
-  background-image: url("//ppz2v4njy.bkt.clouddn.com/image/jpg/prod-03-cover.jpg");
+  background-image: url(/images/prod-03-cover.jpg?7b86d13ffb6bcee211fe30e0c093fb89);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

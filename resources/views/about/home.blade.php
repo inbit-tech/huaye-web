@@ -8,7 +8,7 @@
 <section class="hero is-light is-large about-background-image is-marginless is-paddingless">
     <div class="hero-body">
         <div class="container">
-            <h1 class="title use-noto-900 is-size-1 has-text-white">@lang('navi.about')</h1>
+            <h1 class="title use-noto-900 is-size-1 has-text-white has-text-centered is-shadow-8">@lang('navi.about')</h1>
         </div>
     </div>
 </section>
@@ -71,7 +71,7 @@
 <section id="our-story" class="hero is-light is-fullheight history-background-image is-marginless is-paddingless">
     <div class="hero-body has-text-centered has-text-white">
         <div class="container">
-            <h1 class="title has-text-white use-noto-900 is-sizie-2 is-uppercase">{{ __('Huaye Technology') }}</h1>
+            <h1 class="title has-text-white use-noto-900 is-sizie-2 is-uppercase is-shadow-8">{{ __('Huaye Technology') }}</h1>
         </div>
     </div>
 </section>
