@@ -11636,12 +11636,8 @@ label.panel-block:hover {
   }
 }
 
-.contact-background-image {
-  position: relative;
-  background-image: url(/images/contact-us-cover.jpg?8be8d072a1120fa75387c29e67fb4341);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.section-half-screen {
+  padding: 3rem;
 }
 
 .align-items-flex-start {
@@ -11661,6 +11657,10 @@ label.panel-block:hover {
 .contact-info-img:active {
   -webkit-transform: scale(0.98) translateY(-2px);
           transform: scale(0.98) translateY(-2px);
+}
+
+.contact-info-text-m-t {
+  margin-top: 1.5rem;
 }
 
 .field-padding {

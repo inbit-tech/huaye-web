@@ -4,53 +4,37 @@
 <title>@lang('navi.contact') - @lang('navi.title')</title>
 @endsection
 
-{{-- Cover Image with Title --}}
 @section('content')
-{{-- <section class="hero is-light is-large contact-background-image is-marginless is-paddingless">
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="title use-noto-900 is-size-1 has-text-white has-text-centered is-shadow-8">@lang('navi.contact')</h1>
-        </div>
-    </div>
-</section> --}}
-
-
-{{-- half screen section--}}
-
-<section class="section">
+<section class="section-half-screen">
     <div class="columns">
         <div class="column is-6">
             {{-- map API --}}
             {{-- this div's id must be "container" --}}
             <div id="container"></div>
         </div>
-        <div class="column is-6 tile is-vertical level-item">
-            <div class="section">
-                <h1 class="title use-noto-900 is-size-1 has-text-grey-dark has-text-centered">@lang('navi.contact')</h1>
-            </div>
-
+        <div class="column is-6">
             {{-- Contact Info --}}
             <section class="section">
                 <div class="level tile align-items-flex-start">
                     <div class="level-item has-text-centered tile is-vertical">
-                        <div class="section">
+                        <div>
                             <a href="tel:0769-82601699" >
                                 <img class="image contact-info-img" src="{{asset('img/component/contact/icon_phone.png')}}" alt="Phone">
                             </a>
                         </div>
-                        <div>   
+                        <div class="contact-info-text-m-t">   
                             <a href="tel:0769-82601699" >
                                 <p class="use-noto-900 is-size-5">0769-82601699</p>
                             </a>
                         </div>
                     </div>
                     <div class="level-item has-text-centered tile is-vertical">
-                        <div class="section">
+                        <div>
                             <a href="mailto:huaye@huaye-dg.com">
                                 <img class="image contact-info-img" src="{{asset('img/component/contact/icon_email.png')}}" alt="eMail">
                             </a>
                         </div>
-                        <div>
+                        <div class="contact-info-text-m-t">
                             <a href="mailto:huaye@huaye-dg.com">
                                 <p class="use-noto-900 is-size-5">huaye@huaye-dg.com</p>
                             </a>
@@ -62,7 +46,7 @@
             {{-- Contact Form --}}
             <section id="contact-form" class="section columns">
                 <div class="container column is-10">
-                    <h3 class="title is-uppercase has-text-centered use-noto-900 has-text-grey-light is-size-4-mobile">{{ __('Send Us Message What You Need') }}</h3>
+                    <h3 class="title is-uppercase has-text-centered use-noto-900 has-text-grey-dark is-size-4-mobile">{{ __('Send Us Message What You Need') }}</h3>
                     <form class="from-body" action="mail/send" method="get"> 
                         <div class="field field-padding">
                             <label class="label"></label>

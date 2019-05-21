@@ -1,7 +1,6 @@
-.contact-background-image {
-    @include image-cover-bg($contact-img-cover);
+.section-half-screen{
+    padding: 3rem;
 }
-
 // contact-us info style
 .align-items-flex-start {
     align-items: flex-start;
@@ -18,6 +17,9 @@
 
 .contact-info-img:active {
     transform: scale(0.98) translateY(-2px);
+}
+.contact-info-text-m-t{
+    margin-top: 1.5rem;
 }
 
 .field-padding {
