@@ -11420,6 +11420,11 @@ label.panel-block:hover {
   width: 30%;
 }
 
+table td,
+table th {
+  vertical-align: middle !important;
+}
+
 .has-padding-btm-18 {
   padding-bottom: 18px;
 }
