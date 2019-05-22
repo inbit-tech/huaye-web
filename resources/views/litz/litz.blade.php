@@ -38,7 +38,7 @@
     </section>
 
     <section class="section is-medium">
-        <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
+        <div class="container has-background-link has-text-white side-bar-text is-size-4">
             <p>{{ __('Model identification') }}</p>
         </div>
     </section>
@@ -120,7 +120,7 @@
     </section>
 
     <section class="section is-medium">
-        <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile">
+        <div class="container has-background-link has-text-white side-bar-text is-size-4">
             <p>{{__('Structure diagram')}}</p>
         </div>
     </section>
@@ -130,76 +130,82 @@
     </section>
 
     <section class="section is-medium container has-text-centered is-hidden-desktop">
-        <p  class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">更多参数文档请在电脑端查看</p>
+        <p  class="container has-background-link has-text-white side-bar-text is-size-4 ">{{__('For more documentation, please view on PC')}}</p>
     </section>
 
     <section class="is-hidden-touch">
         <section class="section is-medium">
-            <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile">
-                <p>绞合漆包线束线分类</p>
+            <div class="container has-background-link has-text-white side-bar-text is-size-4">
+                <p>{{__('Litz Wire Product List')}}</p>
             </div>
         </section>
 
         <section class="section container">
-            <table class="table is-striped is-bordered is-narrow is-size-7-touch is-size-7-desktop is-size-6-fullhd">
+            <table class="table is-striped is-bordered is-narrow is-size-7">
                 <thead>
                     <tr class="has-background-link">
-                        <th class="has-text-centered has-text-white">类型</th>
-                        <th class="has-text-centered has-text-white">外层包覆材料</th>
-                        <th class="has-text-centered has-text-white">特性</th>
-                        <th class="has-text-centered has-text-white">应用领域</th>
+                        <th class="has-text-centered has-text-white">{{__('Product type')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Outer coating material')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Features')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Application')}}</th>
                     </tr>
                 </thead>
                 <tbody class="has-text-white">
                     <tr class="has-background-grey-lighter">
-                        <td class="has-text-centered has-text-grey-dark">普通漆包线束线</td>
-                        <td class="has-text-centered has-text-grey-dark">无</td>
-                        <td class="has-text-centered has-text-grey-dark"><p>耐高频，良好的机械强度。</p></td>
-                        <td class="has-text-centered has-text-grey-dark"><p>射频变压器，镇流器，电力开关电源，加热电阻线等。</p></td>              
+                        <td class="has-text-centered has-text-grey-dark">{{__('Basic litz wire')}}</td>
+                        <td class="has-text-centered has-text-grey-dark">/</td>
+                        <td class="has-text-centered has-text-grey-dark"><p>{{__('High-frequency resistance, good mechanical strength.')}}</p></td>
+                        <td class="has-text-centered has-text-grey-dark"><p>{{__('RF transformer, ballast, power switching power supply, heating resistance line, etc.')}}</p></td>              
                     </tr>
                     <tr class="has-background-grey-lighter">
-                        <td class="has-text-centered has-text-grey-dark">自粘性漆包线束线</td>
-                        <td class="has-text-centered has-text-grey-dark">无</td>
-                        <td class="has-text-centered has-text-grey-dark"><p>良好的粘结性能。</p></td>
-                        <td class="has-text-centered has-text-grey-dark"><p>加热线圈，天线电感，电讯器材，无线电设备，声纳设备等。</p></td>              
+                        <td class="has-text-centered has-text-grey-dark">{{__('Self-bonding litz wire')}}</td>
+                        <td class="has-text-centered has-text-grey-dark">/</td>
+                        <td class="has-text-centered has-text-grey-dark"><p>{{__('Good bonding properties.')}}</p></td>
+                        <td class="has-text-centered has-text-grey-dark"><p>{{__('Heating coils, antenna inductors, telecommunications equipment, radio equipment, sonar equipment, etc.')}}</p></td>              
                     </tr>
                     <tr class="has-background-grey-lighter">
-                        <td class="has-text-centered has-text-grey-dark" rowspan="4">丝包绞合漆包线束线</td>
-                        <td class="has-text-centered has-text-grey-dark">天然丝</td>
-                        <td class="has-text-centered has-text-grey-dark" rowspan="4"><p>优良的机械性能和极好的尺寸稳定性及高“Q”值。</p></td>
-                        <td class="has-text-centered has-text-grey-dark" rowspan="4"><p>天线电感，大功率照明，视讯设备，超声波设备，高频电感，高频变压器。</p></td>              
+                        <td class="has-text-centered has-text-grey-dark" rowspan="4">{{__('Served (silk covered) litz wire')}}</td>
+                        <td class="has-text-centered has-text-grey-dark">{{__('Natural silk')}}</td>
+                        <td class="has-text-centered has-text-grey-dark" rowspan="4"><p>{{__("Excellent mechanical properties, excellent dimensional stability and high ’Q' value.")}}</p></td>
+                        <td class="has-text-centered has-text-grey-dark" rowspan="4"><p>{{__('Antenna inductor, high power lighting, video equipment, ultrasonic equipment, high-frequency inductor, high-frequency transformer.')}}</p></td>              
                     </tr>
                     <tr class="has-background-grey-lighter">
-                        <td class="has-text-centered has-text-grey-dark">涤纶丝</td>            
+                        <td class="has-text-centered has-text-grey-dark">{{__('Polyester')}}</td>            
                     </tr>
                     <tr class="has-background-grey-lighter">
-                        <td class="has-text-centered has-text-grey-dark">尼龙丝</td>            
+                        <td class="has-text-centered has-text-grey-dark">{{__('Nylon')}}</td>            
                     </tr>
                     <tr class="has-background-grey-lighter">
-                        <td class="has-text-centered has-text-grey-dark">醋酸纤维丝</td>            
+                        <td class="has-text-centered has-text-grey-dark">{{__('Acetate filament')}}</td>            
                     </tr>
                     <tr class="has-background-grey-lighter">
-                        <td class="has-text-centered has-text-grey-dark" rowspan="3">薄膜包覆漆包线束线（麦拉线）</td>
-                        <td class="has-text-centered has-text-grey-dark">PET薄膜</td>
-                        <td class="has-text-centered has-text-grey-dark" rowspan="3"><p>优越的电气性能，良好的耐热性,表面平整性，透明度和机械柔韧性。</p></td>
-                        <td class="has-text-centered has-text-grey-dark" rowspan="3"><p>高频电感器及变压器等应用于转换器，通讯设备，超声波设备，声纳设备，视讯设备，无线电设备及热感设备等。</p></td>              
+                        <td class="has-text-centered has-text-grey-dark" rowspan="3">{{__('Taped litz wire (Mylar wire)')}}</td>
+                        <td class="has-text-centered has-text-grey-dark">PET</td>
+                        <td class="has-text-centered has-text-grey-dark" rowspan="3"><p>{{__('Excellent electrical performance, good heat resistance, surface smoothness, transparency, and mechanical flexibility.')}}</p></td>
+                        <td class="has-text-centered has-text-grey-dark" rowspan="3"><p>{{__('High-frequency inductors and transformers are used in converters, communication equipment, ultrasonic equipment, sonar equipment, video equipment, radio equipment, and thermal sensing equipment.')}}</p></td>              
+                    </tr>
+                    <tr class="has-background-grey-lighter">
+                        <td class="has-text-centered has-text-grey-dark">PEN</td>
+                    </tr>
+                    <tr class="has-background-grey-lighter">
+                        <td class="has-text-centered has-text-grey-dark">PI</td>
                     </tr>
                 </tbody>
             </table>
         </section>
 
         <section class="section is-medium">
-            <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile">
-                <p>丝包绞合漆包线技术特性</p>
+            <div class="container has-background-link has-text-white side-bar-text is-size-4">
+                <p>{{__('USTC(served)Litz Wire Technical Data')}}</p>
             </div>
         </section>
 
         <section class="section container">
-            <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7-touch is-size-7-desktop is-size-6-fullhd">
+            <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7">
                 <thead>
                     <tr class="has-background-link">
-                        <th class="has-text-centered has-text-white" rowspan="4">单线根数</th>
-                        <th class="has-text-centered has-text-white" colspan="18">单线导体的标称直径(mm)</th>
+                        <th class="has-text-centered has-text-white" rowspan="4">{{__('Single wire root number')}}</th>
+                        <th class="has-text-centered has-text-white" colspan="18">{{__('Nominal diameter of the single-wire conductor')}}(mm)</th>
                     </tr>
                     <tr class="has-background-link">
                         <th class="has-text-centered has-text-white" colspan="3">0.04</th>
@@ -210,32 +216,32 @@
                         <th class="has-text-centered has-text-white" colspan="3">0.315</th>
                     </tr>
                     <tr class="has-background-link">
-                        <th class="has-text-centered has-text-white" rowspan="2">标称外径(mm)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">电阻(Ω/m)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">标称外径(mm)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">电阻(Ω/m)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">标称外径(mm)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">电阻(Ω/m)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">标称外径(mm)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">电阻(Ω/m)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">标称外径(mm)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">电阻(Ω/m)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">标称外径(mm)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">电阻(Ω/m)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Nominal outer diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω/m)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Nominal outer diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω/m)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Nominal outer diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω/m)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Nominal outer diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω/m)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Nominal outer diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω/m)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Nominal outer diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω/m)</th>
                     </tr>
                     <tr class="has-background-link">
-                        <th class="has-text-centered has-text-white">Min</th>
-                        <th class="has-text-centered has-text-white">Max</th>
-                        <th class="has-text-centered has-text-white">Min</th>
-                        <th class="has-text-centered has-text-white">Max</th>
-                        <th class="has-text-centered has-text-white">Min</th>
-                        <th class="has-text-centered has-text-white">Max</th>
-                        <th class="has-text-centered has-text-white">Min</th>
-                        <th class="has-text-centered has-text-white">Max</th>
-                        <th class="has-text-centered has-text-white">Min</th>
-                        <th class="has-text-centered has-text-white">Max</th>
-                        <th class="has-text-centered has-text-white">Min</th>
-                        <th class="has-text-centered has-text-white">Max</th>
+                        <th class="has-text-centered has-text-white">{{__('Min')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Max')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Min')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Max')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Min')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Max')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Min')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Max')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Min')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Max')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Min')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Max')}}</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -590,7 +596,7 @@
                     </tr>
 
                     <tr>
-                        <td class="has-text-centered has-text-grey"><p>最大根数</p></td>
+                        <td class="has-text-centered has-text-grey"><p>{{__('Max number of roots')}}</p></td>
                         <td class="has-text-centered has-text-grey" colspan="3">500</td>
                         <td class="has-text-centered has-text-grey" colspan="3">500</td>
                         <td class="has-text-centered has-text-grey" colspan="3">500</td>
@@ -600,7 +606,7 @@
                     </tr>
 
                     <tr>
-                        <td class="has-text-centered has-text-grey"><p>单线外径</p></td>
+                        <td class="has-text-centered has-text-grey"><p>{{__('Single line outer diameter')}}</p></td>
                         <td class="has-text-centered has-text-grey" colspan="3">≤0.049mm</td>
                         <td class="has-text-centered has-text-grey" colspan="3">≤0.084mm</td>
                         <td class="has-text-centered has-text-grey" colspan="3">≤0.095mm</td>
@@ -610,27 +616,27 @@
                     </tr>
 
                     <tr>
-                        <td class="has-text-centered has-text-grey"><p>绞合方式</p></td>
-                        <td class="has-text-centered has-text-grey" colspan="18"><p>绞合方式可分为一次绞合和多次绞合。例如：一次绞合0.10*105 或二次绞合0.10*21*5或三次绞合0.10*7*3*5。</p></td>
+                        <td class="has-text-centered has-text-grey"><p>{{__('Bunched method')}}</p></td>
+                        <td class="has-text-centered has-text-grey" colspan="18"><p>{{__('Bunched method have directly bunched and multi-step bunched.For example:directly bunched 0.1*105,secondary bunched 0.1*21*5 and multi-step bunched 0.1*7*3*5')}}</p></td>
                     </tr>
 
                     <tr>
-                        <td class="has-text-centered has-text-grey"><p>束线节距</p></td>
-                        <td class="has-text-centered has-text-grey" colspan="18"><p>不应超过60mm，束丝方向为：“S”向（逆时针）；“Z”向（顺时针）。</p></td>
+                        <td class="has-text-centered has-text-grey"><p>{{__('Bundle pitch')}}</p></td>
+                        <td class="has-text-centered has-text-grey" colspan="18"><p>{{__("Less than 60 mm,pitch direction:'S' (Counterclockwise); 'Z' (Clockwise)")}}</p></td>
                     </tr>
 
                     <tr>
-                        <td class="has-text-centered has-text-grey"><p>盐水针孔</p></td>
-                        <td class="has-text-centered has-text-grey" colspan="18"><p>每5m针孔数不超过（2*n）孔，n为束线单线根数。</p></td>
+                        <td class="has-text-centered has-text-grey"><p>{{__('Brine pinhole')}}</p></td>
+                        <td class="has-text-centered has-text-grey" colspan="18"><p>{{__('Pinhole number are less than (2*n) per 5m,n is the single wire number')}}</p></td>
                     </tr>
                     <tr class="has-background-grey-lighter">
-                        <td class="has-text-centered has-text-grey" rowspan="5"><p>丝包厚度</p></td>
+                        <td class="has-text-centered has-text-grey" rowspan="5"><p>{{__('Silk wrap thickness')}}</p></td>
                         <td class="has-text-centered has-text-grey"><p></p></td>
-                        <td class="has-text-centered has-text-grey" colspan="10"><p>丝包漆包束线的标称外径(mm)</p></td>
-                        <td class="has-text-centered has-text-grey" colspan="7"><p>丝包层厚度(mm)</p></td>
+                        <td class="has-text-centered has-text-grey" colspan="10"><p>{{__('Silk served litz wire nominal overall diameter')}}(mm)</p></td>
+                        <td class="has-text-centered has-text-grey" colspan="7"><p>{{__('Silk served thickness')}}(mm)</p></td>
                     </tr>
                     <tr class="has-background-grey-lighter">
-                        <td class="has-text-centered has-text-grey" rowspan="2"><p>单层丝包</p></td>
+                        <td class="has-text-centered has-text-grey" rowspan="2"><p>{{__('Single silk served layer')}}</p></td>
                         <td class="has-text-centered has-text-grey" colspan="10"><p>≤0.450</p></td>
                         <td class="has-text-centered has-text-grey" colspan="7"><p>0.030~0.035</p></td>
                     </tr>
@@ -639,7 +645,7 @@
                         <td class="has-text-centered has-text-grey" colspan="7"><p>0.035~0.04</p></td>
                     </tr>
                     <tr class="has-background-grey-lighter">
-                        <td class="has-text-centered has-text-grey" rowspan="2"><p>双层丝包</p></td>
+                        <td class="has-text-centered has-text-grey" rowspan="2"><p>{{__('Double silk served layer')}}</p></td>
                         <td class="has-text-centered has-text-grey" colspan="10"><p>0.6~1</p></td>
                         <td class="has-text-centered has-text-grey" colspan="7"><p>0.06~0.07</p></td>
                     </tr>
@@ -648,26 +654,26 @@
                         <td class="has-text-centered has-text-grey" colspan="7"><p>0.07~0.08</p></td>
                     </tr>
                     <tr class="has-background-grey-lighter">
-                        <td class="has-text-centered has-text-grey">柔韧性/附着力</td>
-                        <td class="has-text-centered has-text-grey"><p>圆棒实验</p></td>
-                        <td class="has-text-centered has-text-grey" colspan="17"><p>10D试棒卷绕，丝包层不应有大的开裂以致明显露出漆包线。</p></td>
+                        <td class="has-text-centered has-text-grey">{{__('Flexibility')}}<br>/<br>{{__('Adhesion')}}</td>
+                        <td class="has-text-centered has-text-grey"><p>{{__('Rod test')}}</p></td>
+                        <td class="has-text-centered has-text-grey" colspan="17"><p>{{__('10D testing rod winding,silk served layer should not crack to expose enameled wire obviously')}}</p></td>
                     </tr>
                 </tbody>
             </table>
         </section>
 
         <section class="section is-medium">
-            <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile">
-                <p>绞合漆包线技术特性</p>
+            <div class="container has-background-link has-text-white side-bar-text is-size-4">
+                <p>{{__('Litz Wire Technical Data')}}</p>
             </div>
         </section>
 
         <section class="section container">
-            <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7-touch is-size-7-desktop is-size-6-fullhd">
+            <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7 last-table-m-b">
                 <thead>
                     <tr class="has-background-link">
-                        <th class="has-text-centered has-text-white" rowspan="4">单线根数</th>
-                        <th class="has-text-centered has-text-white" colspan="18">单线导体的标称直径(mm)</th>
+                        <th class="has-text-centered has-text-white" rowspan="4">{{__('Single wire root number')}}</th>
+                        <th class="has-text-centered has-text-white" colspan="18">{{__('Nominal diameter of the single-wire conductor')}}(mm)</th>
                     </tr>
                     <tr class="has-background-link">
                         <th class="has-text-centered has-text-white" colspan="3">0.04</th>
@@ -678,32 +684,32 @@
                         <th class="has-text-centered has-text-white" colspan="3">0.315</th>
                     </tr>
                     <tr class="has-background-link">
-                        <th class="has-text-centered has-text-white" rowspan="2">标称外径(mm)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">电阻(Ω/m)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">标称外径(mm)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">电阻(Ω/m)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">标称外径(mm)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">电阻(Ω/m)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">标称外径(mm)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">电阻(Ω/m)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">标称外径(mm)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">电阻(Ω/m)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">标称外径(mm)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">电阻(Ω/m)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Nominal outer diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω/m)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Nominal outer diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω/m)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Nominal outer diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω/m)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Nominal outer diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω/m)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Nominal outer diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω/m)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Nominal outer diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω/m)</th>
                     </tr>
                     <tr class="has-background-link">
-                        <th class="has-text-centered has-text-white">Min</th>
-                        <th class="has-text-centered has-text-white">Max</th>
-                        <th class="has-text-centered has-text-white">Min</th>
-                        <th class="has-text-centered has-text-white">Max</th>
-                        <th class="has-text-centered has-text-white">Min</th>
-                        <th class="has-text-centered has-text-white">Max</th>
-                        <th class="has-text-centered has-text-white">Min</th>
-                        <th class="has-text-centered has-text-white">Max</th>
-                        <th class="has-text-centered has-text-white">Min</th>
-                        <th class="has-text-centered has-text-white">Max</th>
-                        <th class="has-text-centered has-text-white">Min</th>
-                        <th class="has-text-centered has-text-white">Max</th>
+                        <th class="has-text-centered has-text-white">{{__('Min')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Max')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Min')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Max')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Min')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Max')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Min')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Max')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Min')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Max')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Min')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Max')}}</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -1058,7 +1064,7 @@
                     </tr>
 
                     <tr>
-                        <td class="has-text-centered has-text-grey"><p>最大根数</p></td>
+                        <td class="has-text-centered has-text-grey"><p>{{__('Max number of roots')}}</p></td>
                         <td class="has-text-centered has-text-grey" colspan="3">500</td>
                         <td class="has-text-centered has-text-grey" colspan="3">500</td>
                         <td class="has-text-centered has-text-grey" colspan="3">500</td>
@@ -1068,7 +1074,7 @@
                     </tr>
 
                     <tr>
-                        <td class="has-text-centered has-text-grey"><p>单线外径</p></td>
+                        <td class="has-text-centered has-text-grey"><p>{{__('Single line outer diameter')}}</p></td>
                         <td class="has-text-centered has-text-grey" colspan="3">≤0.049mm</td>
                         <td class="has-text-centered has-text-grey" colspan="3">≤0.084mm</td>
                         <td class="has-text-centered has-text-grey" colspan="3">≤0.095mm</td>
@@ -1078,18 +1084,18 @@
                     </tr>
 
                     <tr>
-                        <td class="has-text-centered has-text-grey"><p>绞合方式</p></td>
-                        <td class="has-text-centered has-text-grey" colspan="18"><p>绞合方式可分为一次绞合和多次绞合。例如：一次绞合0.10*105或二次绞合0.10*21*5或三次绞合0.10*7*3*5。</p></td>
+                        <td class="has-text-centered has-text-grey"><p>{{__('Bunched method')}}</p></td>
+                        <td class="has-text-centered has-text-grey" colspan="18"><p>{{__('Bunched method have directly bunched and multi-step bunched.For example:directly bunched 0.1*105,secondary bunched 0.1*21*5 and multi-step bunched 0.1*7*3*5')}}</p></td>
                     </tr>
 
                     <tr>
-                        <td class="has-text-centered has-text-grey"><p>束线节距</p></td>
-                        <td class="has-text-centered has-text-grey" colspan="18"><p>不应超过60mm，束丝方向为：“S”向（逆时针）；“Z”向（顺时针）。</p></td>
+                        <td class="has-text-centered has-text-grey"><p>{{__('Bundle pitch')}}</p></td>
+                        <td class="has-text-centered has-text-grey" colspan="18"><p>{{__("Less than 60 mm,pitch direction:'S' (Counterclockwise); 'Z' (Clockwise)")}}</p></td>
                     </tr>
 
                     <tr>
-                        <td class="has-text-centered has-text-grey"><p>盐水针孔</p></td>
-                        <td class="has-text-centered has-text-grey" colspan="18"><p>每5m针孔数不超过（2*n）孔，n为束线单线根数。</p></td>
+                        <td class="has-text-centered has-text-grey"><p>{{__('Brine pinhole')}}</p></td>
+                        <td class="has-text-centered has-text-grey" colspan="18"><p>{{__('Pinhole number are less than (2*n) per 5m,n is the single wire number')}}</p></td>
                     </tr>
                 </tbody>
             </table>

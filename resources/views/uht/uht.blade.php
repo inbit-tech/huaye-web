@@ -32,7 +32,7 @@
     </section>
 
     <section class="section is-medium">
-        <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
+        <div class="container has-background-link has-text-white side-bar-text is-size-4 ">
             <p>{{ __('Model identification') }}</p>
         </div>
     </section>
@@ -78,7 +78,7 @@
     </section>
 
     <section class="section">
-        <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
+        <div class="container has-background-link has-text-white side-bar-text is-size-4 ">
             <p>{{__('Structure diagram')}}</p>
         </div>
     </section>
@@ -88,26 +88,26 @@
     </section>
 
     <section class="section is-medium container has-text-centered is-hidden-desktop">
-        <p  class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">更多参数文档请在电脑端查看</p>
+        <p  class="container has-background-link has-text-white side-bar-text is-size-4">{{__('For more documentation, please view on PC')}}</p>
     </section>
 
     <section class="is-hidden-touch">
         <section class="section is-medium">
-            <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
-                <p>漆包线分类表（非自粘性）</p>
+            <div class="container has-background-link has-text-white side-bar-text is-size-4 ">
+                <p>{{__('Enameled Copper Wire Technical Product List(Non-self bonding)')}}</p>
             </div>
         </section>
 
         <section class="section container">
-            <table class="table is-striped is-bordered is-narrow is-size-7-touch is-size-7-desktop is-size-6-fullhd">
+            <table class="table is-striped is-bordered is-narrow is-size-7">
                 <thead>
                     <tr class="has-background-link">
-                        <th class="has-text-centered has-text-white">型号</th>
-                        <th class="has-text-centered has-text-white">规格范围 (mm)</th>
-                        <th class="has-text-centered has-text-white">温度指数</th>
-                        <th class="has-text-centered has-text-white">可焊性</th>
-                        <th class="has-text-centered has-text-white">特长(℃)</th>
-                        <th class="has-text-centered has-text-white">应用领域</th>
+                        <th class="has-text-centered has-text-white">{{__('Product type')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white">{{__('Thermal class')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Solderability')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Properties')}}<br>(℃)</th>
+                        <th class="has-text-centered has-text-white">{{__('Application')}}</th>
                     </tr>
                 </thead>
                 <tbody class="has-text-white">
@@ -116,8 +116,8 @@
                         <td class="has-text-centered has-text-grey-dark">0.040~0.500</td>
                         <td class="has-text-centered has-text-grey-dark">E(120℃)</td>
                         <td class="has-text-centered has-text-grey-dark">YES</td>
-                        <td class="has-text-centered has-text-grey-dark" rowspan="4"><p>300-320℃可以直焊，易着色。耐高频、耐潮性能好。弱点是机械强度稍差，耐热性能不高。</p></td>
-                        <td class="has-text-centered has-text-grey-dark" rowspan="7"><p>广泛应用于电子家电和精密仪器电讯，仪表上。</p></td>                    
+                        <td class="has-text-centered has-text-grey-dark" rowspan="4"><p>300-320℃{{__('Can be directly welded, easy to color. Good high frequency and moisture resistance. The weakness is that the mechanical strength is slightly poor and the heat resistance is not high.')}}</p></td>
+                        <td class="has-text-centered has-text-grey-dark" rowspan="7"><p>{{__('Widely used in electronic appliances and precision instruments, telecommunications, instruments.')}}</p></td>                    
                     </tr>
                     <tr class="has-background-grey-lighter">
                         <td class="has-text-centered has-text-grey-dark" rowspan="3">UEW</td>
@@ -136,7 +136,7 @@
                         <td class="has-text-centered has-text-grey-dark" rowspan="3">0.040~0.500</td>
                         <td class="has-text-centered has-text-grey-dark">B(130℃)</td>
                         <td class="has-text-centered has-text-grey-dark" rowspan="3">YES</td>
-                        <td class="has-text-centered has-text-grey-dark" rowspan="3"><p>聚酰胺复合聚氨酯漆包线，370-390℃可以直焊，外敷尼龙层可提高可绕性。</p></td>                 
+                        <td class="has-text-centered has-text-grey-dark" rowspan="3"><p>{{__('Polyamide composite polyurethane enameled wire, 370 °C 390 ℃ can be directly welded, external application of nylon layer can improve the windability.')}}</p></td>                 
                     </tr>
                     <tr class="has-background-grey-lighter">
                         <td class="has-text-centered has-text-grey-dark">F(155℃)</td>           
@@ -149,8 +149,8 @@
                         <td class="has-text-centered has-text-grey-dark" rowspan="2">0.040~0.700</td>
                         <td class="has-text-centered has-text-grey-dark">F(155℃)</td>
                         <td class="has-text-centered has-text-grey-dark" rowspan="2">YES</td>
-                        <td class="has-text-centered has-text-grey-dark" rowspan="2"><p>直焊性聚酯漆包线，380-400℃可以直焊</p></td>
-                        <td class="has-text-centered has-text-grey-dark" rowspan="5"><p>广泛应用于各种电机、电器、仪表、电讯器材及家电产品。</p></td>
+                        <td class="has-text-centered has-text-grey-dark" rowspan="2"><p>{{__('Direct welding polyester enameled wire, 380 to 400 ℃ can be directly welded')}}</p></td>
+                        <td class="has-text-centered has-text-grey-dark" rowspan="5"><p>{{__('Widely used in a variety of motor, electrical appliances, instrumentation, telecommunications equipment, and household electrical appliances.')}}</p></td>
                     </tr>
                     <tr class="has-background-grey-lighter">
                         <td class="has-text-centered has-text-grey-dark">H(180℃)</td>           
@@ -160,7 +160,7 @@
                         <td class="has-text-centered has-text-grey-dark" rowspan="3">0.040~0.700</td>
                         <td class="has-text-centered has-text-grey-dark" rowspan="3">F(155℃)</td>
                         <td class="has-text-centered has-text-grey-dark" rowspan="3">NO</td>
-                        <td class="has-text-centered has-text-grey-dark" rowspan="3"><p>机械强度高，并具有良好的弹性、耐刮性、附着性、高耐温等级及优良可绕性。弱点是耐热冲击性能差，耐潮性能较低。</p></td>
+                        <td class="has-text-centered has-text-grey-dark" rowspan="3"><p>{{__('High mechanical strength, good elasticity, scratch resistance, adhesion, high-temperature resistance, and excellent weldability. The weakness is poor heat shock resistance and low moisture resistance.')}}</p></td>
                     </tr>
                     <tr class="has-background-grey-lighter">
                         <td class="has-text-centered has-text-grey-dark">PEWY</td>
@@ -173,85 +173,85 @@
                         <td class="has-text-centered has-text-grey-dark" rowspan="4">0.040~0.700</td>
                         <td class="has-text-centered has-text-grey-dark" rowspan="3">H(180℃)</td>
                         <td class="has-text-centered has-text-grey-dark">NO</td>
-                        <td class="has-text-centered has-text-grey-dark"><p>耐热冲击性能好，耐软化击穿温度高，机械强度优良，高耐温等级及优良可绕性。弱点是封闭条件下易水解。</p></td>
-                        <td class="has-text-centered has-text-grey-dark" rowspan="3"><p>广泛应用于耐热要求高的电机、电器、仪表、电动工具</p></td>
+                        <td class="has-text-centered has-text-grey-dark"><p>{{__('High mechanical strength, good elasticity, scratch resistance, strong adhesion, high-temperature resistance, good weldability. Its disadvantage is poor thermal shock resistance and poor tide resistance.')}}</p></td>
+                        <td class="has-text-centered has-text-grey-dark" rowspan="3"><p>{{__('Widely used in heat-resistant motor, electrical appliances, instruments, power tools.')}}</p></td>
                     </tr>
                     <tr class="has-background-grey-lighter">
                         <td class="has-text-centered has-text-grey-dark">SEIW</td>
                         <td class="has-text-centered has-text-grey-dark">YES</td>                    
-                        <td class="has-text-centered has-text-grey-dark"><p>直焊性聚脂亚胺漆包线，450-460℃可以直焊</p></td>                    
+                        <td class="has-text-centered has-text-grey-dark"><p>{{__('Direct welding polyimide enamelled wire, 450 ℃ 460 ℃ can be directly welded.')}}</p></td>                    
                     </tr>
                     <tr class="has-background-grey-lighter">
                         <td class="has-text-centered has-text-grey-dark">EIWY</td>
                         <td class="has-text-centered has-text-grey-dark">NO</td>                    
-                        <td class="has-text-centered has-text-grey-dark"><p>表层聚酰胺涂层可提高耐磨性及可绕性。</p></td>                    
+                        <td class="has-text-centered has-text-grey-dark"><p>{{__('The surface polyamide coating can improve the wear resistance and windability.')}}</p></td>                    
                     </tr>
                     <tr class="has-background-grey-lighter">
                         <td class="has-text-centered has-text-grey-dark">EI/AIW</td>
                         <td class="has-text-centered has-text-grey-dark">C(200℃)</td>                    
                         <td class="has-text-centered has-text-grey-dark">NO</td>                   
-                        <td class="has-text-centered has-text-grey-dark"><p>高耐温等级及优良的耐热、耐软化击穿温度高、耐油、耐磨以及耐冷媒特性。</p></td>                    
-                        <td class="has-text-centered has-text-grey-dark"><p>广泛应用于冰箱压缩机、空调压缩机、电动工具、防爆电动机。</p></td>                    
+                        <td class="has-text-centered has-text-grey-dark"><p>{{__('High-temperature resistance grade and excellent heat resistance, soften breakdown temperature, oil resistance, wear resistance and coolant resistance.')}}</p></td>                    
+                        <td class="has-text-centered has-text-grey-dark"><p>{{__('Widely used in refrigerator compressor, air conditioning compressor, power tools, explosion-proof motor.')}}</p></td>                    
                     </tr>
                     <tr class="has-background-grey-lighter">
                         <td class="has-text-centered has-text-grey-dark">AIW</td>
                         <td class="has-text-centered has-text-grey-dark">0.150~0.600</td>                    
                         <td class="has-text-centered has-text-grey-dark">C(220℃)</td>                   
                         <td class="has-text-centered has-text-grey-dark">NO</td>                    
-                        <td class="has-text-centered has-text-grey-dark"><p>超高耐温等级漆包线</p></td>                    
-                        <td class="has-text-centered has-text-grey-dark"><p>应用于超高温要求之产品。</p></td>                    
+                        <td class="has-text-centered has-text-grey-dark"><p>{{__('Ultra-high temperature resistance grade enamelled wire.')}}</p></td>                    
+                        <td class="has-text-centered has-text-grey-dark"><p>{{__('Used in ultra-high temperature requirements of products.')}}</p></td>                    
                     </tr>
                     <tr class="has-background-grey-lighter">
                         <td class="has-text-centered has-text-grey-dark">PIW</td>
                         <td class="has-text-centered has-text-grey-dark">0.150~0.600</td>                    
                         <td class="has-text-centered has-text-grey-dark">C(240℃)</td>                   
                         <td class="has-text-centered has-text-grey-dark">NO</td>                    
-                        <td class="has-text-centered has-text-grey-dark"><p>超高耐温等级漆包线</p></td>                    
-                        <td class="has-text-centered has-text-grey-dark"><p>航空航天、新能源、汽车电子</p></td>                    
+                        <td class="has-text-centered has-text-grey-dark"><p>{{__('Ultra-high temperature resistance grade enamelled wire.')}}</p></td>                    
+                        <td class="has-text-centered has-text-grey-dark"><p>{{__('Aerospace, new energy, automotive electronics.')}}</p></td>                    
                     </tr>
                 </tbody>
             </table>
         </section>
 
         <section class="section is-medium">
-            <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile">
-                <p>漆包线技术特性（非自粘性)  参照标准：JIS C 3202</p>
+            <div class="container has-background-link has-text-white side-bar-text is-size-4">
+                <p>{{__('Enameled Copper Wire Technical Data (Non Self Bonding) Standard: JIS C 3202')}}</p>
             </div>
         </section>
 
         <section class="section container">
-            <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7-touch is-size-7-desktop is-size-6-fullhd">
+            <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7">
                 <thead>
                     <tr class="has-background-link">
-                        <th class="has-text-centered has-text-white" rowspan="2">项目<br>/<br>序号</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">导体公差(±mm)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">伸长率≥(%)</th>
-                        <th class="has-text-centered has-text-white" colspan="3">最大回弹角（º）</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">拉伸/卷绕(%/d)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">击穿电压(v)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">漆膜连续性(孔/30m)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">盐水针孔≤(孔/5m)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">电阻(Ω∕m)</th>
-                        <th class="has-text-centered has-text-white" colspan="3">最小漆膜厚度D-d(mm)</th>
-                        <th class="has-text-centered has-text-white" colspan="3">最大外径(mm)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">导体标称直径(mm)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Item')}}<br>/<br>{{__('No.')}}</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Conductor Tolerance')}}<br>(±mm)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Elongation')}}<br>(%)</th>
+                        <th class="has-text-centered has-text-white" colspan="3">{{__('Max spring back angle')}}<br>(º)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Stretching')}}<br>/<br>{{__('Winding')}}<br>(%/d)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Breakdown voltage')}}<br>(v)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Film continuity (hole/30m)')}}</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Brine pinhole ≤(hole/5m)')}}</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω∕m)</th>
+                        <th class="has-text-centered has-text-white" colspan="3">{{__('Min film thickness')}}<br>D-d(mm)</th>
+                        <th class="has-text-centered has-text-white" colspan="3">{{__('Max outer diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Conductor nominal diameter')}}<br>(mm)</th>
                     </tr>
                     <tr class="has-background-link">	
-                        <th class="has-text-centered has-text-white">3种</th> 			
-                        <th class="has-text-centered has-text-white">2种</th> 
-                        <th class="has-text-centered has-text-white">1种</th> 			
-                        <th class="has-text-centered has-text-white">3种</th> 
-                        <th class="has-text-centered has-text-white">2种</th>
-                        <th class="has-text-centered has-text-white">3种</th> 
-                        <th class="has-text-centered has-text-white">2种</th> 			
-                        <th class="has-text-centered has-text-white">最小值</th> 	
-                        <th class="has-text-centered has-text-white">最大值</th> 
-                        <th class="has-text-centered has-text-white">3种</th> 			
-                        <th class="has-text-centered has-text-white">2种</th> 
-                        <th class="has-text-centered has-text-white">1种</th> 
-                        <th class="has-text-centered has-text-white">3种</th> 			
-                        <th class="has-text-centered has-text-white">2种</th> 
-                        <th class="has-text-centered has-text-white">1种</th> 	
+                        <th class="has-text-centered has-text-white">{{__('Class 3')}}</th> 			
+                        <th class="has-text-centered has-text-white">{{__('Class 2')}}</th> 
+                        <th class="has-text-centered has-text-white">{{__('Class 1')}}</th> 			
+                        <th class="has-text-centered has-text-white">{{__('Class 3')}}</th> 
+                        <th class="has-text-centered has-text-white">{{__('Class 2')}}</th>
+                        <th class="has-text-centered has-text-white">{{__('Class 3')}}</th> 
+                        <th class="has-text-centered has-text-white">{{__('Class 2')}}</th> 			
+                        <th class="has-text-centered has-text-white">{{__('Min')}}</th> 	
+                        <th class="has-text-centered has-text-white"><{{__('Max')}}></th> 
+                        <th class="has-text-centered has-text-white">{{__('Class 3')}}</th> 			
+                        <th class="has-text-centered has-text-white">{{__('Class 2')}}</th> 
+                        <th class="has-text-centered has-text-white">{{__('Class 1')}}</th> 
+                        <th class="has-text-centered has-text-white">{{__('Class 3')}}</th> 			
+                        <th class="has-text-centered has-text-white">{{__('Class 2')}}</th> 
+                        <th class="has-text-centered has-text-white">{{__('Class 1')}}</th> 	
                     </tr>
                 </thead>
                 <tbody>
@@ -1075,28 +1075,28 @@
         </section>
 
         <section class="section is-medium">
-            <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile">
-                <p>漆包线技术特性（非自粘性)  参照标准：MW 1000:2003</p>
+            <div class="container has-background-link has-text-white side-bar-text is-size-4">
+                <p>{{__('Enameled Copper wire Technical Data (Non Self Bonding) Standard MW 1000:2003')}}</p>
             </div>
         </section>
 
         <section class="section container">
-            <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7-touch is-size-7-desktop is-size-6-fullhd">
+            <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7 last-table-m-b">
                 <thead>
                     <tr class="has-background-link">
-                        <th class="has-text-centered has-text-white" rowspan="2">项目<br>/<br>序号</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">AWG线缆号</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">导体公差(±mm)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">伸长率≥(%)</th>
-                        <th class="has-text-centered has-text-white" colspan="3">最大回弹角（º）</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">柔韧性/附着性</th>
-                        <th class="has-text-centered has-text-white" colspan="2">击穿电压(v)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">漆膜连续性(孔/30m)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">盐水针孔≤(孔/5m)</th>
-                        <th class="has-text-centered has-text-white" colspan="2">电阻(Ω∕m)</th>
-                        <th class="has-text-centered has-text-white" colspan="3">最小漆膜厚度D-d(mm)</th>
-                        <th class="has-text-centered has-text-white" colspan="3">最大外径(mm)</th>
-                        <th class="has-text-centered has-text-white" rowspan="2">导体标称直径(mm)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Item')}}<br>/<br>{{__('No.')}}</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('AWG gauge number')}}</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Conductor Tolerance')}}<br>(±mm)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Elongation')}}<br>(%)</th>
+                        <th class="has-text-centered has-text-white" colspan="3">{{__('Max spring back angle')}}<br>(º)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Flexibility')}}<br>/<br>{{__('Adhesion')}}</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Breakdown voltage')}}<br>(v)</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Film continuity (hole/30m)')}}</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Brine pinhole ≤(hole/5m)')}}</th>
+                        <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω∕m)</th>
+                        <th class="has-text-centered has-text-white" colspan="3">{{__('Min film thickness')}}<br>D-d(mm)</th>
+                        <th class="has-text-centered has-text-white" colspan="3">{{__('Max outer diameter')}}<br>(mm)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Conductor nominal diameter')}}<br>(mm)</th>
                     </tr>
                     <tr class="has-background-link">	
                         <th class="has-text-centered has-text-white">G1</th> 			
@@ -1106,8 +1106,8 @@
                         <th class="has-text-centered has-text-white">G2</th> 
                         <th class="has-text-centered has-text-white">G1</th> 			
                         <th class="has-text-centered has-text-white">G2</th> 			
-                        <th class="has-text-centered has-text-white">最小值</th> 	
-                        <th class="has-text-centered has-text-white">最大值</th> 
+                        <th class="has-text-centered has-text-white">{{__('Min')}}</th> 	
+                        <th class="has-text-centered has-text-white">{{__('Max')}}</th> 
                         <th class="has-text-centered has-text-white">G1</th> 			
                         <th class="has-text-centered has-text-white">G2</th> 
                         <th class="has-text-centered has-text-white">G3</th> 
@@ -1124,7 +1124,7 @@
                         <td class="has-text-centered has-text-grey">10</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉断</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}</td>  
                         <td class="has-text-centered has-text-grey">250</td>  
                         <td class="has-text-centered has-text-grey">475</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1148,7 +1148,7 @@
                         <td class="has-text-centered has-text-grey">11</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉断</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}</td>  
                         <td class="has-text-centered has-text-grey">275</td>  
                         <td class="has-text-centered has-text-grey">550</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1172,7 +1172,7 @@
                         <td class="has-text-centered has-text-grey">14</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉20%3d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}20%3d</td>  
                         <td class="has-text-centered has-text-grey">300</td>  
                         <td class="has-text-centered has-text-grey">600</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1196,7 +1196,7 @@
                         <td class="has-text-centered has-text-grey">15</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉20%3d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}20%3d</td>  
                         <td class="has-text-centered has-text-grey">325</td>  
                         <td class="has-text-centered has-text-grey">650</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1220,7 +1220,7 @@
                         <td class="has-text-centered has-text-grey">16</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉20%3d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}20%3d</td>  
                         <td class="has-text-centered has-text-grey">375</td>  
                         <td class="has-text-centered has-text-grey">700</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1244,7 +1244,7 @@
                         <td class="has-text-centered has-text-grey">17</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉20%3d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}20%3d</td>  
                         <td class="has-text-centered has-text-grey">425</td>  
                         <td class="has-text-centered has-text-grey">700</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1268,7 +1268,7 @@
                         <td class="has-text-centered has-text-grey">17</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉20%3d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}20%3d</td>  
                         <td class="has-text-centered has-text-grey">425</td>  
                         <td class="has-text-centered has-text-grey">850</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1292,7 +1292,7 @@
                         <td class="has-text-centered has-text-grey">18</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉20%3d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}20%3d</td>  
                         <td class="has-text-centered has-text-grey">500</td>  
                         <td class="has-text-centered has-text-grey">900</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1316,7 +1316,7 @@
                         <td class="has-text-centered has-text-grey">19</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉20%3d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}20%3d</td>  
                         <td class="has-text-centered has-text-grey">500</td>  
                         <td class="has-text-centered has-text-grey">950</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1340,7 +1340,7 @@
                         <td class="has-text-centered has-text-grey">20</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉20%3d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}20%3d</td>  
                         <td class="has-text-centered has-text-grey">1360</td>  
                         <td class="has-text-centered has-text-grey">2270</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1364,7 +1364,7 @@
                         <td class="has-text-centered has-text-grey">20</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉20%3d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}20%3d</td>  
                         <td class="has-text-centered has-text-grey">1360</td>  
                         <td class="has-text-centered has-text-grey">2600</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1388,7 +1388,7 @@
                         <td class="has-text-centered has-text-grey">21</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉20%3d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}20%3d</td>  
                         <td class="has-text-centered has-text-grey">1360</td>  
                         <td class="has-text-centered has-text-grey">2920</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1412,7 +1412,7 @@
                         <td class="has-text-centered has-text-grey">22</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉20%3d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}20%3d</td>  
                         <td class="has-text-centered has-text-grey">1700</td>  
                         <td class="has-text-centered has-text-grey">2920</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1436,7 +1436,7 @@
                         <td class="has-text-centered has-text-grey">23</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉20%3d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}20%3d</td>  
                         <td class="has-text-centered has-text-grey">1700</td>  
                         <td class="has-text-centered has-text-grey">3250</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1460,7 +1460,7 @@
                         <td class="has-text-centered has-text-grey">24</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉20%3d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}20%3d</td>  
                         <td class="has-text-centered has-text-grey">2040</td>  
                         <td class="has-text-centered has-text-grey">3570</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1484,7 +1484,7 @@
                         <td class="has-text-centered has-text-grey">24</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">/</td>  
                         <td class="has-text-centered has-text-grey">/</td>  
-                        <td class="has-text-centered has-text-grey">急拉20%3d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}20%3d</td>  
                         <td class="has-text-centered has-text-grey">2040</td>  
                         <td class="has-text-centered has-text-grey">3900</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1508,7 +1508,7 @@
                         <td class="has-text-centered has-text-grey">25</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">66</td>  
                         <td class="has-text-centered has-text-grey">70</td>  
-                        <td class="has-text-centered has-text-grey">急拉15%1d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}15%1d</td>  
                         <td class="has-text-centered has-text-grey">2380</td>  
                         <td class="has-text-centered has-text-grey">4220</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1532,7 +1532,7 @@
                         <td class="has-text-centered has-text-grey">26</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">61</td>  
                         <td class="has-text-centered has-text-grey">65</td>  
-                        <td class="has-text-centered has-text-grey">急拉15%1d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}15%1d</td>  
                         <td class="has-text-centered has-text-grey">2380</td>  
                         <td class="has-text-centered has-text-grey">4270</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1556,7 +1556,7 @@
                         <td class="has-text-centered has-text-grey">26</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">55</td>  
                         <td class="has-text-centered has-text-grey">60</td>  
-                        <td class="has-text-centered has-text-grey">急拉15%1d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}15%1d</td>  
                         <td class="has-text-centered has-text-grey">2440</td>  
                         <td class="has-text-centered has-text-grey">4380</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1580,7 +1580,7 @@
                         <td class="has-text-centered has-text-grey">27</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">50</td>  
                         <td class="has-text-centered has-text-grey">55</td>  
-                        <td class="has-text-centered has-text-grey">急拉15%1d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}15%1d</td>  
                         <td class="has-text-centered has-text-grey">2500</td>  
                         <td class="has-text-centered has-text-grey">4500</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1604,7 +1604,7 @@
                         <td class="has-text-centered has-text-grey">27</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">76</td>  
                         <td class="has-text-centered has-text-grey">80</td>  
-                        <td class="has-text-centered has-text-grey">急拉15%1d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}15%1d</td>  
                         <td class="has-text-centered has-text-grey">2570</td>  
                         <td class="has-text-centered has-text-grey">4620</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1628,7 +1628,7 @@
                         <td class="has-text-centered has-text-grey">28</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">72</td>  
                         <td class="has-text-centered has-text-grey">74</td>  
-                        <td class="has-text-centered has-text-grey">急拉15%1d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}15%1d</td>  
                         <td class="has-text-centered has-text-grey">2640</td>  
                         <td class="has-text-centered has-text-grey">4740</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1652,7 +1652,7 @@
                         <td class="has-text-centered has-text-grey">28</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">67</td>  
                         <td class="has-text-centered has-text-grey">69</td>  
-                        <td class="has-text-centered has-text-grey">急拉15%1d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}15%1d</td>  
                         <td class="has-text-centered has-text-grey">2710</td>  
                         <td class="has-text-centered has-text-grey">4870</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1676,7 +1676,7 @@
                         <td class="has-text-centered has-text-grey">29</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">62</td>  
                         <td class="has-text-centered has-text-grey">64</td>  
-                        <td class="has-text-centered has-text-grey">急拉15%1d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}15%1d</td>  
                         <td class="has-text-centered has-text-grey">2780</td>  
                         <td class="has-text-centered has-text-grey">5000</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1700,7 +1700,7 @@
                         <td class="has-text-centered has-text-grey">29</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">58</td>  
                         <td class="has-text-centered has-text-grey">60</td>  
-                        <td class="has-text-centered has-text-grey">急拉15%1d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}15%1d</td>  
                         <td class="has-text-centered has-text-grey">2850</td>  
                         <td class="has-text-centered has-text-grey">5120</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1724,7 +1724,7 @@
                         <td class="has-text-centered has-text-grey">30</td>  
                         <td class="has-text-centered has-text-grey" colspan="2">53</td>  
                         <td class="has-text-centered has-text-grey">57</td>  
-                        <td class="has-text-centered has-text-grey">急拉15%1d</td>  
+                        <td class="has-text-centered has-text-grey">{{_('Jerk')}}15%1d</td>  
                         <td class="has-text-centered has-text-grey">2930</td>  
                         <td class="has-text-centered has-text-grey">5270</td>  
                         <td class="has-text-centered has-text-grey">15</td>  
@@ -1739,8 +1739,7 @@
                         <td class="has-text-centered has-text-grey">0.8</td>  
                         <td class="has-text-centered has-text-grey">0.828</td>  
                         <td class="has-text-centered has-text-grey">0.724</td>  
-                    </tr>
-                                                                                
+                    </tr>                                                       
                 </tbody>
             </table>
         </section>

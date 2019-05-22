@@ -11425,6 +11425,10 @@ table th {
   vertical-align: middle !important;
 }
 
+.last-table-m-b {
+  margin-bottom: 6rem;
+}
+
 .has-padding-btm-18 {
   padding-bottom: 18px;
 }
