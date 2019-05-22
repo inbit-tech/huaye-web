@@ -31,7 +31,7 @@
         </section>
     </section>
 
-    <section class="section">
+    <section class="section is-medium">
         <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
             <p>{{ __('Model identification') }}</p>
         </div>
@@ -129,7 +129,7 @@
         </table>
     </section>
 
-    <section class="section">
+    <section class="section is-medium">
         <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
             <p>{{__('Structure diagram')}}</p>
         </div>
@@ -139,14 +139,14 @@
         <img src="{{asset('img/component/product-detail/bec/bec-structure.png')}}" alt="Bonding Enameled Cooper Wire">
     </section>
 
-    <section class="section">
+    <section class="section is-medium">
         <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
-            <p>漆包线分类表（自粘性）</p>
+            <p>漆包线分类表(自粘性)</p>
         </div>
     </section>
 
     <section class="section container">
-        <table class="table is-striped is-hoverable is-bordered is-size-6">
+        <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7">
             <thead>
                 <tr class="has-background-link">
                     <th class="has-text-centered has-text-white" rowspan="2">型号</th>
@@ -292,14 +292,14 @@
         </table>
     </section>
 
-    <section class="section">
+    <section class="section is-medium">
         <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
             <p>漆包线技术特性（自粘性) 参照标准：JIS C 3202</p>
         </div>
     </section>
 
     <section class="section container">
-        <table class="table is-striped is-hoverable is-bordered is-size-7">
+        <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7">
             <thead>
                 <tr class="has-background-link">
                     <th class="has-text-centered has-text-white" rowspan="2">项目<br>/<br>序号</th>
@@ -1118,14 +1118,14 @@
         </table>
     </section>
 
-    <section class="section">
+    <section class="section is-medium">
         <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
-            <p>漆包线技术特性（自粘性) 参照标准：MW 1000:2003</p>
+            <p>漆包线技术特性（自粘性) 参照标准：MW 1000:2003</a></p>
         </div>
     </section>
 
     <section class="section container">
-        <table class="table is-striped is-hoverable is-bordered is-size-7">
+        <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7">
             <thead>
                 <tr class="has-background-link">
                     <th class="has-text-centered has-text-white" rowspan="3">项目<br>/<br>序号</th>

@@ -37,7 +37,7 @@
         </section>
     </section>
 
-    <section class="section">
+    <section class="section is-medium">
         <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
             <p>{{ __('Model identification') }}</p>
         </div>
@@ -119,7 +119,7 @@
         </table>
     </section>
 
-    <section class="section">
+    <section class="section is-medium">
         <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
             <p>{{__('Structure diagram')}}</p>
         </div>
@@ -129,14 +129,14 @@
         <img src="{{asset('img/component/product-detail/litz/lita-structure.png')}}" alt="LITZ Wire / Silk Served LITZ Wire">
     </section>
 
-    <section class="section">
+    <section class="section is-medium">
         <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile ">
             <p>绞合漆包线束线分类</p>
         </div>
     </section>
 
     <section class="section container">
-        <table class="table is-striped is-bordered is-size-6">
+        <table class="table is-striped is-bordered is-narrow is-size-7">
             <thead>
                 <tr class="has-background-link">
                     <th class="has-text-centered has-text-white">类型</th>
@@ -183,14 +183,14 @@
         </table>
     </section>
 
-    <section class="section">
+    <section class="section is-medium">
         <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile">
             <p>丝包绞合漆包线技术特性</p>
         </div>
     </section>
 
     <section class="section container">
-        <table class="table is-striped is-hoverable is-bordered is-size-7">
+        <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7">
             <thead>
                 <tr class="has-background-link">
                     <th class="has-text-centered has-text-white" rowspan="4">单线根数</th>
@@ -651,14 +651,14 @@
         </table>
     </section>
 
-    <section class="section">
+    <section class="section is-medium">
         <div class="container has-background-link has-text-white side-bar-text is-size-3 is-size-4-mobile">
             <p>绞合漆包线技术特性</p>
         </div>
     </section>
 
     <section class="section container">
-        <table class="table is-striped is-hoverable is-bordered is-size-7">
+        <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7">
             <thead>
                 <tr class="has-background-link">
                     <th class="has-text-centered has-text-white" rowspan="4">单线根数</th>
