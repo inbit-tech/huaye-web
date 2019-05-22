@@ -141,7 +141,7 @@
         </section>
 
         <section class="section container">
-            <table class="table is-striped is-bordered is-narrow is-size-7">
+            <table class="table is-striped is-bordered is-narrow is-size-7 is-size-6-fullhd">
                 <thead>
                     <tr class="has-background-link">
                         <th class="has-text-centered has-text-white">{{__('Product type')}}</th>
@@ -201,7 +201,7 @@
         </section>
 
         <section class="section container">
-            <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7">
+            <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7 is-size-6-fullhd">
                 <thead>
                     <tr class="has-background-link">
                         <th class="has-text-centered has-text-white" rowspan="4">{{__('Single wire root number')}}</th>
@@ -669,7 +669,7 @@
         </section>
 
         <section class="section container">
-            <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7 last-table-m-b">
+            <table class="table is-striped is-hoverable is-bordered is-narrow is-size-7 is-size-6-fullhd last-table-m-b">
                 <thead>
                     <tr class="has-background-link">
                         <th class="has-text-centered has-text-white" rowspan="4">{{__('Single wire root number')}}</th>
