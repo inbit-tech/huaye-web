@@ -20,19 +20,19 @@
                     <form class="from-body" action="mail/send" method="get"> 
                         <div class="field field-padding">
                             <label class="label"></label>
-                            <input type="text" name="name" class="input has-input-height" placeholder="{{ __('How could we address you?') }}" id="form-name">
+                            <input  required="required" type="text" name="name" class="input has-input-height" placeholder="{{ __('How could we address you?') }}" id="form-name">
                         </div>
                         <div class="field field-padding">
                             <label class="label"></label>
-                            <input type="email" name="email" class="input has-input-height" placeholder="{{ __('your-mail@mail.com') }}" id="form-email"> 
+                            <input  required="required" type="email" name="email" class="input has-input-height" placeholder="{{ __('your-mail@mail.com') }}" id="form-email"> 
                         </div>
                         <div class="field field-padding">
                             <label class="label"></label>
-                            <input type="phone" name="phone" class="input has-input-height" placeholder="{{ __('your phone number') }} ..." id="form-phone">
+                            <input  required="required" type="phone" name="phone" class="input has-input-height" placeholder="{{ __('your phone number') }} ..." id="form-phone">
                         </div>
                         <div class="field field-padding">
                             <label class="label"></label>
-                            <textarea class="textarea" name="question" placeholder="{{ __('Please enter your need') }}" id="form-question"></textarea>
+                            <textarea  required="required" class="textarea" name="question" placeholder="{{ __('Please enter your need') }}" id="form-question"></textarea>
                         </div>
                         <div class="field field-padding has-text-centered form-button">
                             <button href="mail/send" class="button is-link is-large is-outlined use-noto-900"" type="submit" value="Submit input" id="submit-form">{{ __('Send Message') }}</button>
