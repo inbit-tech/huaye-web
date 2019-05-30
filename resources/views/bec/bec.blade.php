@@ -324,12 +324,12 @@
                         <th class="has-text-centered has-text-white">{{__('Class 0')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Class 1')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Class 2')}}</th> 
-                        <th class="has-text-centered has-text-white">{{__('Min Bonding coat thickness')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Min insulation thickness')}}</th> 
-                        <th class="has-text-centered has-text-white">{{__('Min Bonding coat thickness')}}</th> 
+                        <th class="has-text-centered has-text-white">{{__('Min self-adhesive layer')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Min insulation thickness')}}</th> 
-                        <th class="has-text-centered has-text-white">{{__('Min Bonding coat thickness')}}</th> 
+                        <th class="has-text-centered has-text-white">{{__('Min self-adhesive layer')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Min insulation thickness')}}</th> 
+                        <th class="has-text-centered has-text-white">{{__('Min self-adhesive layer')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Class 0')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Class 1')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Class 2')}}</th> 
@@ -1160,11 +1160,11 @@
                         <th class="has-text-centered has-text-white">{{__('Type 3')}}</th> 			
                         <th class="has-text-centered has-text-white">{{__('Min')}}</th> 			
                         <th class="has-text-centered has-text-white">{{__('Max')}}</th> 			
-                        <th class="has-text-centered has-text-white">{{__('Internal coating')}}</th> 			
+                        <th class="has-text-centered has-text-white">{{__('Insulating layer')}}</th> 			
                         <th class="has-text-centered has-text-white">{{__('Bonding coating')}}</th> 
-                        <th class="has-text-centered has-text-white">{{__('Internal coating')}}</th> 			
+                        <th class="has-text-centered has-text-white">{{__('Insulating layer')}}</th> 			
                         <th class="has-text-centered has-text-white">{{__('Bonding coating')}}</th> 
-                        <th class="has-text-centered has-text-white">{{__('Internal coating')}}</th> 			
+                        <th class="has-text-centered has-text-white">{{__('Insulating layer')}}</th> 			
                         <th class="has-text-centered has-text-white">{{__('Bonding coating')}}</th> 		
                     </tr>
                 </thead>

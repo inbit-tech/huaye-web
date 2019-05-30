@@ -1179,16 +1179,26 @@ if (map_id) {
     center: [114.005383, 22.893244],
     zoom: 13
   });
-  var marker = new AMap.Marker({
-    position: new AMap.LngLat(114.005383, 22.893244),
-    title: '裕元工业园精成二路灵狮小镇C栋三层C313-316号'
+  var markerOperationCenter = new AMap.Marker({
+    position: new AMap.LngLat(113.982284, 22.907506),
+    title: '运营中心'
   });
-  marker.setLabel({
-    offset: new AMap.Pixel(20, -10),
-    content: '<div style="font-size:16px;text-align:center"><p>广东省东莞市黄江镇裕元工业园</p><br><p>精成二路灵狮小镇C栋三层C313-316号</p></div>',
+  var markerProductCenter = new AMap.Marker({
+    position: new AMap.LngLat(114.005383, 22.893244),
+    title: '生产中心'
+  });
+  markerProductCenter.setLabel({
+    offset: new AMap.Pixel(-15, -10),
+    content: '<div style="font-size:16px;text-align:center"><p>运营中心</p></div>',
     direction: 'top'
   });
-  map.add(marker);
+  markerOperationCenter.setLabel({
+    offset: new AMap.Pixel(-15, -10),
+    content: '<div style="font-size:16px;text-align:center"><p>生产中心</p></div>',
+    direction: 'top'
+  });
+  var markList = [markerOperationCenter, markerProductCenter];
+  map.add(markList);
 }
 
 /***/ }),

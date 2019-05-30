@@ -7,46 +7,16 @@
 @section('content')
 <section class="section-half-screen">
     <div class="columns">
-        <div class="column is-6">
+        <div class="column is-5">
             {{-- map API --}}
             {{-- this div's id must be "container" --}}
             <div id="container"></div>
         </div>
-        <div class="column is-6">
-            {{-- Contact Info --}}
-            <section class="section">
-                <div class="level tile align-items-flex-start">
-                    <div class="level-item has-text-centered tile is-vertical">
-                        <div>
-                            <a href="tel:0769-82601699" >
-                                <img class="image contact-info-img" src="{{asset('img/component/contact/icon_phone.png')}}" alt="Phone">
-                            </a>
-                        </div>
-                        <div class="contact-info-text-m-t">   
-                            <a href="tel:0769-82601699" >
-                                <p class="use-noto-900 is-size-5">0769-82601699</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="level-item has-text-centered tile is-vertical">
-                        <div>
-                            <a href="mailto:huaye@huaye-dg.com">
-                                <img class="image contact-info-img" src="{{asset('img/component/contact/icon_email.png')}}" alt="eMail">
-                            </a>
-                        </div>
-                        <div class="contact-info-text-m-t">
-                            <a href="mailto:huaye@huaye-dg.com">
-                                <p class="use-noto-900 is-size-5">huaye@huaye-dg.com</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+        <div class="column is-7">
             {{-- Contact Form --}}
             <section id="contact-form" class="section columns">
                 <div class="container column is-10">
-                    <h3 class="title is-uppercase has-text-centered use-noto-900 has-text-grey-dark is-size-4-mobile">{{ __('Send Us Message What You Need') }}</h3>
+                    <h3 class="title is-uppercase has-text-centered use-noto-900 has-text-grey-dark is-size-4-mobile">{{ __('Please Send Us Message') }}</h3>
                     <form class="from-body" action="mail/send" method="get"> 
                         <div class="field field-padding">
                             <label class="label"></label>
@@ -77,6 +47,63 @@
                         </div>
                         @endif
                     </form>
+                </div>
+            </section>
+
+            {{-- Contact Info --}}
+            <section class="section">
+                <div class="level tile align-items-flex-start">
+                    <div class="level-item has-text-centered tile is-vertical contact-info-padding">	
+                        <div>	
+                            <a href="#container">	
+                                <img class="image contact-info-img" src="{{asset('img/component/contact/icon_addr.png')}}" alt="Production center">	
+                            </a>	
+                        </div>	
+                        <div class="contact-info-text-m-t">    	
+                            <a href="#container">	
+                                <p class="use-noto-900 is-size-6">{{__('Production center')}}:<br>{{ __('No.4 Jinshagang six Road,') }}<br/>{{ __('Shixia Village, Dalang Town, Dongguan,') }}<br/>{{ __('Guangdong Province, China') }}</p>	
+                            </a>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered tile is-vertical contact-info-padding">	
+                        <div>	
+                            <a href="#container">	
+                                <img class="image contact-info-img" src="{{asset('img/component/contact/icon_factory.png')}}" alt="Operation center">	
+                            </a>	
+                        </div>	
+                        <div class="contact-info-text-m-t">
+                            <a href="#container">
+                                <p class="use-noto-900 is-size-6">{{__('Operation center')}}:<br>{{__('No.4, Jinsha gang no.6, Shixia village')}}<br>{{__("Dalang town, Dongguan city,Guangdong Province, China")}}</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered tile is-vertical contact-info-padding">
+                        <div>
+                            <a href="tel:0769-82601699" >
+                                <img class="image contact-info-img" src="{{asset('img/component/contact/icon_phone.png')}}" alt="Phone">
+                            </a>
+                        </div>
+                        <div class="contact-info-text-m-t">   
+                            <a href="tel:0769-82601699" >
+                                <p class="use-noto-900 is-size-6">0769-82601699</p>
+                            </a>
+                            <a href="tel:0769-82236800" >
+                                <p class="use-noto-900 is-size-6">0769-82236800</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered tile is-vertical contact-info-padding">
+                        <div>
+                            <a href="mailto:huaye@huaye-dg.com">
+                                <img class="image contact-info-img" src="{{asset('img/component/contact/icon_email.png')}}" alt="eMail">
+                            </a>
+                        </div>
+                        <div class="contact-info-text-m-t">
+                            <a href="mailto:huaye@huaye-dg.com">
+                                <p class="use-noto-900 is-size-6">huaye@huaye-dg.com</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>

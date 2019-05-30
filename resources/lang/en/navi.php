@@ -13,8 +13,8 @@ return [
     'service'			=>	'Service Philosophy',
     'quality'			=>	'Quality Assurance',
     'intro'				=> 	'Huaye Story',
-    'phone'             =>  'Phone: +86-769-82236800',
-    'fax'               =>  'Fax: +86-769-82236803',
+    'phone1'             =>  'Phone: +86-769-82236800',
+    'phone2'             =>  'Phone: +86-769-82601699',
     'mail'              =>  'Mail: huaye@huaye-dg.com',
     'more'              =>  'Learn More'
 ];

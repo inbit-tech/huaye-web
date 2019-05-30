@@ -149,7 +149,7 @@
                         <td class="has-text-centered has-text-grey-dark" rowspan="2">0.040~0.700</td>
                         <td class="has-text-centered has-text-grey-dark">F(155℃)</td>
                         <td class="has-text-centered has-text-grey-dark" rowspan="2">YES</td>
-                        <td class="has-text-centered has-text-grey-dark" rowspan="2"><p>{{__('Direct welding polyester enameled wire, 380 to 400 ℃ can be directly welded')}}</p></td>
+                        <td class="has-text-centered has-text-grey-dark" rowspan="2"><p>{{__('Direct welding polyester enameled wire, 380 to 400 ℃ can be directly welde')}}</p></td>
                         <td class="has-text-centered has-text-grey-dark" rowspan="5"><p>{{__('Widely used in a variety of motor, electrical appliances, instrumentation, telecommunications equipment, and household electrical appliances.')}}</p></td>
                     </tr>
                     <tr class="has-background-grey-lighter">

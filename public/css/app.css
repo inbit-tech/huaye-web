@@ -11443,7 +11443,7 @@ table th {
 
 .team-background-image {
   position: relative;
-  background-image: url(/images/team-background.jpg?f4f013b31594d30698e1cbfc8d097738);
+  background-image: url(/images/team-background.jpg?48a524e6b4b7f2a1f990bae753abc8b1);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11454,18 +11454,6 @@ table th {
 
 .is-shadow-8 {
   text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
-}
-
-.is-opacity-25 {
-  opacity: 0.25;
-  filter: alpha(opacity=25);
-  /* For IE8 and earlier */
-}
-
-.is-opacity-100 {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  /* For IE8 and earlier */
 }
 
 .hero-video {
@@ -11588,7 +11576,7 @@ table th {
 
 .history-background-image {
   position: relative;
-  background-image: url(/images/factory-cover.jpg?2c53da3f265391526b796b47b18e5ddf);
+  background-image: url(/images/factory-cover.jpg?c966a06a069d3c48b4f52ba98de6ec9e);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11610,14 +11598,6 @@ table th {
 /* 
     history sass
 */
-
-.history-section-bg-img {
-  background-image: url("http://pqpazom17.bkt.clouddn.com/factory-cover.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom center;
-  margin-top: 4rem;
-}
 
 .history-text-shadow {
   text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
@@ -11653,8 +11633,12 @@ table th {
   align-items: flex-start;
 }
 
+.contact-info-padding {
+  padding: 0.5rem;
+}
+
 .contact-info-img {
-  width: 100px;
+  width: 60px;
   height: auto;
 }
 
@@ -11686,7 +11670,7 @@ table th {
 
 #container {
   width: 100%;
-  height: 1200px;
+  height: 1000px;
 }
 
 @media (max-width: 768px) {
