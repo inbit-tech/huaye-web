@@ -21,7 +21,8 @@
 				<div class="level-item has-text-centered">
 					<div class="has-text-left has-text-centered-touch">
 						<p class="has-padding-btm-18"><a href="/contact" class="use-noto-900 is-uppercase is-size-7 is-size-6-touch">@lang('navi.contact')</a></p>
-						<p><a href="tel:0769-82601699">@lang('navi.phone')</a></p>
+						<p><a href="tel:0769-82236800">@lang('navi.phone1')</a></p>
+						<p><a href="tel:0769-82601699">@lang('navi.phone2')</a></p>
 						<p><a href="mailto:huaye@huaye-dg.com">@lang('navi.mail')</a></p>
 					</div>
 				</div>

@@ -96,6 +96,26 @@
     <div class="section">
         <div class="columns is-multiline is-vcentered has-text-centered">
             <div class="column">
+                <img class="resize-smaller-52" src="{{asset('img/clients/client-18.png')}}" alt="huaye-patents">
+            </div>
+            <div class="column">
+                <img class="resize-smaller-50" src="{{asset('img/clients/client-13.png')}}" alt="huaye-patents">
+            </div>
+            <div class="column">
+                <img src="{{asset('img/clients/client-14.png')}}" alt="huaye-patents">
+            </div>
+            <div class="column">
+                <img src="{{asset('img/clients/client-15.png')}}" alt="huaye-patents">
+            </div>
+            <div class="column">
+                <img src="{{asset('img/clients/client-16.png')}}" alt="huaye-patents">
+            </div>
+            <div class="column">
+                <img src="{{asset('img/clients/client-17.png')}}" alt="huaye-patents">
+            </div>
+        </div>
+        <div class="columns is-multiline is-vcentered has-text-centered">
+            <div class="column">
                 <img class="resize-smaller-52" src="{{asset('img/clients/client-01.png')}}" alt="huaye-patents">
             </div>
             <div class="column">
@@ -132,26 +152,6 @@
             </div>  
             <div class="column">
                 <img src="{{asset('img/clients/client-12.png')}}" alt="huaye-patents">
-            </div>
-        </div>
-        <div class="columns is-multiline is-vcentered has-text-centered">
-            <div class="column">
-                <img class="resize-smaller-50" src="{{asset('img/clients/client-13.png')}}" alt="huaye-patents">
-            </div>
-            <div class="column">
-                <img src="{{asset('img/clients/client-14.png')}}" alt="huaye-patents">
-            </div>
-            <div class="column">
-                <img src="{{asset('img/clients/client-15.png')}}" alt="huaye-patents">
-            </div>
-            <div class="column">
-                <img src="{{asset('img/clients/client-16.png')}}" alt="huaye-patents">
-            </div>
-            <div class="column">
-                <img src="{{asset('img/clients/client-17.png')}}" alt="huaye-patents">
-            </div>
-            <div class="column">
-                <img class="resize-smaller-52" src="{{asset('img/clients/client-18.png')}}" alt="huaye-patents">
             </div>
         </div>
     </div>

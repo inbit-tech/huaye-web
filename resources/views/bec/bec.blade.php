@@ -319,17 +319,18 @@
                         <th class="has-text-centered has-text-white" colspan="2">{{__('Class 2 coating thickness')}}<br>(mm)</th>
                         <th class="has-text-centered has-text-white" colspan="3">{{__('Max overall diameter')}}<br>(mm)</th>
                         <th class="has-text-centered has-text-white" colspan="2">{{__('Resistance')}}<br>(Ω∕m)</th>
+                        <th class="has-text-centered has-text-white" rowspan="2">{{__('Conductor nominal diameter')}}<br>(mm)</th>
                     </tr>
                     <tr class="has-background-link">
                         <th class="has-text-centered has-text-white">{{__('Class 0')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Class 1')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Class 2')}}</th> 
-                        <th class="has-text-centered has-text-white">{{__('Min Bonding coat thickness')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Min insulation thickness')}}</th> 
-                        <th class="has-text-centered has-text-white">{{__('Min Bonding coat thickness')}}</th> 
+                        <th class="has-text-centered has-text-white">{{__('Min self-adhesive layer')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Min insulation thickness')}}</th> 
-                        <th class="has-text-centered has-text-white">{{__('Min Bonding coat thickness')}}</th> 
+                        <th class="has-text-centered has-text-white">{{__('Min self-adhesive layer')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Min insulation thickness')}}</th> 
+                        <th class="has-text-centered has-text-white">{{__('Min self-adhesive layer')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Class 0')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Class 1')}}</th> 
                         <th class="has-text-centered has-text-white">{{__('Class 2')}}</th> 
@@ -358,7 +359,8 @@
                         <td class="has-text-centered has-text-grey">/</td> 
                         <td class="has-text-centered has-text-grey">0.056</td> 
                         <td class="has-text-centered has-text-grey">13.195</td> 
-                        <td class="has-text-centered has-text-grey">14.011</td> 	 				
+                        <td class="has-text-centered has-text-grey">14.011</td> 
+                        <td class="has-text-centered has-text-grey">0.040</td> 
                     </tr>
 
                     <tr>
@@ -381,7 +383,8 @@
                         <td class="has-text-centered has-text-grey">/</td> 
                         <td class="has-text-centered has-text-grey">0.064</td> 
                         <td class="has-text-centered has-text-grey">10.426</td> 
-                        <td class="has-text-centered has-text-grey">11.07</td> 								 				
+                        <td class="has-text-centered has-text-grey">11.07</td> 
+                        <td class="has-text-centered has-text-grey">0.045</td> 
                     </tr>
 
                     <tr>
@@ -404,7 +407,9 @@
                         <td class="has-text-centered has-text-grey">0.083</td> 
                         <td class="has-text-centered has-text-grey">0.069</td> 
                         <td class="has-text-centered has-text-grey">8.445</td> 
-                        <td class="has-text-centered has-text-grey">8.967</td> 			 						 				
+                        <td class="has-text-centered has-text-grey">8.967</td> 	
+                        <td class="has-text-centered has-text-grey">0.050</td> 
+
                     </tr>
 
                     <tr>
@@ -427,7 +432,8 @@
                         <td class="has-text-centered has-text-grey">0.096</td> 
                         <td class="has-text-centered has-text-grey">0.081</td> 
                         <td class="has-text-centered has-text-grey">5.864</td> 
-                        <td class="has-text-centered has-text-grey">6.227</td> 		 					 				
+                        <td class="has-text-centered has-text-grey">6.227</td> 	
+                        <td class="has-text-centered has-text-grey">0.060</td> 
                     </tr>
 
                     <tr>
@@ -450,7 +456,8 @@
                         <td class="has-text-centered has-text-grey">0.101</td> 
                         <td class="has-text-centered has-text-grey">0.086</td> 
                         <td class="has-text-centered has-text-grey">4.997</td> 
-                        <td class="has-text-centered has-text-grey">5.306</td> 					 				
+                        <td class="has-text-centered has-text-grey">5.306</td> 	
+                        <td class="has-text-centered has-text-grey">0.065</td> 
                     </tr>
 
                     <tr>
@@ -473,7 +480,8 @@
                         <td class="has-text-centered has-text-grey">0.106</td> 
                         <td class="has-text-centered has-text-grey">0.091</td> 
                         <td class="has-text-centered has-text-grey">4.309</td> 
-                        <td class="has-text-centered has-text-grey">4.575</td> 			 						 				
+                        <td class="has-text-centered has-text-grey">4.575</td> 		
+                        <td class="has-text-centered has-text-grey">0.070</td>                         	 						 				
                     </tr>
 
                     <tr>
@@ -496,7 +504,8 @@
                         <td class="has-text-centered has-text-grey">0.118</td> 
                         <td class="has-text-centered has-text-grey">0.103</td> 
                         <td class="has-text-centered has-text-grey">3.299</td> 
-                        <td class="has-text-centered has-text-grey">3.503</td> 									 				
+                        <td class="has-text-centered has-text-grey">3.503</td> 
+                        <td class="has-text-centered has-text-grey">0.080</td> 									 				
                     </tr>
 
                     <tr>
@@ -519,7 +528,8 @@
                         <td class="has-text-centered has-text-grey">0.128</td> 
                         <td class="has-text-centered has-text-grey">0.113</td> 
                         <td class="has-text-centered has-text-grey">2.606</td> 
-                        <td class="has-text-centered has-text-grey">2.768</td> 										 				
+                        <td class="has-text-centered has-text-grey">2.768</td> 	
+                        <td class="has-text-centered has-text-grey">0.090</td> 
                     </tr>
 
                     <tr>
@@ -542,7 +552,8 @@
                         <td class="has-text-centered has-text-grey">0.140</td> 
                         <td class="has-text-centered has-text-grey">0.125</td> 
                         <td class="has-text-centered has-text-grey">2.111</td> 
-                        <td class="has-text-centered has-text-grey">2.242</td> 					 	 										 				
+                        <td class="has-text-centered has-text-grey">2.242</td> 	
+                        <td class="has-text-centered has-text-grey">0.100</td> 
                     </tr>
 
                     <tr>
@@ -565,7 +576,8 @@
                         <td class="has-text-centered has-text-grey">0.150</td> 
                         <td class="has-text-centered has-text-grey">0.135</td> 
                         <td class="has-text-centered has-text-grey">1.745</td> 
-                        <td class="has-text-centered has-text-grey">1.853</td> 	 								 	 					 	 				 							 				
+                        <td class="has-text-centered has-text-grey">1.853</td> 	 
+                        <td class="has-text-centered has-text-grey">0.110</td> 
                     </tr>
 
                     <tr>
@@ -588,7 +600,8 @@
                         <td class="has-text-centered has-text-grey">0.162</td> 
                         <td class="has-text-centered has-text-grey">0.147</td> 
                         <td class="has-text-centered has-text-grey">1.466</td> 
-                        <td class="has-text-centered has-text-grey">1.557</td> 				 							 				
+                        <td class="has-text-centered has-text-grey">1.557</td> 	
+                        <td class="has-text-centered has-text-grey">0.120</td>                         			 							 				
                     </tr>
 
                     <tr>
@@ -611,7 +624,8 @@
                         <td class="has-text-centered has-text-grey">0.172</td> 
                         <td class="has-text-centered has-text-grey">0.157</td> 
                         <td class="has-text-centered has-text-grey">1.249</td> 
-                        <td class="has-text-centered has-text-grey">1.326</td> 		 				
+                        <td class="has-text-centered has-text-grey">1.326</td> 	
+                        <td class="has-text-centered has-text-grey">0.130</td> 
                     </tr>
                                                                                                                     
                     <tr>
@@ -634,7 +648,8 @@
                         <td class="has-text-centered has-text-grey">0.182</td> 
                         <td class="has-text-centered has-text-grey">0.167</td> 
                         <td class="has-text-centered has-text-grey">1.077</td> 
-                        <td class="has-text-centered has-text-grey">1.144</td> 		 				
+                        <td class="has-text-centered has-text-grey">1.144</td> 	
+                        <td class="has-text-centered has-text-grey">0.140</td> 
                     </tr>
                                                                                                     
                     <tr>
@@ -657,7 +672,8 @@
                         <td class="has-text-centered has-text-grey">0.192</td> 
                         <td class="has-text-centered has-text-grey">0.177</td> 
                         <td class="has-text-centered has-text-grey">0.938</td> 
-                        <td class="has-text-centered has-text-grey">0.996</td> 		 				
+                        <td class="has-text-centered has-text-grey">0.996</td> 	
+                        <td class="has-text-centered has-text-grey">0.150</td> 
                     </tr>
                                                                                                                     
                     <tr>
@@ -680,7 +696,9 @@
                         <td class="has-text-centered has-text-grey">0.204</td> 
                         <td class="has-text-centered has-text-grey">0.189</td> 
                         <td class="has-text-centered has-text-grey">0.825</td> 
-                        <td class="has-text-centered has-text-grey">0.876</td> 		 				
+                        <td class="has-text-centered has-text-grey">0.876</td> 	
+                        <td class="has-text-centered has-text-grey">0.160</td> 
+
                     </tr>
                                                                                                                     
                     <tr>
@@ -703,7 +721,9 @@
                         <td class="has-text-centered has-text-grey">0.214</td> 
                         <td class="has-text-centered has-text-grey">0.199</td> 
                         <td class="has-text-centered has-text-grey">0.731</td> 
-                        <td class="has-text-centered has-text-grey">0.776</td> 		 				
+                        <td class="has-text-centered has-text-grey">0.776</td> 	
+                        <td class="has-text-centered has-text-grey">0.170</td> 
+
                     </tr>
                                                                                 
                     <tr>
@@ -726,7 +746,9 @@
                         <td class="has-text-centered has-text-grey">0.226</td> 
                         <td class="has-text-centered has-text-grey">0.211</td> 
                         <td class="has-text-centered has-text-grey">0.6516</td> 
-                        <td class="has-text-centered has-text-grey">0.6928</td> 		 				
+                        <td class="has-text-centered has-text-grey">0.6928</td> 	
+                        <td class="has-text-centered has-text-grey">0.180</td> 
+
                     </tr>
 
                     <tr>
@@ -749,7 +771,9 @@
                         <td class="has-text-centered has-text-grey">0.236</td> 
                         <td class="has-text-centered has-text-grey">0.221</td> 
                         <td class="has-text-centered has-text-grey">0.5854</td> 
-                        <td class="has-text-centered has-text-grey">0.6211</td> 	 				
+                        <td class="has-text-centered has-text-grey">0.6211</td> 	
+                        <td class="has-text-centered has-text-grey">0.190</td> 
+
                     </tr>
                                                                                                                     
                     <tr>
@@ -772,7 +796,9 @@
                         <td class="has-text-centered has-text-grey">0.246</td> 
                         <td class="has-text-centered has-text-grey">0.231</td> 
                         <td class="has-text-centered has-text-grey">0.5289</td> 
-                        <td class="has-text-centered has-text-grey">0.5599</td> 	 				
+                        <td class="has-text-centered has-text-grey">0.5599</td> 	
+                        <td class="has-text-centered has-text-grey">0.200</td> 
+
                     </tr>
                 
                     <tr>
@@ -795,7 +821,9 @@
                         <td class="has-text-centered has-text-grey">0.256</td> 
                         <td class="has-text-centered has-text-grey">0.241</td> 
                         <td class="has-text-centered has-text-grey">0.4802</td> 
-                        <td class="has-text-centered has-text-grey">0.5074</td> 	 				
+                        <td class="has-text-centered has-text-grey">0.5074</td> 
+                        <td class="has-text-centered has-text-grey">0.210</td> 
+
                     </tr>
             
                     <tr>
@@ -818,7 +846,9 @@
                         <td class="has-text-centered has-text-grey">0.278</td> 
                         <td class="has-text-centered has-text-grey">0.264</td> 
                         <td class="has-text-centered has-text-grey">0.4009</td> 
-                        <td class="has-text-centered has-text-grey">0.4223</td> 	 				
+                        <td class="has-text-centered has-text-grey">0.4223</td> 
+                        <td class="has-text-centered has-text-grey">0.230</td> 
+
                     </tr>
             
                     <tr>
@@ -841,7 +871,9 @@
                         <td class="has-text-centered has-text-grey">0.298</td> 
                         <td class="has-text-centered has-text-grey">0.284</td> 
                         <td class="has-text-centered has-text-grey">0.3398</td> 
-                        <td class="has-text-centered has-text-grey">0.3569</td> 	 				
+                        <td class="has-text-centered has-text-grey">0.3569</td> 
+                        <td class="has-text-centered has-text-grey">0.250</td> 
+
                     </tr>
 
                     <tr>
@@ -864,7 +896,9 @@
                         <td class="has-text-centered has-text-grey">0.320</td> 
                         <td class="has-text-centered has-text-grey">0.304</td> 
                         <td class="has-text-centered has-text-grey">0.2896</td> 
-                        <td class="has-text-centered has-text-grey">0.3079</td> 	 				
+                        <td class="has-text-centered has-text-grey">0.3079</td> 	
+                        <td class="has-text-centered has-text-grey">0.270</td> 
+
                     </tr>
             
                     <tr>
@@ -887,7 +921,9 @@
                         <td class="has-text-centered has-text-grey">0.352</td> 
                         <td class="has-text-centered has-text-grey">0.337</td> 
                         <td class="has-text-centered has-text-grey">0.2351</td> 
-                        <td class="has-text-centered has-text-grey">0.2489</td> 	 				
+                        <td class="has-text-centered has-text-grey">0.2489</td> 	 
+                        <td class="has-text-centered has-text-grey">0.300</td> 
+
                     </tr>
 
                     <tr>
@@ -910,7 +946,9 @@
                         <td class="has-text-centered has-text-grey">0.362</td> 
                         <td class="has-text-centered has-text-grey">0.347</td> 
                         <td class="has-text-centered has-text-grey">0.2203</td> 
-                        <td class="has-text-centered has-text-grey">0.2329</td> 		 				
+                        <td class="has-text-centered has-text-grey">0.2329</td> 	
+                        <td class="has-text-centered has-text-grey">0.310</td> 
+
                     </tr>
         
                     <tr>
@@ -933,7 +971,9 @@
                         <td class="has-text-centered has-text-grey">0.402</td> 
                         <td class="has-text-centered has-text-grey">0.387</td> 
                         <td class="has-text-centered has-text-grey">0.1732</td> 
-                        <td class="has-text-centered has-text-grey">0.1823</td> 		 				
+                        <td class="has-text-centered has-text-grey">0.1823</td> 	
+                        <td class="has-text-centered has-text-grey">0.350</td> 
+
                     </tr>
         
                     <tr>
@@ -956,7 +996,9 @@
                         <td class="has-text-centered has-text-grey">0.424 </td> 
                         <td class="has-text-centered has-text-grey">0.407</td> 
                         <td class="has-text-centered has-text-grey">0.1551</td> 
-                        <td class="has-text-centered has-text-grey">0.163</td> 		 				
+                        <td class="has-text-centered has-text-grey">0.163</td> 	
+                        <td class="has-text-centered has-text-grey">0.370</td> 
+
                     </tr>
                 
                     <tr>
@@ -979,7 +1021,9 @@
                         <td class="has-text-centered has-text-grey">0.456</td> 
                         <td class="has-text-centered has-text-grey">0.439</td> 
                         <td class="has-text-centered has-text-grey">0.1329</td> 
-                        <td class="has-text-centered has-text-grey">0.1393</td> 		 				
+                        <td class="has-text-centered has-text-grey">0.1393</td> 
+                        <td class="has-text-centered has-text-grey">0.400</td> 
+
                     </tr>
                                                                                                                     
                     <tr>
@@ -1002,7 +1046,9 @@
                         <td class="has-text-centered has-text-grey">0.508</td> 
                         <td class="has-text-centered has-text-grey">0.49</td> 
                         <td class="has-text-centered has-text-grey">0.1052</td> 
-                        <td class="has-text-centered has-text-grey">0.1099</td>			 				
+                        <td class="has-text-centered has-text-grey">0.1099</td>		
+                        <td class="has-text-centered has-text-grey">0.450</td> 
+
                     </tr>
                                                                                                                     
                     <tr>
@@ -1025,7 +1071,9 @@
                         <td class="has-text-centered has-text-grey">0.560</td> 
                         <td class="has-text-centered has-text-grey">0.542</td> 
                         <td class="has-text-centered has-text-grey">0.0849</td> 
-                        <td class="has-text-centered has-text-grey">0.0892</td> 		 				
+                        <td class="has-text-centered has-text-grey">0.0892</td> 	
+                        <td class="has-text-centered has-text-grey">0.500</td> 
+
                     </tr>
         
                     <tr>
@@ -1048,7 +1096,9 @@
                         <td class="has-text-centered has-text-grey">0.620</td> 
                         <td class="has-text-centered has-text-grey">0.592</td> 
                         <td class="has-text-centered has-text-grey">0.0703</td> 
-                        <td class="has-text-centered has-text-grey">0.0736</td> 	 				
+                        <td class="has-text-centered has-text-grey">0.0736</td> 	 	
+                        <td class="has-text-centered has-text-grey">0.550</td> 
+
                     </tr>
                 
                     <tr>
@@ -1071,7 +1121,9 @@
                         <td class="has-text-centered has-text-grey">0.672</td> 
                         <td class="has-text-centered has-text-grey">0.644</td> 
                         <td class="has-text-centered has-text-grey">0.0592</td> 
-                        <td class="has-text-centered has-text-grey">0.0618</td> 		 				
+                        <td class="has-text-centered has-text-grey">0.0618</td> 		
+                        <td class="has-text-centered has-text-grey">0.600</td> 
+
                     </tr>
                 
                     <tr>
@@ -1094,7 +1146,9 @@
                         <td class="has-text-centered has-text-grey">0.722</td> 
                         <td class="has-text-centered has-text-grey">0.696</td> 
                         <td class="has-text-centered has-text-grey">0.0501</td> 
-                        <td class="has-text-centered has-text-grey">0.05293</td> 		 				
+                        <td class="has-text-centered has-text-grey">0.05293</td> 	
+                        <td class="has-text-centered has-text-grey">0.650</td> 
+
                     </tr>
                                             
                     <tr>
@@ -1117,7 +1171,9 @@
                         <td class="has-text-centered has-text-grey">0.772</td> 
                         <td class="has-text-centered has-text-grey">0.746</td> 
                         <td class="has-text-centered has-text-grey">0.04329</td> 
-                        <td class="has-text-centered has-text-grey">0.04558</td> 	 				
+                        <td class="has-text-centered has-text-grey">0.04558</td> 	 
+                        <td class="has-text-centered has-text-grey">0.700</td> 
+
                     </tr>							 					 	 				 				
                 </tbody>
             </table>
@@ -1135,6 +1191,7 @@
                     <tr class="has-background-link">
                         <th class="has-text-centered has-text-white" rowspan="3">{{__('Item')}}<br>/<br>{{__('No.')}}</th>
                         <th class="has-text-centered has-text-white" rowspan="3">{{__('AWG gauge number')}}</th>
+                        <th class="has-text-centered has-text-white" rowspan="3">{{__('Conductor nominal diameter')}}<br>(mm)</th>
                         <th class="has-text-centered has-text-white" rowspan="3">{{__('Conductor Tolerance')}}<br>(±mm)</th>
                         <th class="has-text-centered has-text-white" rowspan="3">{{__('Elongation')}}<br>≥(%)</th>
                         <th class="has-text-centered has-text-white" rowspan="3">{{__('Flexibility')}}<br>/<br>{{__('Adhesion')}}</th>
@@ -1160,11 +1217,11 @@
                         <th class="has-text-centered has-text-white">{{__('Type 3')}}</th> 			
                         <th class="has-text-centered has-text-white">{{__('Min')}}</th> 			
                         <th class="has-text-centered has-text-white">{{__('Max')}}</th> 			
-                        <th class="has-text-centered has-text-white">{{__('Internal coating')}}</th> 			
+                        <th class="has-text-centered has-text-white">{{__('Insulating layer')}}</th> 			
                         <th class="has-text-centered has-text-white">{{__('Bonding coating')}}</th> 
-                        <th class="has-text-centered has-text-white">{{__('Internal coating')}}</th> 			
+                        <th class="has-text-centered has-text-white">{{__('Insulating layer')}}</th> 			
                         <th class="has-text-centered has-text-white">{{__('Bonding coating')}}</th> 
-                        <th class="has-text-centered has-text-white">{{__('Internal coating')}}</th> 			
+                        <th class="has-text-centered has-text-white">{{__('Insulating layer')}}</th> 			
                         <th class="has-text-centered has-text-white">{{__('Bonding coating')}}</th> 		
                     </tr>
                 </thead>
@@ -1172,6 +1229,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">1</td> 
                         <td class="has-text-centered has-text-grey">46</td> 
+                        <td class="has-text-centered has-text-grey">0.0399</td>  
                         <td class="has-text-centered has-text-grey">0.001</td> 
                         <td class="has-text-centered has-text-grey">10</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}</td> 
@@ -1196,6 +1254,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">2</td> 
                         <td class="has-text-centered has-text-grey">45</td> 
+                        <td class="has-text-centered has-text-grey">0.0447</td>  
                         <td class="has-text-centered has-text-grey">0.001</td> 
                         <td class="has-text-centered has-text-grey">11</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}</td> 
@@ -1220,6 +1279,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">3</td> 
                         <td class="has-text-centered has-text-grey">44</td> 
+                        <td class="has-text-centered has-text-grey">0.051</td>  
                         <td class="has-text-centered has-text-grey">0.002</td> 
                         <td class="has-text-centered has-text-grey">14</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}20%3d</td> 
@@ -1244,6 +1304,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">4</td> 
                         <td class="has-text-centered has-text-grey">43</td> 
+                        <td class="has-text-centered has-text-grey">0.056 </td>  
                         <td class="has-text-centered has-text-grey">0.002</td> 
                         <td class="has-text-centered has-text-grey">15</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}20%3d</td> 
@@ -1268,6 +1329,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">5</td> 
                         <td class="has-text-centered has-text-grey">42</td> 
+                        <td class="has-text-centered has-text-grey">0.064</td>
                         <td class="has-text-centered has-text-grey">0.002</td> 
                         <td class="has-text-centered has-text-grey">16</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}20%3d</td> 
@@ -1292,6 +1354,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">6</td> 
                         <td class="has-text-centered has-text-grey">41</td> 
+                        <td class="has-text-centered has-text-grey">0.071</td>  
                         <td class="has-text-centered has-text-grey">0.002</td> 
                         <td class="has-text-centered has-text-grey">17</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}20%3d</td> 
@@ -1316,6 +1379,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">7</td> 
                         <td class="has-text-centered has-text-grey">40</td> 
+                        <td class="has-text-centered has-text-grey">0.079</td>  
                         <td class="has-text-centered has-text-grey">0.002</td> 
                         <td class="has-text-centered has-text-grey">17</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}20%3d</td> 
@@ -1340,6 +1404,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">8</td> 
                         <td class="has-text-centered has-text-grey">39</td> 
+                        <td class="has-text-centered has-text-grey">0.089</td>  
                         <td class="has-text-centered has-text-grey">0.002</td> 
                         <td class="has-text-centered has-text-grey">18</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}20%3d</td> 
@@ -1364,6 +1429,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">9</td> 
                         <td class="has-text-centered has-text-grey">38</td> 
+                        <td class="has-text-centered has-text-grey">0.102</td>  
                         <td class="has-text-centered has-text-grey">0.002</td> 
                         <td class="has-text-centered has-text-grey">19</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}20%3d</td> 
@@ -1388,6 +1454,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">10</td> 
                         <td class="has-text-centered has-text-grey">37</td> 
+                        <td class="has-text-centered has-text-grey">0.114 </td>  
                         <td class="has-text-centered has-text-grey">0.002</td> 
                         <td class="has-text-centered has-text-grey">20</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}20%3d</td> 
@@ -1412,6 +1479,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">11</td> 
                         <td class="has-text-centered has-text-grey">36</td> 
+                        <td class="has-text-centered has-text-grey">0.127</td>  
                         <td class="has-text-centered has-text-grey">0.002</td> 
                         <td class="has-text-centered has-text-grey">20</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}20%3d</td> 
@@ -1436,6 +1504,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">12</td> 
                         <td class="has-text-centered has-text-grey">35</td> 
+                        <td class="has-text-centered has-text-grey">0.142</td>  
                         <td class="has-text-centered has-text-grey">0.002</td> 
                         <td class="has-text-centered has-text-grey">21</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}20%3d</td> 
@@ -1460,6 +1529,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">13</td> 
                         <td class="has-text-centered has-text-grey">34</td> 
+                        <td class="has-text-centered has-text-grey">0.160</td>  
                         <td class="has-text-centered has-text-grey">0.002</td> 
                         <td class="has-text-centered has-text-grey">22</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}20%3d</td> 
@@ -1484,6 +1554,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">14</td> 
                         <td class="has-text-centered has-text-grey">33</td> 
+                        <td class="has-text-centered has-text-grey">0.180</td>  
                         <td class="has-text-centered has-text-grey">0.002</td> 
                         <td class="has-text-centered has-text-grey">23</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}20%3d</td> 
@@ -1508,6 +1579,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">15</td> 
                         <td class="has-text-centered has-text-grey">32</td> 
+                        <td class="has-text-centered has-text-grey">0.203</td>  
                         <td class="has-text-centered has-text-grey">0.002</td> 
                         <td class="has-text-centered has-text-grey">24</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}20%3d</td> 
@@ -1532,6 +1604,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">16</td> 
                         <td class="has-text-centered has-text-grey">31</td> 
+                        <td class="has-text-centered has-text-grey">0.226</td>  
                         <td class="has-text-centered has-text-grey">0.002</td> 
                         <td class="has-text-centered has-text-grey">24</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}20%3d</td> 
@@ -1556,6 +1629,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">17</td> 
                         <td class="has-text-centered has-text-grey">30</td> 
+                        <td class="has-text-centered has-text-grey">0.254</td>  
                         <td class="has-text-centered has-text-grey">0.003</td> 
                         <td class="has-text-centered has-text-grey">25</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}15%1d</td> 
@@ -1580,6 +1654,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">18</td> 
                         <td class="has-text-centered has-text-grey">29</td> 
+                        <td class="has-text-centered has-text-grey">0.287</td>  
                         <td class="has-text-centered has-text-grey">0.003</td> 
                         <td class="has-text-centered has-text-grey">26</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}15%1d</td> 
@@ -1604,6 +1679,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">19</td> 
                         <td class="has-text-centered has-text-grey">28</td> 
+                        <td class="has-text-centered has-text-grey">0.320</td>  
                         <td class="has-text-centered has-text-grey">0.003</td> 
                         <td class="has-text-centered has-text-grey">26</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}15%1d</td> 
@@ -1628,6 +1704,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">20</td> 
                         <td class="has-text-centered has-text-grey">27</td> 
+                        <td class="has-text-centered has-text-grey">0.361</td>  
                         <td class="has-text-centered has-text-grey">0.003</td> 
                         <td class="has-text-centered has-text-grey">27</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}15%1d</td> 
@@ -1652,6 +1729,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">21</td> 
                         <td class="has-text-centered has-text-grey">26</td> 
+                        <td class="has-text-centered has-text-grey">0.404</td>  
                         <td class="has-text-centered has-text-grey">0.004</td> 
                         <td class="has-text-centered has-text-grey">27</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}15%1d</td> 
@@ -1676,6 +1754,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">22</td> 
                         <td class="has-text-centered has-text-grey">25</td> 
+                        <td class="has-text-centered has-text-grey">0.455</td>  
                         <td class="has-text-centered has-text-grey">0.004</td> 
                         <td class="has-text-centered has-text-grey">28</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}15%1d</td> 
@@ -1700,6 +1779,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">23</td> 
                         <td class="has-text-centered has-text-grey">24</td> 
+                        <td class="has-text-centered has-text-grey">0.511</td>  
                         <td class="has-text-centered has-text-grey">0.005</td> 
                         <td class="has-text-centered has-text-grey">28</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}15%1d</td> 
@@ -1724,6 +1804,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">24</td> 
                         <td class="has-text-centered has-text-grey">23</td> 
+                        <td class="has-text-centered has-text-grey">0.574</td>  
                         <td class="has-text-centered has-text-grey">0.005</td> 
                         <td class="has-text-centered has-text-grey">29</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}15%1d</td> 
@@ -1748,6 +1829,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">25</td> 
                         <td class="has-text-centered has-text-grey">22</td> 
+                        <td class="has-text-centered has-text-grey">0.643</td>  
                         <td class="has-text-centered has-text-grey">0.006</td> 
                         <td class="has-text-centered has-text-grey">29</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}15%1d</td> 
@@ -1772,6 +1854,7 @@
                     <tr>
                         <td class="has-text-centered has-text-grey">26</td> 
                         <td class="has-text-centered has-text-grey">21</td> 
+                        <td class="has-text-centered has-text-grey">0.724</td>  
                         <td class="has-text-centered has-text-grey">0.006</td> 
                         <td class="has-text-centered has-text-grey">30</td> 
                         <td class="has-text-centered has-text-grey">{{__('Jerk')}}15%1d</td> 

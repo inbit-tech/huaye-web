@@ -13,7 +13,7 @@
     </div>
 </section>
 
-<section id="our-quality" class="container is-margin-top-100">
+<section id="our-quality" class="section is-medium container">
     <div class="tile is-ancestor">
         <div class="tile is-parent">
             <article class="tile is-child box has-text-centered">
@@ -66,9 +66,7 @@
     </div>
 </section>
 
-<section class="section is-small"></section>
-
-<section id="our-story" class="hero is-light is-fullheight history-background-image is-marginless is-paddingless">
+<section id="our-story" class="section hero is-light is-fullheight history-background-image is-marginless is-paddingless">
     <div class="hero-body has-text-centered has-text-white">
         <div class="container">
             <h1 class="title has-text-white use-noto-900 is-sizie-2 is-uppercase is-shadow-8">{{ __('Huaye Technology') }}</h1>
