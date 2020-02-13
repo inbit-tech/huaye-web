@@ -42,5 +42,6 @@
 <footer class="footer">
 	<div class="content has-text-centered has-text-white is-size-7 use-noto-500">
 		<p>2019 @lang('footer.copyright')</p>
+		<p><a href="http://www.beian.miit.gov.cn" class="has-text-white">粤ICP备19048719号</a></p>
 	</div>
 </footer>
